@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "model_names": [
+    "gemini-3.1-flash-lite-preview"
+  ],
+  "providers": [
+    "google"
+  ],
+  "item_id_name": "item_id",
+  "text_name": "combined_text",
+  "item_id_cols": [
+    "item1",
+    "item2"
+  ],
+  "item_text_cols": null,
+  "paired": false,
+  "annotated": false,
+  "llm_annotated": true,
+  "annotator_cols": [],
+  "llm_annotator_cols": [
+    "decision"
+  ],
+  "prior_breakdown_cols": null,
+  "target_concept": "indicator of depression",
+  "cgcot_prompts": [
+    "Summarize this item. Text: {text}",
+    "Does the item capture a negative emotional state, a lack of positive state, or a somatic (physical) symptom? Text: {text}",
+    "How severe is the state described? (e.g., 'I feel down' is lower severity than 'I feel my life is a burden'). Text: {text}",
+    "Could a healthy person experiencing a temporary setback (e.g., losing a job) reasonably say yes to this without being depressed? Text: {text}"
+  ],
+  "save_dir": "../results/facit_yount_2021_hadsx",
+  "column_renames": {}
+}

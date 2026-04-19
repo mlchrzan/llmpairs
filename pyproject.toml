@@ -1,0 +1,24 @@
+[project]
+name = "llmpairs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arviz>=1.0.0",
+    "dotenv>=0.9.9",
+    "google-genai>=1.73.1",
+    "ipykernel>=7.2.0",
+    "irw",
+    "nbformat>=5.10.4",
+    "numpy>=2.4.4",
+    "pairadigm>=1.0.1",
+    "pandas>=3.0.2",
+    "plotnine>=0.15.3",
+    "polars>=1.39.3",
+    "pymc>=5.28.0",
+    "pytensor>=2.38.2",
+]
+
+[tool.uv.sources]
+irw = { git = "https://github.com/itemresponsewarehouse/Python-pkg.git" }

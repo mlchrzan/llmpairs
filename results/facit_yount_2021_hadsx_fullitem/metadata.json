@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "model_names": [
+    "gemini-3.1-flash-lite-preview"
+  ],
+  "providers": [
+    "google"
+  ],
+  "item_id_name": "item",
+  "text_name": "combined_text",
+  "item_id_cols": [
+    "item1",
+    "item2"
+  ],
+  "item_text_cols": null,
+  "paired": false,
+  "annotated": false,
+  "llm_annotated": true,
+  "annotator_cols": [],
+  "llm_annotator_cols": [
+    "decision"
+  ],
+  "prior_breakdown_cols": null,
+  "target_concept": "symptoms that appears at higher depression severity levels",
+  "cgcot_prompts": [
+    "Summarize this item in your own words, focusing on the potential construct it describes or intends to measure. Text: {text}",
+    "At what level of depression severity might a person typically first endorse this item? (Early signs vs. only in severe depression). Text: {text}",
+    "Would a mildly depressed person be likely to endorse this, or only someone with severe depression? Text: {text}",
+    "This item appears to describe a symptom that is: (A) nearly universal among depressed people regardless of severity, (B) present mainly in moderately-to-severely depressed people, or (C) only present in very severe cases. Answer in a complete sentence and give a concise justification. Text: {text}",
+    "How specific is this symptom to depression severity? (i.e., does endorsement clearly indicate a particular level of depression severity, or is it vague?). Text: {text}"
+  ],
+  "save_dir": "../results/facit_yount_2021_hadsx_fullitem",
+  "column_renames": {}
+}
