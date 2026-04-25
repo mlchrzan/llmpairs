@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "model_names": [
+    "gemini-3.1-flash-lite-preview"
+  ],
+  "providers": [
+    "google"
+  ],
+  "item_id_name": "item",
+  "text_name": "combined_text",
+  "item_id_cols": [
+    "item1",
+    "item2"
+  ],
+  "item_text_cols": null,
+  "paired": false,
+  "annotated": false,
+  "llm_annotated": true,
+  "annotator_cols": [],
+  "llm_annotator_cols": [
+    "decision"
+  ],
+  "prior_breakdown_cols": null,
+  "target_concept": "higher underlying level of the targeted latent trait or ability",
+  "cgcot_prompts": [
+    "Summarize the core task, question, or scenario presented in this item. Item text: {text}",
+    "Identify the primary knowledge domain, skill, or psychological construct this item is attempting to measure and give a concise justification. Text: {text}",
+    "Analyze the complexity of this item. Does solving or endorsing it require single-step recall, multi-step reasoning, synthesis of disparate information, or the application of abstract rules? CONCISELY identify any structural elements—such as dense vocabulary, tricky distractors, conditional logic, or complex phrasing—that increase the cognitive load required to answer it. Text: {text}",
+    "Using only your previous answers, describe the overall latent 'ability' or level of the target construct required for a respondent to successfully answer or endorse this item. Previous answers: {text}"
+  ],
+  "save_dir": "../results/gilbert_meta_103_test_run",
+  "column_renames": {}
+}
