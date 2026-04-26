@@ -1,0 +1,285 @@
+item,section_prompt,item_text,combined_text,CGCoT_Breakdown_gemini-3-flash-preview,CGCoT_Breakdown_gpt-5.4-mini,Bradley_Terry_Score_gemini-3-flash-preview,Bradley_Terry_SE_gemini-3-flash-preview,Bradley_Terry_Score_gpt-5.4-mini,Bradley_Terry_SE_gpt-5.4-mini,a,b,table
+bg_know_q2,"Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",2. Which muscles in a monkey never rest?,"Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. Which muscles in a monkey never rest?
+b. the smooth muscles
+a. the skeletal muscles
+d. the fiber muscles
+c. the heart muscles","Original Text: Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. Which muscles in a monkey never rest?
+b. the smooth muscles
+a. the skeletal muscles
+d. the fiber muscles
+c. the heart muscles
+The core task is to identify which specific type of monkey muscle functions continuously without rest based on the provided text.
+This item measures the primary knowledge domain of **Biological Science (Anatomy)** and the skill of **Literal Reading Comprehension**.
+
+**Justification:** The question requires the student to retrieve a specific factual detail regarding the function of cardiac muscles from the provided text.
+This analysis evaluates the cognitive demand and structural complexity of the question regarding monkey muscle function.
+
+**Cognitive Demand:**
+This item requires **recall** of specific factual information from the text. It does not necessitate multi-step reasoning or synthesis, as it asks for a direct identification of a physiological trait.
+
+**Structural and Semantic Elements:**
+*   **Scientific Distractors:** The inclusion of ""smooth,"" ""skeletal,"" and ""fiber"" muscles requires the student to differentiate between specific biological terms, increasing the need for precise vocabulary recognition.
+*   **Absolute Phrasing:** The use of the phrase ""never rest"" establishes a definitive condition that requires the student to match a unique functional attribute to the correct muscle type.
+*   **Non-Sequential Labeling:** The answer choices are presented in a non-linear order (b, a, d, c), which slightly increases the visual scanning load and requires careful attention to selection.
+To describe the level of the latent trait required to answer the item regarding monkey muscle types, this item necessitates a **low level** of the underlying trait, specifically basic biological literacy or literal reading comprehension. The respondent must possess the foundational knowledge or the ability to locate a specific factual detail within a primary-level text to identify the heart as an involuntary muscle that functions continuously.","Original Text: Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. Which muscles in a monkey never rest?
+b. the smooth muscles
+a. the skeletal muscles
+d. the fiber muscles
+c. the heart muscles
+Identify which type of monkey muscle never rests, based on the multiple-choice question.
+This item is measuring **reading comprehension of a science passage**, specifically **recall of factual information**. The correct response depends on understanding the passage about monkeys and identifying the muscle type that “never rest,” rather than on prior medical or biological knowledge alone.
+This is a low-severity, straightforward recall item. It mainly requires retrieving a fact from the passage, not multi-step reasoning or synthesis.
+
+Structural load is modest: it uses a standard multiple-choice format with one correct answer and three distractors. The wording is simple and direct, with no conditional logic, emotional language, or tricky phrasing beyond the need to distinguish among similar-sounding muscle types.
+This item requires a low to moderate level of the underlying trait: basic reading comprehension and passage-based reasoning. A respondent needs enough cognitive ability to identify the correct answer from the text, but the task is relatively straightforward rather than highly demanding.",-0.601901741659117,0.4231848601116026,-1.88682534815816,0.23826124527051745,1.05926273113838,-0.11005716941676917,gilbert_meta_104
+bg_know_q1,"Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",1. Which muscles can you control?,"Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which muscles can you control?
+c. the heart muscles
+d. the fiber muscles
+a. the skeletal muscles
+b. the smooth muscles","Original Text: Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which muscles can you control?
+c. the heart muscles
+d. the fiber muscles
+a. the skeletal muscles
+b. the smooth muscles
+The core task is to identify which specific type of muscle tissue is subject to voluntary control from a provided list of options.
+This analysis identifies the primary measurement target of the assessment item regarding muscle control.
+
+**Knowledge Domain: Human Anatomy and Physiology (Muscular System)**
+
+**Justification:** The item requires the respondent to distinguish between voluntary and involuntary muscle types, specifically identifying skeletal muscles as those under conscious control.
+This analysis evaluates the cognitive demand and structural complexity of the multiple-choice question regarding muscle control.
+
+**Cognitive Demand**
+This item requires **recall** of factual biological knowledge concerning the distinction between voluntary and involuntary muscle groups.
+
+**Structural and Semantic Elements**
+*   **Non-Sequential Labeling:** The answer choices are presented out of alphabetical order (c, d, a, b), increasing the cognitive load for selection and increasing the risk of clerical error.
+*   **Technical Nomenclature:** The item requires precise differentiation between specific biological terms (*skeletal*, *smooth*, *heart*).
+*   **Plausible Distractor:** The term ""fiber muscles"" acts as a tricky distractor by using a familiar biological word (*fiber*) in a technically incorrect classification to mislead test-takers with incomplete knowledge.
+*   **Contextual Disconnect:** The prompt introduces a passage about ""Monkeys,"" yet the question asks for a general physiological fact, potentially creating a mismatch between the expected source of information and the required prior knowledge.
+To determine the level of the underlying latent trait—specifically foundational biological knowledge and cognitive recall—required to answer this item, the respondent must possess a low to moderate level of scientific literacy. The item requires the ability to differentiate between voluntary and involuntary physiological systems and correctly identify skeletal muscles as the specific muscle group under conscious control.","Original Text: Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which muscles can you control?
+c. the heart muscles
+d. the fiber muscles
+a. the skeletal muscles
+b. the smooth muscles
+The task is to identify which type of muscles are under voluntary control by choosing the correct answer from the given options.
+This item measures **basic biology knowledge about muscle types**, specifically the ability to identify **skeletal muscles as the voluntary muscles under conscious control**. The correct choice reflects understanding of a core anatomy concept rather than a symptom or attitude.
+This is a low-severity, low-demand recall item. It mainly tests straightforward factual recognition of muscle types, not multi-step reasoning or synthesis. The wording is simple and direct, with no strong emotional language or conditional logic. The only modest cognitive load comes from the multiple-choice distractors, which are plausible anatomy terms, but the correct answer is likely identifiable by basic recall.
+This item requires a relatively low level of the underlying trait: basic reading comprehension and elementary science knowledge. A respondent would need to recognize that skeletal muscles are under voluntary control, so successful answering reflects modest cognitive skill rather than a high level of the trait.",2.1223662528538902,2.768727213365876,-0.3559522193906344,0.562861568068504,0.43397307440407323,-1.8003325879747898,gilbert_meta_104
+bg_know_q7,"Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",1. Which human body system is like a computer?,"Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which human body system is like a computer?
+a. the muscular system
+c. the nervous system
+d. the respiratory system
+b. the skeletal system","Original Text: Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which human body system is like a computer?
+a. the muscular system
+c. the nervous system
+d. the respiratory system
+b. the skeletal system
+The core task is to identify which human body system functions similarly to a computer based on a provided passage.
+This analysis identifies the primary knowledge domain and construct measured by the assessment item regarding body systems.
+
+**Primary Knowledge Domain:** Biological Science (Human Anatomy and Physiology)
+
+**Justification:** The item measures the student's conceptual understanding of the nervous system's function by requiring them to recognize its role in information processing and signaling through a functional analogy to a computer.
+This analysis evaluates the cognitive demand and structural complexity of the question identifying which human body system functions like a computer.
+
+**Cognitive Demand**
+This item requires **synthesis** and **analogical reasoning**. Rather than simple recall of a definition, the student must map the functional attributes of a computer—centralized control and information processing—onto the biological role of the nervous system.
+
+**Structural and Semantic Elements**
+*   **Metaphorical Phrasing:** The use of ""like a computer"" introduces an abstract comparison that increases cognitive load for students who struggle with non-literal language.
+*   **Non-Sequential Options:** The answer choices are listed out of alphabetical order (a, c, d, b), which increases the threshold for error during the selection process.
+*   **Contextual Inconsistency:** The introductory text references a passage about ""skyscrapers,"" yet the question focuses on ""body systems,"" creating a thematic disconnect that may distract or confuse the test-taker.
+To describe the level of the latent trait required for this item, the respondent needs a **low to moderate level** of cognitive ability and basic scientific literacy. Specifically, the item requires the ability to identify a functional analogy between a technological control system (a computer) and a biological regulatory system (the nervous system), likely based on explicit information provided in the accompanying text.","Original Text: Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which human body system is like a computer?
+a. the muscular system
+c. the nervous system
+d. the respiratory system
+b. the skeletal system
+The item asks the student to identify which body system is compared to a computer, using the passage and multiple-choice options.
+Primary domain: reading comprehension with basic science knowledge, specifically identifying the nervous system as the body’s “computer.” The item measures whether the student can understand a passage-related analogy and select the correct human body system.
+This is a low-severity, straightforward recall item. It mainly requires simple passage-based recognition of the correct body system, not multi-step reasoning or synthesis. The only added load comes from the read-aloud test format and the shuffled answer choices, but the wording itself is simple and non-tricky.
+This item requires a low level of the underlying trait: basic reading comprehension and simple passage-based reasoning, with the correct response relying on elementary factual understanding rather than advanced ability.",1.5358352062793728,1.850759666891352,0.2255796134689394,0.8513749151928126,1.6243534564185163,0.41566655133678093,gilbert_meta_104
+bg_know_q9,"Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",3. The human body has many parts that work together. A group of related parts that work together is called a,"Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. The human body has many parts that work together. A group of related parts that work together is called a
+a. system
+c. command
+d. skeletal
+b. signal","Original Text: Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. The human body has many parts that work together. A group of related parts that work together is called a
+a. system
+c. command
+d. skeletal
+b. signal
+Identify the specific term for a group of related parts that function together within the human body.
+This item measures the primary knowledge domain of **Life Science (Biology)**, specifically focusing on the conceptual understanding of biological organization.
+
+**Justification:** The question requires the student to identify the correct scientific terminology (""system"") used to describe a functional group of related parts within the human body, assessing foundational vocabulary and conceptual knowledge of anatomical structures.
+This analysis evaluates the cognitive demand and structural elements of the provided multiple-choice item regarding biological definitions.
+
+**Cognitive Demand**
+The item requires **recall**. It asks the student to retrieve a specific scientific definition from memory without requiring multi-step reasoning or synthesis.
+
+**Structural and Semantic Elements**
+*   **Simple Phrasing:** The item uses a direct, repetitive sentence structure (""work together"") to define the target term.
+*   **Grammatical Cues:** The use of the indefinite article ""a"" before the blank serves as a syntactic hint, making the adjective ""skeletal"" (option d) grammatically incorrect and reducing the effectiveness of that distractor.
+*   **Low-Interference Distractors:** While ""command,"" ""skeletal,"" and ""signal"" relate to body functions, they do not semantically fit the definition of a ""group of related parts,"" keeping the cognitive load low.
+To successfully answer this item, a respondent requires a low level of the underlying latent trait, specifically basic scientific vocabulary and conceptual recognition. The item assesses the foundational ability to identify the term ""system"" as a group of related parts working together, a task involving simple recall and minimal cognitive complexity within a highly scaffolded, read-aloud format.","Original Text: Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. The human body has many parts that work together. A group of related parts that work together is called a
+a. system
+c. command
+d. skeletal
+b. signal
+The task is to identify the term for a group of related body parts that work together.
+This item measures basic science knowledge, specifically understanding of human body systems and the concept of a “system” as related parts working together. The correct choice reflects elementary biology vocabulary rather than reading comprehension.
+This is a low-demand recall item: it asks for a basic vocabulary definition, not multi-step reasoning or synthesis. Endorsement requires only knowing that a group of related body parts working together is a “system.” The main load comes from simple multiple-choice discrimination, with plausible distractors (“command,” “signal,” “skeletal”) that are semantically related but incorrect; there is no conditional logic or emotionally loaded wording.
+This item requires a low level of the underlying trait: basic reading comprehension and elementary science vocabulary. A respondent only needs to recognize that a group of related body parts working together is a “system,” so strong latent ability is not needed.",-3.0,0.10669034758026946,-3.0,0.1464717390526697,1.8791280351937782,-0.21599948879811184,gilbert_meta_104
+bg_know_q5,"Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",2. A bird wing works like a human,"Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. A bird wing works like a human
+b. rib
+d. arm
+c. leg
+a. skull","Original Text: Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. A bird wing works like a human
+b. rib
+d. arm
+c. leg
+a. skull
+The core task of this item is to identify the human anatomical equivalent to a bird's wing from a provided list of options.
+This item measures the primary knowledge domain of **Comparative Anatomy** and the skill of **Reading Comprehension**. It requires the student to identify a functional analogy between avian and human structures based on specific information extracted from a provided text.
+This analysis evaluates the cognitive demand and structural complexity of the multiple-choice item comparing bird wings to human anatomy.
+
+**Cognitive Demand:** The item requires **analogical reasoning** and **recall** of functional anatomy to map biological structures across different species.
+
+**Structural/Semantic Elements:** The item utilizes a **simple completion format** with **categorical distractors** (distinct skeletal components), maintaining a low cognitive load by requiring a direct functional comparison rather than complex conditional logic.
+The level of the underlying latent trait required to correctly identify the human anatomical equivalent of a bird wing is low. This item necessitates basic biological knowledge and elementary analogical reasoning to recognize functional and structural similarities between vertebrate appendages.","Original Text: Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. A bird wing works like a human
+b. rib
+d. arm
+c. leg
+a. skull
+Identify the correct analogy for a bird wing by choosing the one human body part it most closely works like from the given options.
+This item is measuring **reading comprehension with basic analogical reasoning**, specifically the ability to infer that a bird wing is most like a **human arm**. The justification is that the student must understand the passage context and match a structural function analogy rather than recall a fact directly.
+This is a low-severity, basic recall item: it asks for a simple analogy between a bird wing and a human arm. Endorsement requires no deep reasoning or strong symptom level, just recognition of the correct comparison. The main cognitive load comes from the multiple-choice format and the need to map the analogy correctly; the distractors are straightforward body parts, with no conditional logic or emotionally loaded wording.
+This item requires a low level of the underlying trait: basic reading comprehension and simple analogical reasoning, with the correct response relying on recognizing that a bird wing is most like a human arm.",-1.1961662651237015,0.2885466191636055,0.9721746213141138,1.325525183273455,1.866050230185736,-0.3410859740019573,gilbert_meta_104
+bg_know_q6,"Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",3. Scientists think that birds’ bodies can adapt to fly long distances. What does the word adapt mean?,"Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. Scientists think that birds’ bodies can adapt to fly long distances. What does the word adapt mean?
+b. behave
+a. Shape
+c. change
+d. prepare","Original Text: Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. Scientists think that birds’ bodies can adapt to fly long distances. What does the word adapt mean?
+b. behave
+a. Shape
+c. change
+d. prepare
+The core task of this item is to identify the correct definition of the word ""adapt"" within the context of birds' physical capabilities for long-distance flight.
+This item measures the primary knowledge domain of **Vocabulary Knowledge**, specifically the skill of identifying word meaning through context or synonym recognition. The item requires the student to select the correct definition of the word ""adapt"" from a list of options, assessing their lexical proficiency and ability to understand academic language used in a scientific context.
+This analysis evaluates the cognitive demand and structural complexity of a vocabulary item requiring the definition of ""adapt"" within a biological context.
+
+**Cognitive Level**
+This item requires **recall** of academic vocabulary or **reasoning** to map a synonym to the provided context.
+
+**Structural and Semantic Elements**
+*   **Plausible Distractors:** The options ""shape"" and ""prepare"" function as strong distractors because they relate to biological morphology and migratory readiness, requiring precise semantic differentiation.
+*   **Contextual Breadth:** The introductory sentence provides a functional anchor (""fly long distances"") but is broad enough that multiple choices could logically fit the sentence structure, increasing the reliance on specific lexical knowledge rather than simple context clues.
+To describe the level of the latent trait—specifically verbal cognitive ability and academic vocabulary knowledge—required to correctly define the word ""adapt"" in this context:
+
+The item requires a **moderate level** of verbal cognitive ability. A respondent must possess sufficient Tier 2 vocabulary knowledge to identify ""change"" as the functional synonym for ""adapt"" within a biological context, distinguishing it from related but incorrect procedural or physical terms like ""prepare"" or ""shape.""","Original Text: Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. Scientists think that birds’ bodies can adapt to fly long distances. What does the word adapt mean?
+b. behave
+a. Shape
+c. change
+d. prepare
+Identify the meaning of “adapt” in the passage about birds’ ability to fly long distances.
+This item measures **vocabulary knowledge / reading comprehension**, specifically **word meaning in context**. The task asks the student to infer the meaning of “adapt” from a passage-related question, which assesses understanding of academic language rather than a clinical symptom or attitude.
+This is a low-severity cognitive item: it mainly tests simple vocabulary recall/word meaning, not multi-step reasoning or synthesis. Endorsement requires only recognizing the synonym of “adapt” in context. The main load comes from a basic multiple-choice distractor set, with “behave” and “prepare” as plausible but incorrect options; the wording is straightforward and not emotionally loaded.
+This item requires a low level of the underlying trait: basic reading comprehension and vocabulary knowledge, specifically understanding that “adapt” means “change.”",3.0,5.5256977270444025,1.8465961756849003,2.24659706868927,0.8149143489645871,0.34826147380577616,gilbert_meta_104
+bg_know_q4,"Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",1. Which system works with your muscles to help your body move?,"Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which system works with your muscles to help your body move?
+c. Your nervous system
+b. Your digestive system
+a. Your immune system
+d. Your skeletal system","Original Text: Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which system works with your muscles to help your body move?
+c. Your nervous system
+b. Your digestive system
+a. Your immune system
+d. Your skeletal system
+The core task is to identify the specific biological system that functions in conjunction with the muscular system to facilitate physical movement.
+This analysis identifies the primary knowledge domain measured by the question regarding body systems and movement.
+
+**Primary Knowledge Domain:** Human Anatomy and Physiology
+
+**Justification:** The item assesses factual recall of the functional relationship between the muscular and skeletal systems, specifically identifying which biological system provides the structural framework necessary for locomotion.
+This analysis evaluates the cognitive demand and structural complexity of the multiple-choice question regarding body systems.
+
+**Cognitive Demand**
+This item requires **recall** of foundational biological facts. It does not necessitate multi-step reasoning or synthesis, as it asks for the identification of a direct functional relationship between two anatomical systems.
+
+**Structural and Semantic Elements**
+*   **Categorical Distractors:** All options are body systems, requiring the test-taker to differentiate between distinct physiological functions.
+*   **Functional Ambiguity:** The inclusion of the ""nervous system"" serves as a plausible distractor, as it coordinates muscle contraction, thereby increasing the cognitive load by requiring the student to distinguish between structural partnership (skeletal) and regulatory control (nervous).
+*   **Low Linguistic Complexity:** The simple sentence structure and direct ""Which"" phrasing minimize the reading burden, focusing the demand entirely on content knowledge.
+To determine the level of the underlying latent trait required to correctly identify the skeletal system as the primary system working with muscles for movement, this item necessitates a **low-to-moderate level of foundational scientific literacy**. The respondent must possess basic knowledge of human anatomy and the functional interdependence of body systems—specifically the mechanical relationship between the muscular and skeletal systems. It requires the retrieval of elementary biological facts rather than advanced physiological analysis or complex reasoning.","Original Text: Teacher Directions to Read Aloud: “Now, you will read this passage about birds.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 1. Which system works with your muscles to help your body move?
+c. Your nervous system
+b. Your digestive system
+a. Your immune system
+d. Your skeletal system
+The item asks the student to identify which body system works with the muscles to help the body move, choosing the correct answer from four options.
+This item measures **basic science knowledge about human body systems**, specifically understanding that the **skeletal system** works with muscles to produce movement. The correct choice reflects elementary biology comprehension rather than a clinical symptom or psychological construct.
+This is a low-severity, straightforward recall item. It mainly requires basic factual knowledge about body systems, not multi-step reasoning or synthesis.
+
+Cognitive load is modest: the question is direct, with one clear correct answer. The main structural feature increasing difficulty is the presence of multiple plausible distractors, but there is no tricky wording, conditional logic, or emotional language.
+This item requires a low level of the underlying trait: basic reading comprehension and elementary science knowledge, specifically recognizing that the skeletal system works with muscles to enable movement.",1.0271504293985982,1.1398005656635748,2.089360313726443,2.4797905744091433,1.6270838952488946,-0.3101633447189416,gilbert_meta_104
+bg_know_q3,"Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",3. What does the heart muscle do?,"Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. What does the heart muscle do?
+c. It moves skeletal muscles
+d. It helps the body fight the flu
+a. It controls the nervous system
+b. It pumps oxygen to the brain","Original Text: Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. What does the heart muscle do?
+c. It moves skeletal muscles
+d. It helps the body fight the flu
+a. It controls the nervous system
+b. It pumps oxygen to the brain
+The core task is to identify the primary physiological function of the heart muscle from a provided list of multiple-choice options.
+This item aims to identify the primary knowledge domain or skill measured by the question regarding the function of the heart muscle.
+
+**Primary Knowledge Domain: Human Anatomy and Physiology**
+
+**Justification:** The item evaluates factual knowledge of the circulatory system by requiring the respondent to identify the specific physiological role of the heart muscle among various biological distractors.
+This analysis evaluates the cognitive demand and structural complexity of the question regarding heart muscle function.
+
+**Cognitive Level:** This item requires **recall** of basic biological facts or literal retrieval from the provided text.
+
+**Structural/Semantic Elements:**
+*   **Non-sequential Labeling:** The options are presented out of alphabetical order (c, d, a, b), which increases visual search time and minor cognitive friction.
+*   **Functional Proxy:** Option (b) identifies the heart's function by its output (""pumps oxygen"") rather than its direct mechanical action (pumping blood), requiring a basic associative link.
+*   **Categorical Distractors:** The distractors refer to distinct physiological systems (skeletal, immune, nervous), which simplifies the task by allowing for easy elimination of unrelated biological domains.
+The level of the underlying latent trait required to correctly identify the function of the heart muscle in this item is a **low to moderate level of basic biological literacy or reading comprehension**. This task necessitates a foundational understanding of physiological systems to distinguish the circulatory system's role from other bodily functions, typically expected at an early elementary educational stage.","Original Text: Teacher Directions to Read Aloud: “Today, you will read this passage about Monkeys.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 3. What does the heart muscle do?
+c. It moves skeletal muscles
+d. It helps the body fight the flu
+a. It controls the nervous system
+b. It pumps oxygen to the brain
+The item asks the student to identify what the heart muscle does, choosing the correct answer from four options.
+This item is measuring **reading comprehension of a science passage, specifically understanding of basic human biology/anatomy**. The question asks the student to identify the function of the heart muscle, so it primarily assesses **content knowledge in life science** rather than a clinical symptom or psychological construct.
+This is a low-demand recall item: it asks for a basic fact from the passage, not multi-step reasoning or synthesis. Endorsement is not severity-based. The main cognitive load comes from selecting the correct option among plausible distractors; the choices are simple but include unrelated functions that could confuse a weak reader.
+This item requires a low-to-moderate level of reading comprehension and basic science knowledge, with the correct response depending on understanding that the heart pumps blood rather than performing unrelated functions.",0.03348456950637502,0.6100923462645891,2.321446214327235,3.1476461730936984,0.9232577614955151,-0.07549953896794996,gilbert_meta_104
+bg_know_q8,"Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”",2. Which part of a skyscraper is like the skeletal system of a human body?,"Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. Which part of a skyscraper is like the skeletal system of a human body?
+a. the command center
+b. the steel columns
+c. the heating system
+d. the glass windows","Original Text: Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. Which part of a skyscraper is like the skeletal system of a human body?
+a. the command center
+b. the steel columns
+c. the heating system
+d. the glass windows
+The core task is to identify which structural component of a skyscraper serves a function analogous to the human skeletal system.
+This analysis identifies the primary construct measured by the question regarding the structural similarities between a skyscraper and the human body.
+
+**Primary Construct:** Analogical reasoning.
+
+**Justification:** The item requires the examinee to identify a functional correspondence between two distinct domains—biological systems and architectural engineering—by mapping the supportive role of the human skeletal system onto the structural components of a building.
+This analysis evaluates the cognitive demand and structural complexity of the skyscraper analogy question.
+
+**Cognitive Level:** This item requires **synthesis** through analogical reasoning. The student must map the abstract functional properties of a biological system (support and framework) onto an architectural context.
+
+**Structural/Semantic Elements:** 
+*   **Cross-Domain Metaphor:** The use of the ""skeletal system"" as a proxy for structural integrity increases cognitive load by requiring the transfer of knowledge between disparate fields (biology and engineering).
+*   **Functional Mapping:** The distractors function as competing metaphors (e.g., ""command center"" for the nervous system; ""heating system"" for the circulatory system), requiring the student to evaluate and differentiate between multiple physiological-mechanical parallels.
+To determine the level of the underlying latent trait—specifically analogical reasoning and foundational structural knowledge—required to answer this item, the respondent must possess a **low to moderate** level of cognitive proficiency. The item necessitates a basic understanding of functional systems, requiring the respondent to map the supportive role of the human skeletal system onto the structural framework of a building. Because the distractors represent distinct functional categories (e.g., climate control or sensory interfaces), the item requires only a foundational ability to identify structural metaphors rather than advanced technical or architectural expertise.","Original Text: Teacher Directions to Read Aloud: “Now you will read this passage about skyscrapers.  Let’s begin by answering 3 questions about the passage. I’ll read each question and the 4 answer choices. Then, you will choose only 1 answer for each question.”: 2. Which part of a skyscraper is like the skeletal system of a human body?
+a. the command center
+b. the steel columns
+c. the heating system
+d. the glass windows
+The task is to identify which part of a skyscraper is compared to the human skeletal system by choosing the correct answer from four options.
+This item primarily measures **reading comprehension of informational text**, specifically the ability to **identify an analogy between a building component and a human body system**. The correct response requires understanding the passage and matching the **steel columns** to the **skeletal system** as the structural support.
+This is a low-severity, straightforward recall item. It mainly requires recognizing the passage’s analogy and matching “skeletal system” to the building’s structural support, so the cognitive demand is simple comprehension rather than multi-step reasoning or synthesis. The wording is clear and direct, with one plausible distractor set but no tricky conditional logic or emotionally loaded language.
+This item requires a low level of the underlying trait: basic reading comprehension and simple analogy reasoning. A respondent needs only modest cognitive ability to identify that the steel columns are like a skeletal system.",2.521151698756775,3.9675683033774862,3.0,5.785480900240668,0.5933765454349548,1.2190287372435957,gilbert_meta_104

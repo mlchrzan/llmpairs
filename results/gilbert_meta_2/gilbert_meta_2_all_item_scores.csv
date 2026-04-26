@@ -1,0 +1,1390 @@
+item,section_prompt,item_text,combined_text,CGCoT_Breakdown_gemini-3-flash-preview,CGCoT_Breakdown_gpt-5.4-mini,Bradley_Terry_Score_gemini-3-flash-preview,Bradley_Terry_SE_gemini-3-flash-preview,Bradley_Terry_Score_gpt-5.4-mini,Bradley_Terry_SE_gpt-5.4-mini,a,b,table
+20,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.","What is similar about the work that paleontologists, archaeologists, and genealogists do?","Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is similar about the work that paleontologists, archaeologists, and genealogists do?
+They learn about ancestors’ jobs
+They learn about things from the past
+They learn about living things","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is similar about the work that paleontologists, archaeologists, and genealogists do?
+They learn about ancestors’ jobs
+They learn about things from the past
+They learn about living things
+The core task is to identify the commonality between the work performed by paleontologists, archaeologists, and genealogists based on the provided text.
+This item measures the skill of **Reading Comprehension (Synthesis and Categorization)**. It requires the reader to extract the primary function of a genealogist from the provided text and integrate that information with prior general knowledge of other disciplines to identify a shared overarching characteristic.
+This analysis evaluates the cognitive demand and structural complexity of the question regarding the similarities between paleontologists, archaeologists, and genealogists.
+
+**Cognitive Demand**
+This item requires **synthesis** and the application of **external knowledge**. Because the provided text only defines the work of a genealogist, the reader must independently retrieve definitions for ""paleontologist"" and ""archaeologist"" and then synthesize these external concepts with the text to identify a shared overarching theme.
+
+**Structural and Semantic Elements**
+*   **External Information Dependency:** The item’s difficulty is primarily driven by the requirement for information not contained within the stimulus, significantly increasing the cognitive load beyond simple reading comprehension.
+*   **High-Level Generalization:** The correct answer requires moving from the specific details in the text (e.g., ""ancestors' jobs"") to a broad, abstract category (""things from the past"").
+*   **Text-Based Distractor:** The first option (""ancestors’ jobs"") acts as a strong distractor because it is explicitly mentioned in the text, potentially misleading readers who rely solely on literal passage retrieval rather than cross-disciplinary synthesis.
+To describe the level of the latent trait required for this item, the respondent must possess a moderate level of cognitive ability, specifically involving reading comprehension and general world knowledge. While the passage provides a definition of genealogists, the question requires the respondent to integrate this information with external knowledge of paleontologists and archaeologists. Success depends on the ability to identify a shared categorical theme—studying the past—across distinct fields not fully defined within the text, necessitating both literal comprehension and prior semantic knowledge.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is similar about the work that paleontologists, archaeologists, and genealogists do?
+They learn about ancestors’ jobs
+They learn about things from the past
+They learn about living things
+The task is to read a passage about genealogists and answer a multiple-choice question asking what paleontologists, archaeologists, and genealogists have in common.
+Primary domain: reading comprehension / informational text understanding. The item measures the ability to identify a shared idea across examples in a passage, since it asks the reader to infer what paleontologists, archaeologists, and genealogists have in common from context.
+This is a low-to-moderate cognitive item requiring simple reading comprehension and recall of a shared category across examples. The correct choice depends on synthesizing the passage’s general idea that all three professions study evidence from the past, not on deep reasoning or strong endorsement. Structural load is modest: the wording is straightforward, with one distractor that is overly specific (“ancestors’ jobs”) and another that is too narrow (“living things”), but there is no tricky conditional logic or emotionally loaded language.
+A low-to-moderate reading comprehension level is required to answer this correctly, since the item mainly asks the respondent to identify a shared idea from the passage rather than demonstrate advanced ability.",3.0,4.00363790915915,0.52772817552475,0.9586990991422633,2.039107854991671,-0.49567782890447604,gilbert_meta_2
+15,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.","According to the passage, who uses clues to find out about ancestors?","Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: According to the passage, who uses clues to find out about ancestors?
+famous people
+genealogists
+detectives","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: According to the passage, who uses clues to find out about ancestors?
+famous people
+genealogists
+detectives
+The core task is to identify the specific group of people described in the text as using clues to research family history.
+This item measures the primary skill of **literal reading comprehension (information retrieval)**. The question requires the reader to locate and identify a specific, explicitly stated detail within the text—that genealogists use clues—to select the correct answer from the provided options.
+This analysis evaluates the cognitive demand and structural elements of the reading comprehension item regarding genealogists.
+
+**Demand and Reasoning**
+This item requires **recall** and literal identification. It does not necessitate multi-step reasoning or synthesis, as the answer is explicitly stated in the second paragraph (""A genealogist finds clues..."").
+
+**Structural and Semantic Elements**
+*   **Direct Mapping:** The question uses phrasing nearly identical to the text, minimizing cognitive load.
+*   **Text-Based Distractor:** ""Famous people"" functions as a distractor by appearing elsewhere in the passage (paragraph 3), requiring the reader to distinguish between different subjects mentioned.
+*   **Thematic Distractor:** ""Detectives"" serves as an external knowledge distractor based on the semantic association with the word ""clues,"" though it is absent from the text.
+*   **Simple Syntax:** The use of short, declarative sentences and high-frequency vocabulary maintains a low threshold for endorsement/correct identification.
+To describe the level of the latent trait—specifically reading comprehension—required for this item, the respondent needs a low level of proficiency. The item requires literal retrieval of information explicitly stated in the text, where the term ""genealogist"" is directly linked to the action of finding ""clues"" in multiple paragraphs, necessitating only basic decoding and surface-level identification skills.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: According to the passage, who uses clues to find out about ancestors?
+famous people
+genealogists
+detectives
+The task is to read a passage about genealogy and answer a multiple-choice question asking who uses clues to learn about ancestors.
+Primary domain: reading comprehension. It measures the ability to extract a stated detail from a short informational passage, since the correct answer is directly supported by the text.
+This is a low-demand reading comprehension item requiring simple recall from the passage, not multi-step reasoning or synthesis. Endorsement is easy because the correct answer is stated directly; there are no strong distractors, conditional traps, or emotionally loaded terms.
+A low-to-moderate reading comprehension level is required to answer this item correctly; it mainly depends on basic passage understanding rather than a high latent trait.",-3.0,0.10918354487394018,-2.979775980035302,0.1805428427904102,3.2820034872218486,-0.5563990269668838,gilbert_meta_2
+19,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.",What is one reason people want to find ancestors?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is one reason people want to find ancestors?
+To prove their relative was an important person
+To become famous like their ancestors
+To use the computer to find out facts","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is one reason people want to find ancestors?
+To prove their relative was an important person
+To become famous like their ancestors
+To use the computer to find out facts
+The core task of this item is to identify a specific reason individuals seek information about their ancestors based on the provided reading passage about genealogists.
+This item measures the primary skill of **Reading Comprehension**, specifically **Literal Information Retrieval**.
+
+**Justification:** The question requires the respondent to locate and identify a specific detail explicitly stated in the third paragraph of the text (""Some people want to prove that an ancestor was in an important event"") to select the correct answer.
+This analysis evaluates the cognitive demand and structural complexity of the reading comprehension item regarding reasons for finding ancestors.
+
+**Cognitive Demand**
+This item requires **recall** and literal comprehension. The reader must locate specific information provided in the third and fourth paragraphs to identify a stated motivation.
+
+**Structural and Semantic Elements**
+*   **Functional Distractors:** Option 3 uses a ""method"" mentioned in the text (using a computer) as a ""reason,"" increasing cognitive load by requiring the student to distinguish between the process of genealogy and the motivation for it.
+*   **Semantic Mapping:** Option 1 requires the student to map the text’s specific examples (""important event"" or ""famous person"") to the summarized phrase ""important person.""
+*   **Keyword Traps:** Option 2 uses the word ""famous"" from the text but alters the logic (becoming famous vs. finding a famous ancestor), penalizing students who rely on simple word-matching rather than syntax.
+To describe the level of the latent trait—specifically reading comprehension and literal information retrieval—required for this item, the level is categorized as low to moderate. A respondent must possess foundational literacy skills to identify a specific motivation within a simple, structured text. Success requires the ability to distinguish between a primary objective (proving a relative's importance) and a procedural method (using a computer), necessitating basic cognitive processing of explicit textual evidence and the ability to reject distractors that misinterpret the text's context.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is one reason people want to find ancestors?
+To prove their relative was an important person
+To become famous like their ancestors
+To use the computer to find out facts
+The task is to read a passage about genealogists and answer a multiple-choice question asking why people want to find their ancestors.
+Primary domain: reading comprehension / informational text understanding. The item measures whether the reader can identify a stated reason people seek information about ancestors, based on details explicitly presented in the passage.
+This is a low-demand reading comprehension item. It mainly requires simple recall from the passage, not multi-step reasoning or synthesis. The correct choice is directly stated, while the distractors are plausible but unsupported. The wording is straightforward, with no conditional logic or emotionally loaded language, so the endorsement threshold is low.
+A low level of reading comprehension is required to answer this item correctly, since it mainly asks the respondent to identify a stated reason people seek ancestors from a short passage.",0.38696341173622173,0.6272906585339507,-3.0,0.17845964190734492,1.4928904507060374,-0.1704989801963464,gilbert_meta_2
+18,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.",Why does the author think genealogists are important?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: Why does the author think genealogists are important?
+They are able to help famous people plan their jobs
+They talk to people in other countries and cities
+They help people find relatives from a long time ago","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: Why does the author think genealogists are important?
+They are able to help famous people plan their jobs
+They talk to people in other countries and cities
+They help people find relatives from a long time ago
+The core task of this item is to identify the author's perspective on the importance of genealogists by selecting the correct reason from a multiple-choice list based on the provided reading passage.
+This item measures the primary skill of **Reading Comprehension**, specifically the ability to identify key details and the author's perspective within an informational text.
+
+**Justification:** The question requires the reader to synthesize information from the passage to determine the functional significance of a genealogist, necessitating the retrieval of specific textual evidence to identify the correct summary of the profession's value.
+To analyze the cognitive demand and structural elements of this reading comprehension item:
+
+**Cognitive Demand**
+This item requires **synthesis** of the text’s central purpose. While the answer is grounded in the first paragraph, the reader must integrate the definition of a genealogist's role with the author’s implied justification for their importance.
+
+**Structural and Semantic Elements**
+*   **Keyword Distractors:** Options 1 and 2 utilize ""keyword matching"" by incorporating specific terms from the text—such as ""famous,"" ""jobs,"" and ""other countries""—to create plausible but contextually incorrect answers.
+*   **Process vs. Purpose:** The distractors increase cognitive load by requiring the reader to distinguish between a genealogist’s **methods** (talking to people in other countries) and their **primary function** (finding relatives from the past).
+*   **Simple Syntax:** The text uses short, declarative sentences, keeping the linguistic threshold low while focusing the challenge on identifying the author's main argument.
+To determine the level of the latent trait of reading comprehension required for this item, the respondent must possess a low to moderate level of proficiency. The item necessitates the ability to identify a central purpose within a structured text and distinguish between a primary objective—finding information about ancestors—and secondary methods or misattributed details.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: Why does the author think genealogists are important?
+They are able to help famous people plan their jobs
+They talk to people in other countries and cities
+They help people find relatives from a long time ago
+The item asks the reader to identify why genealogists are important, based on a passage about how they help people learn about ancestors and family history.
+Primary domain: reading comprehension / informational text understanding. The item measures the ability to identify the author’s main idea or purpose from a short passage, since the correct choice reflects why genealogists matter in helping people learn about long-ago relatives.
+This is a low-to-moderate demand reading item: it mainly requires simple recall/comprehension from the passage, not multi-step reasoning or synthesis. Endorsing the correct choice does not require a severe symptom or strong belief.
+
+Structural/semantic load is modest: the passage is straightforward, and the question is direct. The only mild distractor is that one option mentions a true detail about genealogists talking to people in other countries, but it is not the author’s stated reason they are important.
+A low-to-moderate reading comprehension level is needed to answer this item successfully, with basic understanding of the passage’s main idea that genealogists help people learn about long-ago relatives.",1.2165583379477134,0.991924420791502,-1.0891254251315483,0.37049759948439165,2.090012250911593,-0.27685696418194083,gilbert_meta_2
+10,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.","In paragraph 4, theory can also be called:","Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: In paragraph 4, theory can also be called:
+An answer
+An idea
+A solution","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: In paragraph 4, theory can also be called:
+An answer
+An idea
+A solution
+The core task of this item is to identify a synonym for the word ""theory"" based on its contextual usage in the provided passage about the archaeological study of Pompeii. Students must select the most appropriate meaning from three given options: an answer, an idea, or a solution.
+The primary skill this item measures is **vocabulary in context**.
+
+**Justification:** The item requires the reader to determine the meaning of a specific word (""theory"") by analyzing its usage within the provided text and selecting the most appropriate synonym from the given options.
+This analysis evaluates the cognitive demand and structural complexity of the vocabulary item defining the word ""theory"" within the provided text.
+
+**Cognitive Demand:** This item requires **multi-step reasoning**. The student must locate the word in paragraph 4, interpret its contextual usage as a hypothesis derived from archaeological evidence, and evaluate which synonym accurately reflects a working proposition rather than a final result.
+
+**Structural and Semantic Elements:**
+*   **Plausible Distractors:** The options ""An answer"" and ""A solution"" increase cognitive load by offering terms semantically related to the conclusion of an inquiry, forcing the student to distinguish between a finalized result and a conceptual framework.
+*   **Contextual Nuance:** The phrasing ""One theory... is that"" requires the student to recognize ""theory"" as a synonym for a tentative ""idea"" based on observation (big vs. small homes) rather than a definitive resolution to a problem.
+To describe the level of the latent trait—specifically reading comprehension and vocabulary acquisition—required for this item, the respondent needs a low-to-moderate level of proficiency. The item requires the ability to identify a synonym for the word ""theory"" within a simple, literal context. Because the passage uses basic sentence structures and the distractors are distinct from the correct synonym (""an idea""), the cognitive demand is consistent with an elementary-level understanding of context clues and foundational academic vocabulary.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: In paragraph 4, theory can also be called:
+An answer
+An idea
+A solution
+The item asks the reader to identify the meaning of “theory” in a passage about archaeologists studying the fossilized city of Pompei.
+Primary domain: reading comprehension / vocabulary in context. The item measures understanding of a word’s meaning from passage context, specifically that “theory” means an idea rather than a solution.
+This is a low-demand vocabulary/reading-comprehension item. It mainly requires recall or simple word-meaning inference, not multi-step reasoning or synthesis. The endorsement threshold is low: “theory” is used in a straightforward context, with only a mild semantic distractor among the choices. The main cognitive load comes from needing to map an academic synonym (“theory” = idea) rather than from complex phrasing, conditional logic, or emotionally loaded wording.
+Low reading-comprehension demand: the item mainly requires recognizing that “theory” means an idea.",0.985712281913897,0.8976008489633062,-2.080389284852196,0.24414573271032852,1.1686444022389053,-0.02794506035627418,gilbert_meta_2
+16,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.",What is this passage mainly about?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is this passage mainly about?
+Why genealogists use the computer
+Where ancestors come from
+What genealogists do","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is this passage mainly about?
+Why genealogists use the computer
+Where ancestors come from
+What genealogists do
+The core task of this item is to identify the main idea of a passage describing the role, methods, and motivations of genealogists.
+This item measures the primary skill of **Reading Comprehension**, specifically the ability to identify the **Main Idea**.
+
+**Justification:** The question asks what the passage is ""mainly about,"" requiring the reader to synthesize information across all five paragraphs to determine the central theme rather than focusing on isolated details or specific facts.
+This analysis evaluates the cognitive demand and structural complexity of the provided reading comprehension item.
+
+**Cognitive Demand**
+This item requires **synthesis**. To identify the main idea, the reader must integrate information across all five paragraphs—covering the definition, motivations, and methods of genealogists—rather than relying on the recall of a single fact.
+
+**Structural and Semantic Elements**
+*   **Detail-Oriented Distractors:** The incorrect options function as ""narrow traps,"" using specific information mentioned in the text (computer use and ancestor origins) to distract from the broader subject.
+*   **Categorization:** The correct answer requires the reader to recognize ""What genealogists do"" as a higher-order category that encompasses the specific details provided in the text.
+*   **Simple Phrasing:** The low linguistic complexity of the text minimizes decoding effort, focusing the cognitive load almost entirely on the ability to distinguish a central theme from supporting details.
+To describe the level of the latent trait of reading comprehension required for this item, the respondent must possess a low-to-moderate level of cognitive ability. Success requires the capacity to synthesize information across multiple short paragraphs to identify a central theme and distinguish a holistic summary from specific supporting details or tangential concepts.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What is this passage mainly about?
+Why genealogists use the computer
+Where ancestors come from
+What genealogists do
+The task is to read a passage and choose the main idea from multiple-choice options about what genealogists do.
+Primary domain: reading comprehension. It measures the ability to identify the main idea of a short informational passage, since the correct choice is the broad summary of the passage’s content rather than a specific detail.
+This is a low-to-moderate demand reading-comprehension item: it mainly requires recall and synthesis of the passage’s central idea, not deep reasoning. The correct choice is supported by the overall gist, while the distractors are narrower details. Structural load is modest, with simple wording and no tricky conditional logic or emotionally loaded language.
+A low-to-moderate reading comprehension level is required to answer this item correctly, with basic ability to identify the passage’s main idea.",1.7231265570251804,1.511468003157915,0.3789558016939498,0.8556045022790547,2.191903226584708,-0.3087961205398052,gilbert_meta_2
+9,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.",This passage mainly tells about,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: This passage mainly tells about
+how archaeologists study the old city of Pompei
+how a volcano destroyed a city called Pompei
+what an archaeologist’s job is like","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: This passage mainly tells about
+how archaeologists study the old city of Pompei
+how a volcano destroyed a city called Pompei
+what an archaeologist’s job is like
+The core task is to identify the main idea of a passage describing the historical destruction of Pompeii and the subsequent findings of archaeologists who study the site.
+The primary skill this item measures is **reading comprehension**, specifically the ability to **identify the main idea** of a text.
+
+**Justification:** The question asks the reader to determine what the passage ""mainly tells about,"" requiring the synthesis of information across multiple paragraphs to distinguish the central theme from supporting details.
+This analysis evaluates the cognitive demand and structural elements of the provided reading comprehension item.
+
+**Cognitive Demand**
+The item requires **synthesis**. To identify the main idea, the reader must integrate information across all five paragraphs—moving from the historical event (the eruption) to the modern scientific process (archaeological study)—rather than relying on simple recall of a single section.
+
+**Structural and Semantic Elements**
+*   **Detail-Oriented Distractors:** Option 2 functions as a ""part-for-whole"" distractor; it accurately describes the first paragraph but fails to account for the subsequent focus on archaeological discovery.
+*   **Misleading Terminology:** The repeated, non-standard use of ""fossilized"" to describe buildings and human remains increases cognitive load, as readers must reconcile this term with the context of a volcanic site.
+*   **Emotional Framing:** Strong wording in the introduction (""brutal,"" ""mass extinction"") creates a narrative salience that may bias readers toward the destruction-themed distractor.
+*   **Broad Generalization:** Option 3 acts as a global distractor, offering a topic related to the text's subject matter but exceeding the specific scope of the passage.
+To describe the level of the latent trait of reading comprehension required for this item, the respondent must possess a low-to-moderate level of proficiency. The text utilizes simple sentence structures and high-frequency vocabulary, though it requires the foundational cognitive ability to synthesize information across multiple paragraphs. A successful respondent must distinguish the overarching theme—the archaeological study of Pompeii—from subordinate details, such as the specific volcanic event or the general nature of an archaeologist's profession.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: This passage mainly tells about
+how archaeologists study the old city of Pompei
+how a volcano destroyed a city called Pompei
+what an archaeologist’s job is like
+The item asks the reader to identify the main idea of a passage about Pompei, focusing on how archaeologists study the preserved ancient city.
+Reading comprehension: identifying the main idea of an informational passage. It mainly assesses understanding of how archaeologists study the ancient city of Pompei, supported by details about the eruption, discovery, and artifacts.
+This is a low-to-moderate demand reading-comprehension item. It mainly requires recall of the passage’s central idea and simple synthesis across details, not deep reasoning.
+
+Structural/semantic load is modest: the passage is straightforward and chronological, with a few potentially distracting details (e.g., “fossilized humans,” “mass extinction,” rich vs. poor homes). The question is a main-idea item with three clear choices, so endorsement threshold is low and depends mostly on identifying the passage’s overall focus rather than interpreting complex wording.
+This item requires a low-to-moderate level of reading comprehension and passage integration to identify the main idea, with minimal specialized knowledge.",2.6405781290992234,2.938648062145308,0.9778290690850442,1.1924248011290561,1.0378204054902278,-0.1317847481549572,gilbert_meta_2
+11,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.",Archaeologists have studied the fossilized buildings and skeletons of Pompei. Fossilized means:,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: Archaeologists have studied the fossilized buildings and skeletons of Pompei. Fossilized means:
+Saved as it was years ago
+Physical characteristics
+New thing to help scientists","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: Archaeologists have studied the fossilized buildings and skeletons of Pompei. Fossilized means:
+Saved as it was years ago
+Physical characteristics
+New thing to help scientists
+The core task is to identify the correct definition of the term ""fossilized"" based on the context provided in a reading passage about the archaeological discovery and preservation of the city of Pompeii.
+This item measures the skill of **contextual vocabulary acquisition**. The question requires the reader to determine the meaning of the word ""fossilized"" by synthesizing descriptive clues provided in the text, such as ""frozen in time"" and ""saved as it was years ago,"" rather than relying on a prior technical definition.
+This analysis evaluates the cognitive demand and structural complexity of the vocabulary item defining ""fossilized"" within the provided text.
+
+**Cognitive Demand**
+This item requires **synthesis** and **multi-step reasoning**. The reader must integrate the text’s non-traditional use of ""fossilized"" (applied to buildings and cities) with the explicit contextual clue ""frozen in time"" found in paragraph 3 to derive the specific meaning intended by the author.
+
+**Structural and Semantic Elements**
+*   **Semantic Extension:** The application of ""fossilized"" to inanimate architecture and entire cities increases cognitive load by requiring the reader to bypass standard biological definitions (dinosaurs/bones) in favor of the text's metaphorical usage.
+*   **Contextual Dependency:** The correct response relies on cross-paragraph integration, specifically linking the phrase ""frozen in time"" to the definition of the target word.
+*   **Functional Distractors:** Option 3 (""New thing to help scientists"") serves as a plausible functional description of an archaeological find, forcing the student to distinguish between the utility of an object and the definition of the descriptor.
+*   **Simplification of Logic:** The phrasing ""Saved as it was years ago"" uses simple language to describe a complex geological/archaeological state, requiring the student to map a sophisticated concept onto a plain-language explanation.
+To determine the level of the underlying latent trait—specifically reading comprehension and verbal reasoning—required to answer this item, the following analysis is provided:
+
+The item requires a **low to foundational level** of reading comprehension. A respondent must possess the basic literacy skills necessary to integrate context clues, specifically the phrase ""frozen in time,"" to identify a non-technical definition of ""fossilized"" as being ""saved as it was years ago."" The simple sentence structures and explicit teacher-led instructions indicate the item is designed for early elementary-level cognitive ability.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: Archaeologists have studied the fossilized buildings and skeletons of Pompei. Fossilized means:
+Saved as it was years ago
+Physical characteristics
+New thing to help scientists
+The item asks the reader to silently read a passage about Pompeii and archaeologists, then answer multiple-choice questions, including identifying the meaning of “fossilized” from context.
+Primary domain: reading comprehension / informational text vocabulary. It is assessing understanding of the meaning of “fossilized” in context, using clues from the passage about Pompeii being preserved “as it was years ago.”
+This is a low-to-moderate demand reading item. It mainly requires basic recall and simple comprehension of the passage, with little multi-step reasoning or synthesis.
+
+Structural/semantic features that raise load:
+- Dense informational text with multiple facts and time references
+- Some potentially confusing wording (“fossilized humans,” “mass extinction,” “saved as it was years ago”)
+- A vocabulary-definition question that depends on understanding the term in context
+- Limited answer choices reduce complexity, but the wording still requires careful reading rather than deep inference
+This item requires a low-to-moderate level of reading comprehension and vocabulary knowledge, with basic inference about the meaning of “fossilized” from context.",-0.0845488895533828,0.5046997559972997,1.437526007300204,1.5575124725140954,0.9287834271042573,-0.20763461202634048,gilbert_meta_2
+2,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.",This passage mainly tells about,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: This passage mainly tells about
+the physical characteristics of ammonites
+the dinosaur extinction 66 million years ago
+the theories of the ammonite’s extinction","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: This passage mainly tells about
+the physical characteristics of ammonites
+the dinosaur extinction 66 million years ago
+the theories of the ammonite’s extinction
+The core task of this item is to identify the main idea of a reading passage concerning ammonites. The scenario requires a student to read an informational text about the history, characteristics, and extinction theories of ammonites and select the option that best summarizes the passage's primary focus.
+This item measures the **skill of identifying the main idea** within the domain of **reading comprehension**. The question requires the student to synthesize information across multiple paragraphs to determine the central focus of the text, distinguishing the primary topic of ammonite extinction from supporting details such as physical traits or the broader context of dinosaur extinction.
+This analysis evaluates the cognitive demand and structural complexity of the ""main idea"" question regarding the ammonite passage.
+
+**Cognitive Demand**
+The item requires **synthesis**. To identify the correct answer, the reader must integrate information across five paragraphs—moving from the introductory context of mass extinctions to the specific biological traits of ammonites and concluding with the scientific theories regarding their disappearance.
+
+**Structural and Semantic Elements**
+*   **Tricky Distractors:** The options utilize ""partial truths"" found in the text. Option 1 (physical characteristics) and Option 2 (dinosaur extinction) are explicitly mentioned but serve as supporting details or introductory hooks rather than the primary focus.
+*   **Contextual Framing:** The first paragraph focuses heavily on dinosaurs, which acts as a strong semantic distractor for readers who may prioritize the opening information over the subsequent shift to ammonites.
+*   **Synthesis Load:** The reader must distinguish between the *subject* (ammonites) and the *thematic focus* (their extinction and the evidence for it), requiring the ability to weigh the relative importance of the text's concluding paragraphs against its introduction.
+To determine the level of the latent trait—specifically reading comprehension and cognitive synthesis—required for this item, the respondent must possess a **low-to-moderate** level of ability. While the vocabulary is accessible, the item requires the respondent to integrate information across five paragraphs to identify the primary focus (extinction theories) rather than selecting distracting details (physical traits or dinosaurs) mentioned in isolated sections.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: This passage mainly tells about
+the physical characteristics of ammonites
+the dinosaur extinction 66 million years ago
+the theories of the ammonite’s extinction
+The item asks the reader to identify the main idea of a passage about ammonites, focusing on why they went extinct.
+Primary domain: reading comprehension in science/earth science. It assesses the ability to identify the main idea of a short informational passage and infer the central topic from supporting details about ammonites and extinction.
+This is a low-to-moderate demand reading comprehension item. It mainly requires recall and basic synthesis of the passage’s main idea, not deep reasoning. The correct choice depends on identifying the passage’s overall focus, which is the theories about ammonite extinction rather than details about ammonite traits or the dinosaur extinction. Structural load is modest: a main-idea question with three plausible options, including distractors that reference nearby but secondary content.
+This item requires a moderate level of reading comprehension and science-text inference, with enough skill to identify the passage’s main idea and choose the best summary.",2.2441743066933633,2.1789540909949174,2.415170365001565,2.68325194485864,0.6653911406912913,1.1517100835513787,gilbert_meta_2
+5,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.",A strong shell is an example of a living animal’s,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: A strong shell is an example of a living animal’s
+Hunter behavior
+Fossil evidence
+Physical characteristic","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: A strong shell is an example of a living animal’s
+Hunter behavior
+Fossil evidence
+Physical characteristic
+This item requires identifying the correct classification of an anatomical trait mentioned in a passage about ammonites. The core task is to determine whether a ""strong shell"" represents a physical characteristic, hunter behavior, or fossil evidence.
+This item measures the **primary knowledge domain of Life Science**, specifically the **skill of classifying biological traits**.
+
+**Justification:** The question requires the examinee to categorize a specific anatomical structure (a ""strong shell"") as a physical characteristic, distinguishing it from behavioral traits or types of scientific evidence mentioned in the text.
+This analysis evaluates the cognitive demand and structural complexity of the item requiring the classification of an animal's ""strong shell.""
+
+**Cognitive Demand**
+This item requires **synthesis** and **classification**. The student must map a specific anatomical detail mentioned in the text (""strong shell"") to an abstract biological category (""physical characteristic"") that is not explicitly defined within the passage.
+
+**Structural and Semantic Elements**
+*   **Thematic Distractors:** The option ""Fossil evidence"" serves as a high-load distractor because the text repeatedly emphasizes ""body fossils"" and ""fossil evidence"" in paragraphs 2, 4, and 5, creating a strong semantic association between the subject (ammonites) and fossils.
+*   **Categorical Mapping:** The student must distinguish between a behavior (""Hunter behavior"") and an anatomical trait, requiring a level of conceptual organization beyond simple literal recall.
+*   **Temporal Shift:** The question asks about a ""living animal’s"" trait, requiring the student to mentally transition from the text's primary focus on extinction and fossils back to the functional biology of the organism when it was alive.
+To describe the level of the latent trait—specifically reading comprehension and basic scientific literacy—required for this item, a respondent needs a low-to-moderate level of proficiency. The task requires the ability to categorize a concrete anatomical feature (""strong shell"") as a ""physical characteristic,"" necessitating basic vocabulary knowledge and the capacity to distinguish between biological traits, behaviors, and scientific evidence within a provided text.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: A strong shell is an example of a living animal’s
+Hunter behavior
+Fossil evidence
+Physical characteristic
+The task is to read the passage and answer the multiple-choice question about what a strong shell is an example of in a living animal.
+Primary domain: reading comprehension with basic science content knowledge. It assesses understanding of a passage about fossils and extinct animals, specifically identifying that a strong shell is a physical characteristic.
+This is a low-to-moderate cognitive-demand item: it mainly requires recall and simple comprehension of the passage, not multi-step reasoning or synthesis. The correct choice depends on recognizing a definition/example relationship (“strong shell” as a trait), with minimal distractor complexity. Structural load is low; the wording is straightforward, with no strong emotional language, conditional logic, or tricky phrasing beyond basic multiple-choice discrimination.
+This item requires a low level of the underlying trait: basic reading comprehension and simple science vocabulary, with only modest inference needed to identify a physical characteristic.",1.8217011153135942,1.6965017097335486,1.1421230662320179,1.3267517655633938,0.900633166900849,0.9794941445542779,gilbert_meta_2
+6,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.",The author of this article wants you to learn,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: The author of this article wants you to learn
+How paleontologists look at animals
+How paleontologists study fossils
+How paleontologists work together","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: The author of this article wants you to learn
+How paleontologists look at animals
+How paleontologists study fossils
+How paleontologists work together
+This item requires identifying the author's primary purpose or intended learning objective within a text about paleontological research and fossil evidence. The task asks the reader to determine the central theme of a passage describing how paleontologists use body fossils to understand the history and extinction of prehistoric organisms like ammonites.
+This item measures the primary skill of **identifying the main idea** within the domain of reading comprehension. The question requires the reader to synthesize the text's recurring focus on how paleontologists utilize fossil evidence to reconstruct the history of extinct species and select the option that best summarizes the author's central purpose.
+This analysis evaluates the cognitive demand and structural complexity of the ""Paleontologists and the ammonites"" assessment item.
+
+**Cognitive Demand**
+This item requires **synthesis**. To identify the author’s overarching purpose, the reader must integrate information across multiple paragraphs—ranging from specific extinction events and ammonite biology to the definition of body fossils—to conclude that the text serves as an explanation of how paleontologists use physical evidence to understand the past.
+
+**Structural and Semantic Elements**
+*   **Lexical Load:** The presence of specialized scientific vocabulary (e.g., ""paleontologists,"" ""ammonites,"" ""body fossil"") increases the decoding effort and cognitive load.
+*   **Abstraction:** The item requires the reader to abstract the specific narrative about ammonites into the broader category of ""studying fossils.""
+*   **Semantic Overlap:** The answer choices utilize a repetitive parallel structure (""How paleontologists...""), forcing the reader to focus on the nuanced differences between the verbs ""look at,"" ""study,"" and ""work together"" to find the most accurate description of the text's focus.
+To describe the level of the latent trait—specifically reading comprehension and cognitive synthesis—required for this item, the respondent must possess a **low-to-moderate** level of ability. Successful endorsement requires the respondent to identify the primary theme of an informational text by synthesizing repeated references to ""fossil evidence"" and ""body fossils"" across multiple paragraphs. The respondent must distinguish the overarching purpose (studying fossils to understand the past) from specific details (individual animals or theories) and distractors not supported by the text (paleontologists working together), necessitating basic inferential reasoning and elementary-level scientific literacy.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: The author of this article wants you to learn
+How paleontologists look at animals
+How paleontologists study fossils
+How paleontologists work together
+The task is to identify the main idea of the passage about how paleontologists use fossil evidence to learn about extinct animals.
+Reading comprehension in science, specifically understanding how paleontologists use fossil evidence to study extinct animals; the passage centers on interpreting informational text about ammonites and extinction.
+This is a low-to-moderate demand reading item that mainly requires recall and basic comprehension, not deep reasoning or synthesis. Endorsing the correct choice depends on identifying the article’s main idea: paleontologists use fossils to study past life. The load is increased by the passage’s informational density and the need to infer the author’s purpose from multiple details, but the answer choices are simple and not strongly deceptive.
+A low-to-moderate reading comprehension level is required: the respondent needs basic understanding of a short informational passage and the ability to identify the author’s main purpose, rather than any high underlying latent trait.",2.7467881553694573,3.393380010929923,2.688551758665503,3.2741653383324563,0.7617947978920189,-0.7116182409231363,gilbert_meta_2
+12,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.",How can we imagine what Pompei was like a long time ago?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: How can we imagine what Pompei was like a long time ago?
+By studying fossilized buildings and skeletons
+By studying many different books about the city
+By studying the people currently living in Pompei","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: How can we imagine what Pompei was like a long time ago?
+By studying fossilized buildings and skeletons
+By studying many different books about the city
+By studying the people currently living in Pompei
+This item tasks the reader with identifying the primary method used to reconstruct the historical reality of Pompeii based on the provided text. The core question asks how researchers imagine the city's past, requiring the reader to select the evidence-based conclusion that scientists study fossilized buildings and skeletons to understand ancient life.
+The primary skill this item measures is **Reading Comprehension (Literal Retrieval)**. The question requires the reader to identify and extract explicit information provided in the text—specifically that archaeologists understand the past by studying fossilized buildings and skeletons—to select the correct answer.
+This analysis evaluates the cognitive demand and structural elements of the reading comprehension item regarding the city of Pompeii.
+
+**Cognitive Demand**
+The item requires **recall** and literal comprehension. To identify the correct answer, the reader must locate explicit information provided in paragraphs 2, 3, and 5 concerning the study of fossilized buildings and skeletons.
+
+**Structural and Semantic Elements**
+*   **Scientific Vocabulary:** Terms such as ""archaeologists,"" ""fossilized,"" and ""mass extinction"" increase the linguistic complexity for the target level.
+*   **Emotional Wording:** The use of ""brutal"" and ""mass extinction"" adds a layer of intensity that may distract from the factual retrieval task.
+*   **Plausible Distractors:** The incorrect options (reading books or studying current residents) are logically sound methods for learning about a city in general, requiring the reader to strictly adhere to the provided text rather than external knowledge.
+*   **Non-standard Spelling:** The consistent use of ""Pompei"" (rather than the standard ""Pompeii"") may cause minor cognitive friction for readers familiar with the traditional spelling.
+To describe the level of the latent trait (reading comprehension and cognitive ability) required for this item, the respondent needs a **low to moderate level** of proficiency. The item requires the ability to locate and identify explicitly stated information within a simple, structured narrative. Because the correct answer directly mirrors the terminology used in the text (""fossilized buildings and skeletons"") and the distractors are not supported by the passage, the task demands basic literal retrieval rather than complex inferential reasoning or high-level synthesis.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: How can we imagine what Pompei was like a long time ago?
+By studying fossilized buildings and skeletons
+By studying many different books about the city
+By studying the people currently living in Pompei
+The item asks the reader to understand a passage about the ancient city of Pompei and answer a multiple-choice question about how archaeologists can learn what the city was like long ago.
+Primary domain: reading comprehension, specifically informational text understanding. The item asks the reader to identify the main idea/detail from a short passage about Pompeii and archaeologists, using evidence from the text to choose the correct answer.
+This is a low-demand reading comprehension item. It mainly requires recall of a directly stated detail from the passage, with minimal reasoning or synthesis. The wording is straightforward, and the answer choices are simple, with two clear distractors that are semantically off-topic rather than tricky. The only mild load comes from needing to connect “clues about life in Pompei” to “studying fossilized buildings and skeletons.”
+This item requires a low level of the underlying trait: basic reading comprehension and recall of explicitly stated information from the passage.",-0.4251584371325783,0.40259434380429554,-1.2419135070737146,0.38561886909202053,1.125251697487099,0.07498939655402707,gilbert_meta_2
+3,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.",Some paleontologists think,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: Some paleontologists think
+A big rock hit the earth and killed all the ammonites
+Ammonites became extinct before dinosaurs
+Many animals die during a mass extinction","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: Some paleontologists think
+A big rock hit the earth and killed all the ammonites
+Ammonites became extinct before dinosaurs
+Many animals die during a mass extinction
+This item asks the student to identify a specific theory held by paleontologists regarding the extinction of ammonites based on the provided text. The core task is to select the correct inference about paleontological beliefs from a multiple-choice list after reading a passage on mass extinctions and fossil evidence.
+This item measures the primary skill of **Reading Comprehension**, specifically the ability to **identify and retrieve specific details** from a text.
+
+**Justification:** The question requires the reader to locate and select a specific theory mentioned in paragraph 4—that a large rock from space caused extinction—to accurately complete the statement regarding what ""some paleontologists think"" based on the provided evidence.
+This analysis evaluates the cognitive demand and structural complexity of the reading comprehension item regarding paleontologists' theories on ammonite extinction.
+
+**Cognitive Demand**
+The item requires **synthesis** and **inference**. Rather than simple recall, the student must integrate the specific ""theories"" presented in paragraph 4 with the prompt ""Some paleontologists think."" It demands the ability to distinguish between general factual statements (e.g., the definition of mass extinction) and specific scientific hypotheses mentioned in the text.
+
+**Structural and Semantic Elements**
+*   **Specific Attribution:** The phrase ""Some paleontologists think"" serves as a qualifier that increases cognitive load by requiring the student to locate a specific viewpoint rather than a general fact.
+*   **Plausible Distractors:** Option C (""Many animals die during a mass extinction"") acts as a ""true-but-irrelevant"" distractor; it is a factually correct statement based on the text but does not answer the specific prompt regarding what ""some"" scientists hypothesize.
+*   **Semantic Mapping:** The student must perform a semantic match between the text’s phrasing (""One theory is..."") and the question’s phrasing (""Some paleontologists think""), which requires a higher level of linguistic processing than direct word-for-word matching.
+To successfully answer this item, a respondent requires a **low-to-moderate level of reading comprehension**. This latent trait involves the ability to perform literal retrieval and recognize paraphrased information within a structured informational text. The respondent must distinguish between general scientific facts and specific theories mentioned in the passage, specifically identifying the ""huge rock"" hypothesis as a viewpoint held by some paleontologists.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: Some paleontologists think
+A big rock hit the earth and killed all the ammonites
+Ammonites became extinct before dinosaurs
+Many animals die during a mass extinction
+The task is to read the passage and answer the multiple-choice question about what happened to ammonites during the fifth mass extinction.
+Primary domain: reading comprehension/science literacy. It appears to measure understanding of a short informational passage, including recalling details and inferring the cause of extinction from fossil evidence.
+This is a low-to-moderate demand reading comprehension item. It mainly requires recall of details from the passage and simple inference about extinction, not deep synthesis or multi-step reasoning.
+
+The endorsement threshold is low: it does not require strong belief or severe symptom reporting. Cognitive load is increased mainly by:
+- multiple factual references across the passage
+- a cause/effect question about extinction
+- distractor choices that are plausible but incorrect
+- some temporal wording (“before,” “during,” “66 million years ago”) that requires careful attention
+This item requires a low-to-moderate level of reading comprehension and basic science reasoning to identify the main idea and infer the extinction outcome; successful answering does not require a high latent trait, just adequate elementary-level literacy and attention to detail.",0.8334262297654291,0.8010295147353742,1.826784667715815,1.7656866563071096,0.7956829642870028,-0.08400324597685517,gilbert_meta_2
+14,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.",How are the jobs of paleontologists and archaeologists the same?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: How are the jobs of paleontologists and archaeologists the same?
+They both use evidence to solve mysteries
+They both look for living animals
+They both dig for animal fossils","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: How are the jobs of paleontologists and archaeologists the same?
+They both use evidence to solve mysteries
+They both look for living animals
+They both dig for animal fossils
+This item requires identifying a shared professional characteristic between paleontologists and archaeologists based on a passage describing the excavation and study of Pompeii. The core task is to determine how these two roles overlap in their use of evidence to investigate the past.
+This item measures the primary skill of **Comparative Reading Comprehension**.
+
+**Justification:** The question requires the reader to synthesize information from the text regarding the methods of archaeologists and compare them to the implied or stated methods of paleontologists to identify a shared functional similarity (using evidence to solve mysteries).
+This analysis evaluates the cognitive demand and structural complexity of the question regarding the similarities between the roles of paleontologists and archaeologists.
+
+**Cognitive Demand**
+The item requires **synthesis** and **multi-step reasoning**. To answer correctly, a student must identify the specific activities of archaeologists described in the text (finding clues, studying artifacts), infer the role of paleontologists from the text’s references to dinosaur scientists, and then synthesize these distinct roles into the abstract commonality of using evidence.
+
+**Structural and Semantic Elements**
+*   **Implicit Vocabulary:** The term ""paleontologist"" appears in the question but is absent from the text. Students must perform a cross-textual mapping to equate ""paleontologist"" with the text's description of scientists who study ""fossilized bones of dinosaurs.""
+*   **Abstract Generalization:** The correct answer (""use evidence to solve mysteries"") requires a higher level of abstraction than the literal descriptions in the text, which focus on concrete actions like digging and finding skeletons.
+*   **Semantic Distractors:** Option 3 (""dig for animal fossils"") acts as a high-load distractor because the text explicitly mentions ""animal skeletons"" and ""fossilized"" remains in Pompeii, requiring the student to distinguish between archaeological remains and paleontological fossils.
+*   **Non-Standard Terminology:** The text’s unconventional use of ""fossilized"" to describe buildings and humans increases cognitive load by potentially conflicting with a student's prior scientific knowledge of fossilization.
+To determine the level of the underlying latent trait—specifically reading comprehension and inferential reasoning—required to answer this item, the respondent must possess a **moderate** level of ability. While the passage provides literal details about archaeologists, it does not explicitly define ""paleontologists,"" requiring the respondent to use context clues regarding ""dinosaur fossils"" to infer a shared methodology of using evidence to solve mysteries. The respondent must move beyond simple retrieval to synthesize the common investigative purpose of both fields while correctly rejecting distractors that conflate their specific subjects of study.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: How are the jobs of paleontologists and archaeologists the same?
+They both use evidence to solve mysteries
+They both look for living animals
+They both dig for animal fossils
+The item asks the reader to understand a passage about Pompeii and choose the correct answer to a question comparing paleontologists and archaeologists, based on evidence from the text.
+Primary domain: reading comprehension / informational text inference. It measures the ability to identify a stated similarity between two professions from a short passage, using textual evidence to answer a multiple-choice question.
+This is a low-to-moderate demand reading-comprehension item. It mainly requires recall and simple text-based inference, not deep synthesis or multi-step reasoning.
+
+The endorsement/answer threshold is low because the correct choice is directly supported by the passage. Cognitive load is increased slightly by:
+- dense informational passage with multiple facts
+- similar-sounding answer choices
+- a comparison question requiring matching roles to evidence
+- minor distracting details about fossils, buildings, and animals
+
+No strong emotional wording or severe symptom/belief threshold is involved.
+A low-to-moderate reading comprehension and inference level is required to answer this item correctly.",2.893904018553388,3.4530137522693174,2.5776482593939267,2.8130444747244643,1.3181806986569629,0.14031377065373912,gilbert_meta_2
+8,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.","According to the passage, who studies fossils of buildings destroyed by a volcano?","Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: According to the passage, who studies fossils of buildings destroyed by a volcano?
+rich people
+people in Pompei
+archaeologists","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: According to the passage, who studies fossils of buildings destroyed by a volcano?
+rich people
+people in Pompei
+archaeologists
+The core task is to identify the specific group of people who study the fossilized remains of buildings in Pompeii based on the provided reading passage. The item requires the student to read a text about the volcanic destruction and archaeological discovery of Pompeii and select the correct profession—archaeologists—from a list of three options.
+This analysis identifies the primary skill measured by the provided reading comprehension item and provides a justification for that identification.
+
+**Primary Skill:** Literal Reading Comprehension (Information Retrieval)
+
+**Justification:** The item requires the reader to locate and extract a specific, explicitly stated fact from the text—identifying ""archaeologists"" as the subjects who study the ruins—rather than requiring inference, evaluation, or prior domain knowledge.
+This analysis evaluates the cognitive demand and structural complexity of the comprehension item regarding the study of Pompeii.
+
+**Cognitive Demand**
+The item requires **recall** and direct retrieval of information explicitly stated in the text.
+
+**Structural and Semantic Elements**
+*   **Direct Retrieval:** The task involves matching the subject (archaeologists) with the specific activity (studying buildings) mentioned in paragraphs 2 and 3.
+*   **Semantic Imprecision:** The repeated use of the term ""fossilized"" to describe buildings and human remains is technically inaccurate, which may increase cognitive load or cause confusion for readers with prior scientific knowledge.
+*   **Contextual Distractors:** The options ""rich people"" and ""people in Pompei"" appear in the text as subjects of the study, requiring the reader to differentiate between the researchers and the population being researched.
+To describe the level of the latent trait—specifically literal reading comprehension—required for this item, the respondent must possess a low to foundational level of proficiency. The item requires basic information retrieval of an explicitly stated fact where the subject (""archaeologists"") is directly linked to the action (""studying"" or ""found"") and the object (""fossilized buildings"") within the text. Success depends on the ability to locate a verbatim match between the question and the passage without requiring complex inference, synthesis, or vocabulary knowledge beyond a primary-grade level.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: According to the passage, who studies fossils of buildings destroyed by a volcano?
+rich people
+people in Pompei
+archaeologists
+The task is to read a passage about Pompei and answer a multiple-choice question asking who studies the fossilized buildings destroyed by the volcano.
+Primary domain: reading comprehension / informational text literacy. It measures the ability to extract a stated detail from a passage and identify the correct referent, supported by the text’s explicit mention that archaeologists study the fossilized buildings and artifacts.
+This is a low-demand reading comprehension item. It mainly requires simple recall from the passage, not multi-step reasoning or synthesis. The endorsement threshold is low because the correct answer is explicitly stated. Structural load is minimal: short question, three choices, and no tricky distractors or conditional logic; the only mild challenge is distinguishing “fossils of buildings” from people or residents.
+A low reading-comprehension level is needed to answer this item correctly; it mainly requires basic passage understanding and identifying that archaeologists study the fossilized buildings.",-2.195368544901391,0.16153317701516515,-1.2902236958899513,0.36850438284702086,2.865952276429368,-0.4286346446247266,gilbert_meta_2
+17,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.",What do genealogists have to do first?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What do genealogists have to do first?
+Travel to other places
+Find clues
+Talk to people","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What do genealogists have to do first?
+Travel to other places
+Find clues
+Talk to people
+The core task of this item is to identify the initial action a genealogist must take based on the provided reading passage. The scenario requires the student to read a text about the work of genealogists and select the correct first step from three multiple-choice options.
+This assessment identifies the primary skill measured by the reading comprehension item regarding the initial actions of genealogists.
+
+**Skill:** Reading Comprehension (Literal Retrieval)
+
+**Justification:** The item requires the reader to locate and extract specific information explicitly stated or directly implied in the text to identify the primary task or sequence of actions performed by the subject.
+This analysis evaluates the cognitive demand and structural complexity of the question regarding the initial actions of a genealogist.
+
+**Cognitive Demand:** This item requires **multi-step reasoning** and **synthesis**. The text lacks explicit temporal markers (e.g., ""first,"" ""initially""), forcing the reader to synthesize the relationship between the overarching goal (""find clues"") and the specific methods used to achieve it.
+
+**Structural/Semantic Elements:** The item utilizes **implicit sequencing**, as the word ""first"" does not appear in the text. The distractors (""Travel,"" ""Talk"") are specific details mentioned in the final paragraph, while the correct answer (""Find clues"") is a general category introduced in the second paragraph, requiring the student to prioritize a general objective over specific, subordinate actions.
+To determine the level of the underlying latent trait—specifically reading comprehension and literal inference—required to answer the item ""What do genealogists have to do first?"", the respondent must possess a **low to moderate** level of ability. The item requires the respondent to identify ""finding clues"" as the primary, overarching task described in the text before specific methods (traveling or talking to people) are mentioned. Because the passage lacks explicit chronological markers, the respondent must use basic cognitive processing to infer that the general objective of gathering information precedes the specific actions used to achieve it.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Genealogists and our descendants” © READS Lab
+1
+Some people want to know more about their ancestors. They want to know about their relatives who lived a long time ago. Often there are no living family members who know about those relatives. So sometimes they hire a genealogist.
+2
+A genealogist finds clues that help you to learn about your ancestors. You can learn about where your ancestors came from. You can learn about your ancestors' jobs. You can learn about what they looked like. Sometimes you can learn stories about them.
+3
+Some people want to prove that an ancestor was in an important event like a war. Some people want to know if they are a descendant of a famous person.
+4
+Other people just want to know their family lineage. Knowing about their ancestors can help them to understand themselves better.
+5
+Sometimes the genealogist finds clues using the computer. Sometimes she uses a library. She might talk to individuals in other countries. She might travel to other places to get clues.: What do genealogists have to do first?
+Travel to other places
+Find clues
+Talk to people
+The task is to answer a multiple-choice reading question about what genealogists do first, based on the passage.
+Primary domain: reading comprehension. The item measures the ability to identify a stated main idea or key action from a short informational passage, since the correct response is directly supported by the text.
+This is a low-demand reading comprehension item. It mainly requires recall of a directly stated detail from the passage, not multi-step reasoning or synthesis.
+
+The threshold is low because the question is straightforward and the correct answer is explicitly supported by the text. There are no tricky distractors, conditional logic, or emotionally loaded terms; the only mild load comes from needing to identify the first step among simple action choices.
+A low level of reading comprehension is required to answer this item correctly; it mainly calls for basic understanding of a short informational passage and identifying that genealogists first need to find clues.",1.7484524223218747,1.6427454574826725,-0.9150152966560112,0.45708733280444797,1.0821602966739075,-0.42358655832070313,gilbert_meta_2
+1,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.","According to the passage, who studies the fossils of ammonites?","Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: According to the passage, who studies the fossils of ammonites?
+paleontologists
+hunters
+predators","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: According to the passage, who studies the fossils of ammonites?
+paleontologists
+hunters
+predators
+The core task of this item is to identify the specific group of people who study ammonite fossils based on the provided informational text.
+This analysis identifies the primary skill measured by the assessment item regarding the study of ammonite fossils.
+
+**Skill: Literal Reading Comprehension (Information Retrieval)**
+
+**Justification:** The item requires the respondent to locate and extract a specific fact explicitly stated in the text—identifying ""paleontologists"" as the group that studies fossils—to answer the question correctly.
+This analysis evaluates the cognitive demand and structural complexity of the comprehension item asking who studies ammonite fossils.
+
+**Cognitive Demand**
+This item requires **recall** and literal retrieval of information explicitly stated in the text. The reader must locate the specific noun associated with the action of studying fossils.
+
+**Structural and Semantic Elements**
+*   **Lexical Distractors:** The options ""hunters"" and ""predators"" appear directly in the text (Paragraphs 2 and 3) as descriptors of the ammonites themselves. This increases cognitive load by requiring the reader to differentiate between the subject (the scientist) and the object (the organism).
+*   **Domain-Specific Vocabulary:** The correct answer, ""paleontologists,"" is a complex, multi-syllabic term that may pose a decoding challenge, though its frequent repetition in the text facilitates recognition.
+*   **Direct Mapping:** The question uses phrasing that closely mirrors the text (""Paleontologists have used fossil evidence...""), minimizing the need for inference or synthesis.
+To describe the level of the latent trait—specifically reading comprehension and literal information retrieval—required for this item:
+
+The item requires a **low level** of the latent trait. Successful endorsement depends on basic decoding skills and literal comprehension, as the answer is explicitly stated and repeated throughout the text. A respondent must identify the specific noun (""paleontologists"") associated with the study of fossils, requiring minimal inferential reasoning or synthesis beyond direct word-to-context matching.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: According to the passage, who studies the fossils of ammonites?
+paleontologists
+hunters
+predators
+The task is to read the passage and answer the multiple-choice question about who studies ammonite fossils.
+Primary domain: reading comprehension in science. It measures the ability to extract explicit information from a short informational passage and identify the correct referent; here, the item asks who studies ammonite fossils, which is directly stated in the text.
+This is a low-demand reading comprehension item. It mainly requires simple recall from the passage, not multi-step reasoning or synthesis. The correct response is directly stated, so endorsement is easy if the text was understood.
+
+Structural features that keep cognitive load low: short question stem, explicit answer choices, and a clear one-to-one match in the passage. There are no tricky distractors, conditional logic, or emotionally loaded wording.
+This item requires a low level of the underlying trait: basic reading comprehension and recall of a directly stated detail from the passage.",-1.795196035325699,0.18645536588654218,0.010530704644533984,0.7009353746712007,1.5573435564464715,-1.2591078772681223,gilbert_meta_2
+7,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.",What is one theory about why the ammonites went extinct?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: What is one theory about why the ammonites went extinct?
+People slowly killed off the ammonites
+The ammonites were eaten by octopuses
+The ammonites had a hard time finding food","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: What is one theory about why the ammonites went extinct?
+People slowly killed off the ammonites
+The ammonites were eaten by octopuses
+The ammonites had a hard time finding food
+The core task of this item is to summarize the provided reading passage and question. The item presents a text about the history and extinction of ammonites and requires the reader to identify one specific theory for their extinction from a list of multiple-choice options.
+This item measures the primary skill of **Reading Comprehension (Literal Retrieval)**. The question requires the student to locate and identify a specific detail explicitly stated in the fourth paragraph of the text to determine a causal theory for species extinction.
+This analysis evaluates the cognitive demand and structural complexity of the question regarding theories of ammonite extinction.
+
+**Cognitive Demand**
+This item requires **recall** and direct retrieval. The answer is explicitly stated in the fourth paragraph, requiring the reader to locate and match a specific detail rather than synthesize information or apply multi-step reasoning.
+
+**Structural and Semantic Elements**
+*   **Direct Synonymy:** The correct option uses the phrase ""hard time finding food,"" which is a near-verbatim match for the text’s ""trouble finding food,"" minimizing the need for inference.
+*   **Relational Distractors:** One distractor utilizes a keyword from the text (""octopuses"") but mischaracterizes a biological relationship (relatedness) as a predatory one to test precise reading.
+*   **Temporal Logic:** The distractor involving ""people"" requires the reader to reconcile the 66-million-year timeframe mentioned earlier in the text to dismiss an anachronistic choice.
+*   **Multiple-Theory Selection:** The text provides two theories; the item increases cognitive load slightly by requiring the reader to distinguish which of the two specific theories is represented in the provided choices.
+To describe the level of the underlying latent trait required for this item, the respondent needs a **low level of reading comprehension**, specifically in the domain of literal information retrieval. The item requires the ability to locate a directly stated cause-and-effect relationship within a short, simple text where the correct option (""had a hard time finding food"") closely matches the phrasing used in the source passage (""had trouble finding food"").","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: What is one theory about why the ammonites went extinct?
+People slowly killed off the ammonites
+The ammonites were eaten by octopuses
+The ammonites had a hard time finding food
+The task is to read the passage and choose the correct answer to the question about one theory for why ammonites went extinct.
+Reading comprehension in science, specifically understanding a short informational passage and identifying an extinction cause; it assesses the ability to extract a stated detail from text.
+This is a low-to-moderate demand reading-comprehension item. It mainly requires recall and simple inference from the passage, not multi-step reasoning or synthesis.
+
+The endorsement/answer threshold is low: the correct choice is directly stated or closely paraphrased in the text. Structural features that raise load slightly include the embedded passage, the need to track the extinction explanation, and the presence of plausible distractors, but there is no tricky conditional logic or emotionally loaded wording.
+A low-to-moderate reading comprehension level is needed to answer this item correctly, with basic understanding of a short informational passage and simple inference about extinction causes.",-1.2786020812728984,0.24629814460592328,2.4866400020510584,2.8030027003100098,1.3878690575773927,-0.4198139238253607,gilbert_meta_2
+4,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.","In paragraph 1, what does mass extinction mean?","Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: In paragraph 1, what does mass extinction mean?
+A long time ago
+All over the world
+Disappeared forever","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: In paragraph 1, what does mass extinction mean?
+A long time ago
+All over the world
+Disappeared forever
+The core task is to define the term ""mass extinction"" based on the contextual information provided in the first paragraph of the reading passage.
+This item measures the primary skill of **Reading Comprehension (Vocabulary in Context)**. It requires the student to use textual evidence—specifically the phrase ""gone forever"" in paragraph 1—to derive the meaning of the domain-specific term ""mass extinction.""
+This analysis evaluates the cognitive demand and structural complexity of the vocabulary item defining ""mass extinction"" based on the provided text.
+
+**Cognitive Demand**
+This item requires **synthesis** of context clues. Rather than simple recall, the reader must integrate the term ""mass extinction"" with the subsequent rhetorical question and answer (""What species was gone forever? Dinosaurs"") to infer the correct definition.
+
+**Structural and Semantic Elements**
+*   **Temporal Distractors:** The option ""A long time ago"" acts as a strong distractor by leveraging the specific mention of ""66 million years ago"" in the same paragraph.
+*   **Rhetorical Structure:** The definition is embedded within a question-and-answer format. A student must recognize that ""gone forever"" serves as the functional explanation for the preceding term.
+*   **Semantic Overlap:** The distractor ""All over the world"" targets the word ""mass,"" requiring the student to distinguish between geographical scale and biological permanence.
+The level of the underlying latent trait—specifically reading comprehension and contextual inference—required to successfully answer this item is low. The respondent must perform a direct mapping between the phrase ""gone forever"" in the text and the correct option ""Disappeared forever,"" requiring basic literal comprehension and the ability to utilize immediate local context clues without needing specialized domain knowledge or complex synthesis.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” “Paleontologists and the ammonites” © READS Lab
+1
+There have been five mass extinctions in the earth’s history. What happened during the fifth mass extinction nearly 66 million years ago? What species was gone forever? Dinosaurs. What about fish in the oceans?
+2
+Paleontologists found a body fossil of a shellfish that became extinct long ago. The shellfish is called an ammonite. Ammonites were predators that lived in the ocean. They were related to other ocean predators like the octopus.
+3
+Ammonites survived for a long time. They had a strong shell that protected them from large fish. They were also good hunters.
+4
+But there are no more ammonites living today. What happened? Paleontologists have used fossil evidence to understand what happened in the past. Even 66 million years ago. One theory is that a huge rock from outer space killed many plants and animals. Another theory is that ammonites had trouble finding food before the huge rock hit the earth.
+5
+Body fossils help paleontologists understand what happened to living things in the past. Even when no one was around to see the animals.: In paragraph 1, what does mass extinction mean?
+A long time ago
+All over the world
+Disappeared forever
+The task is to read a passage about ammonites and answer a multiple-choice question asking what “mass extinction” means in paragraph 1.
+Primary domain: reading comprehension and science literacy. It assesses understanding of a nonfiction passage and the ability to infer the meaning of a key term from context, since the item asks the reader to identify what “mass extinction” means based on the text.
+This is a low-to-moderate demand reading item. It mainly requires recall and basic comprehension of a definition from the passage, not multi-step reasoning or synthesis. Endorsing the correct choice does not require a severe symptom or strong belief.
+
+Cognitive load is increased slightly by the academic vocabulary (“mass extinction”) and the need to infer the meaning from context, but the wording is straightforward. The answer choices are simple and mostly non-overlapping, with one distractor that is temporally related (“a long time ago”) and one that is geographically broad (“all over the world”), which adds mild semantic discrimination.
+This item requires a low level of the underlying trait: basic reading comprehension and simple vocabulary knowledge, with only modest inferential skill needed to identify that “mass extinction” means many species disappeared forever.",-0.647364650266598,0.3561638383280493,3.0,3.818761916529682,1.0596770739888624,0.5053379337893392,gilbert_meta_2
+13,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.",Which type of fossil would help an archaeologist learn about the past?,"Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: Which type of fossil would help an archaeologist learn about the past?
+Fossilized bones from a dinosaur
+Fossilized rocks from a volcano
+Fossilized homes from a city","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: Which type of fossil would help an archaeologist learn about the past?
+Fossilized bones from a dinosaur
+Fossilized rocks from a volcano
+Fossilized homes from a city
+The core task is to identify the specific type of fossilized evidence that assists archaeologists in studying human history, based on the provided passage about the city of Pompeii.
+This item measures the primary skill of **Reading Comprehension**, specifically the ability to retrieve and apply textual evidence.
+
+**Justification:** The question requires the reader to identify specific evidence mentioned in the text—fossilized homes—as the tool archaeologists use to understand human history, necessitating that the reader distinguish this correct detail from the passage's contrasting mentions of dinosaur fossils and volcanic activity.
+This analysis evaluates the cognitive demand and structural complexity of the Pompeii archaeology assessment item.
+
+**Cognitive Demand:** This item requires **synthesis** and **multi-step reasoning**. The reader must integrate the passage's specific context regarding archaeology (the study of human history) with the provided examples to identify which ""fossil"" is relevant to the text's theme, rather than relying on general outside knowledge.
+
+**Structural and Semantic Elements:**
+*   **Tricky Distractors:** The repetitive mention of ""dinosaur fossils"" creates a strong distractor for readers who reflexively associate fossils with paleontology rather than archaeology.
+*   **Unconventional Semantics:** The text applies the term ""fossilized"" to buildings and cities. This non-standard usage increases cognitive load by requiring the reader to accept a context-specific definition that contradicts typical scientific classification.
+*   **Contrastive Logic:** The passage explicitly states what scientists are *not* studying, requiring the reader to navigate negative constraints to reach the correct conclusion.
+To determine the level of the underlying latent trait required to correctly identify which fossil type helps an archaeologist learn about the past based on the provided text, the analysis is as follows:
+
+The item requires a **low to moderate level of reading comprehension and literal information retrieval**. A respondent must possess the cognitive ability to distinguish between information the text explicitly excludes (dinosaur fossils) and information it explicitly identifies as a source of historical evidence (fossilized homes). Because the text directly links ""fossilized big homes and small homes"" to ""clues about life in Pompei,"" the task demands basic decoding skills and the ability to locate specific details within a short, simple narrative.","Original Text: Teacher Directions to Read Aloud: “Now you will read the passage silently by yourself and then answer the questions. There are 3 answer choices for each question but only one correct answer. Circle the answer that you think is correct. After question 7, stop and wait for your teacher to read the directions. You may begin.” Archaeologists and the city of Pompei” © READS Lab
+1
+Nearly 2,000 years ago, a volcano eruption destroyed an old city. It was called Pompei. The eruption of a mountain was brutal. It lasted for more than 24 hours. By the end, Pompei was covered in ashes. Many people died. The city was totally destroyed. It was like a mass extinction.
+2
+But archaeologists discovered Pompei again in 1748. They found fossilized humans—not dinosaur fossils but human fossils. A team of archaeologists found fossilized buildings and human and animal skeletons.
+3
+Pompei is like a city frozen in time. But scientists are not studying the fossilized bones of dinosaurs. Instead, they are studying the buildings and other artifacts from Pompei. They also want to know what people were like.
+4
+One theory about Pompei is that there were rich and poor people. Archaeologists have found fossilized big homes and small homes.
+5
+Yes, Pompei was fossilized. So archaeologists have clues about life in Pompei. Even the kinds of people who lived there.: Which type of fossil would help an archaeologist learn about the past?
+Fossilized bones from a dinosaur
+Fossilized rocks from a volcano
+Fossilized homes from a city
+The item asks the reader to identify which fossil type would best help an archaeologist learn about the past, using the passage about Pompei.
+Primary domain: reading comprehension with science/social studies content. It measures the ability to infer from a short informational passage which evidence helps archaeologists learn about the past, using context to select the relevant answer.
+This is a low-to-moderate cognitive demand multiple-choice item. It mainly requires recall and simple comprehension of the passage, not multi-step reasoning or synthesis.
+
+The correct choice is made easier by clear semantic cues in the text: it explicitly contrasts dinosaur fossils with human/city artifacts and states that archaeologists study buildings and artifacts from Pompei. The distractors are straightforward and not especially tricky, though one is a plausible but irrelevant option. The wording is simple, with no strong emotional language, conditional logic, or hidden threshold for endorsement.
+This item requires a low-to-moderate level of reading comprehension and basic inference to identify that fossilized homes from a city best reveal information about the past.",1.1831779552155401,1.0737307653138204,2.432785984019173,2.7309438047238457,1.4842735127351143,0.009893318094823574,gilbert_meta_2

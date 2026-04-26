@@ -31,6 +31,6 @@
     "Analyze the demand or severity of this item. For cognitive/ability items, does it require recall, multi-step reasoning, or synthesis? For psychological/attitudinal items, does endorsing it require a severe level of a symptom, a strongly held belief, or deep introspection? CONCISELY identify any structural or semantic elements—such as complex phrasing, tricky distractors, conditional logic, or strong emotional wording—that increase the cognitive load or the threshold for endorsement. Text: {text}",
     "Based on your analysis, describe the overall level of the underlying latent trait (e.g., high cognitive ability, severe psychological symptomology, strong attitude) required for a respondent to successfully answer or strongly endorse this item. Item text for reference: {text}"
   ],
-  "save_dir": "../results/gilbert_meta_103_test_run",
+  "save_dir": "../results/gilbert_meta_104/pairadigm_results",
   "column_renames": {}
 }

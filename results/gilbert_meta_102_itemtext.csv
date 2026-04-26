@@ -1,0 +1,181 @@
+item,section_prompt,item_text,combined_text
+vocab_q14,Choose two words that best go with the word [ target word ].,15. fossil,"Choose two words that best go with the word [ target word ].: 15. fossil
+bone
+folks
+footprint
+utensil"
+vocab_q1,Choose two words that best go with the word [ target word ].,2. skeletal,"Choose two words that best go with the word [ target word ].: 2. skeletal
+protection
+hair
+eye
+support"
+vocab_q12,Choose two words that best go with the word [ target word ].,13. carnivore,"Choose two words that best go with the word [ target word ].: 13. carnivore
+care
+prey
+meat
+fruit"
+vocab_q30,Choose two words that best go with the word [ target word ].,31. advantage,"Choose two words that best go with the word [ target word ].: 31. advantage
+helps
+follows
+finds
+power"
+vocab_q19,Choose two words that best go with the word [ target word ].,20. hunter,"Choose two words that best go with the word [ target word ].: 20. hunter
+search
+handout
+catcher
+conclusion"
+vocab_q23,Choose two words that best go with the word [ target word ].,24. reptile,"Choose two words that best go with the word [ target word ].: 24. reptile
+report
+lizard
+mobile
+cold-blooded"
+vocab_q11,Choose two words that best go with the word [ target word ].,12. function,"Choose two words that best go with the word [ target word ].: 12. function
+operate
+mystery
+teeth
+perform"
+vocab_q5,Choose two words that best go with the word [ target word ].,6. nervous,"Choose two words that best go with the word [ target word ].: 6. nervous
+neuron
+ribs
+brain
+toes"
+vocab_q2,Choose two words that best go with the word [ target word ].,3. repair,"Choose two words that best go with the word [ target word ].: 3. repair
+harm
+surgery
+heal
+motor"
+vocab_q3,Choose two words that best go with the word [ target word ].,4. organ,"Choose two words that best go with the word [ target word ].: 4. organ
+lungs
+sweat
+heart
+thought"
+vocab_q26,Choose two words that best go with the word [ target word ].,27. survive,"Choose two words that best go with the word [ target word ].: 27. survive
+music
+food
+dirt
+alive"
+vocab_q29,Choose two words that best go with the word [ target word ].,30. camouflage,"Choose two words that best go with the word [ target word ].: 30. camouflage
+tell
+hide
+air
+protect"
+vocab_q15,Choose two words that best go with the word [ target word ].,16. hypothesis,"Choose two words that best go with the word [ target word ].: 16. hypothesis
+hippo
+poem
+guess
+thought"
+vocab_q0,Choose two words that best go with the word [ target word ].,1. signal,"Choose two words that best go with the word [ target word ].: 1. signal
+similar
+messenger
+metal
+transmit"
+vocab_q21,Choose two words that best go with the word [ target word ].,22. trait,"Choose two words that best go with the word [ target word ].: 22. trait
+truth
+feature
+characteristic
+exam"
+vocab_q16,Choose two words that best go with the word [ target word ].,17. brutal,"Choose two words that best go with the word [ target word ].: 17. brutal
+cruel
+harsh
+friendly
+brave"
+vocab_q9,Choose two words that best go with the word [ target word ].,10. system,"Choose two words that best go with the word [ target word ].: 10. system
+interconnect
+cold
+direction
+network"
+vocab_q34,Choose two words that best go with the word [ target word ].,35. physical characteristics,"Choose two words that best go with the word [ target word ].: 35. physical characteristics
+sleeps
+looks like
+acts like
+claws"
+vocab_q4,Choose two words that best go with the word [ target word ].,5. muscular,"Choose two words that best go with the word [ target word ].: 5. muscular
+spine
+intelligence
+contract
+tendon"
+vocab_q25,Choose two words that best go with the word [ target word ].,26. unique,"Choose two words that best go with the word [ target word ].: 26. unique
+different
+terrible
+careful
+characteristic"
+vocab_q13,Choose two words that best go with the word [ target word ].,14. extinct,"Choose two words that best go with the word [ target word ].: 14. extinct
+existing
+gone forever
+living
+lost"
+vocab_q24,Choose two words that best go with the word [ target word ].,25. potential,"Choose two words that best go with the word [ target word ].: 25. potential
+report
+future
+bones
+ability"
+vocab_q20,Choose two words that best go with the word [ target word ].,21. organism,"Choose two words that best go with the word [ target word ].: 21. organism
+creature
+practice
+animal
+order"
+vocab_q31,Choose two words that best go with the word [ target word ].,32. diversity,"Choose two words that best go with the word [ target word ].: 32. diversity
+large pieces
+riches
+mix
+variety"
+vocab_q6,Choose two words that best go with the word [ target word ].,7. diagnosis,"Choose two words that best go with the word [ target word ].: 7. diagnosis
+treatment
+symptom
+exercise
+toothbrush"
+vocab_q22,Choose two words that best go with the word [ target word ].,23. paleontologist,"Choose two words that best go with the word [ target word ].: 23. paleontologist
+paint
+history
+dinosaur
+pair"
+vocab_q7,Choose two words that best go with the word [ target word ].,8. fracture,"Choose two words that best go with the word [ target word ].: 8. fracture
+solve
+attach
+crack
+fragment"
+vocab_q27,Choose two words that best go with the word [ target word ].,28. species,"Choose two words that best go with the word [ target word ].: 28. species
+type
+not real
+furry
+family"
+vocab_q35,Choose two words that best go with the word [ target word ].,36. complex,"Choose two words that best go with the word [ target word ].: 36. complex
+upset
+problem
+hard
+quick"
+vocab_q8,Choose two words that best go with the word [ target word ].,9. structure,"Choose two words that best go with the word [ target word ].: 9. structure
+framework
+wheel
+building-block
+symbol"
+vocab_q17,Choose two words that best go with the word [ target word ].,18. evidence,"Choose two words that best go with the word [ target word ].: 18. evidence
+feeling
+choosing
+proving
+showing"
+vocab_q33,Choose two words that best go with the word [ target word ].,34. habitat,"Choose two words that best go with the word [ target word ].: 34. habitat
+forest
+place
+wing
+weather"
+vocab_q18,Choose two words that best go with the word [ target word ].,19. theory,"Choose two words that best go with the word [ target word ].: 19. theory
+idea
+theme
+argument
+fairy"
+vocab_q32,Choose two words that best go with the word [ target word ].,33. adaptation,"Choose two words that best go with the word [ target word ].: 33. adaptation
+change
+scientist
+fit
+freeze"
+vocab_q10,Choose two words that best go with the word [ target word ].,11. sensory,"Choose two words that best go with the word [ target word ].: 11. sensory
+interact
+detect
+sleep
+visual"
+vocab_q28,Choose two words that best go with the word [ target word ].,29. behavior,"Choose two words that best go with the word [ target word ].: 29. behavior
+acts
+does
+fur
+grass"
