@@ -34,7 +34,7 @@ irw_edtexts = irw.fetch([
     'gilbert_meta_102',
     'gilbert_meta_103',
     'gilbert_meta_104',
-    'gilbert_meta_2' 
+    'gilbert_meta_2', 
     'frac20',
     # 'gilbert_meta_23', no item text available for this table
     # 'gilbert_meta_26', # Removed for being longitudinal
@@ -381,7 +381,7 @@ def main():
         # Filter out any items with >95% correct responses or <5% correct responses to avoid issues with perfect separation in the BT model and to ensure meaningful variability in item responses for the pairwise comparisons and IRT analyses.
         print(f"Filtering items in {table} based on response rates...")
         if 'resp' in df.columns:
-            item_response_rates = df.groupby("item").agg(
+            item_response_rates = df.group_by("item").agg(
                 pl.col("resp").mean().alias("pct_correct"),
                 pl.count("resp").alias("n_responses")
             )
