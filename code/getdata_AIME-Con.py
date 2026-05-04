@@ -25,7 +25,7 @@ MODEL_NAMES=["gemini-3-flash-preview", 'gemini-3.1-pro-preview',
              'gpt-5.4-mini','gpt-5.4']
 API_KEYS=[os.getenv("GEMINI_API_KEY"), os.getenv("GEMINI_API_KEY"), 
           os.getenv("OPENAI_API_KEY"), os.getenv("OPENAI_API_KEY")]
-BASE_URLS=[None, "https://us.api.openai.com/v1"]
+BASE_URLS=[None, None, "https://us.api.openai.com/v1", "https://us.api.openai.com/v1"]
 
 np.random.seed(1234)  # For reproducibility of any random processes
 
