@@ -8,6 +8,7 @@ dependencies = [
     "arviz<1.0",
     "dotenv>=0.9.9",
     "google-genai>=1.73.1",
+    "graphviz>=0.21",
     "ipykernel>=7.2.0",
     "irw",
     "mirt>=1.0.2",

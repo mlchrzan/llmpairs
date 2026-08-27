@@ -1,0 +1,5 @@
+annotator,reliability,type,rank
+decision_gpt-5.4-mini,0.23451267097675116,LLM,1
+decision_gpt-5.4,0.19244287307673336,LLM,2
+decision_gemini-3-flash-preview,0.1306803173774086,LLM,3
+decision_gemini-3.1-pro-preview,0.11201477825709853,LLM,4

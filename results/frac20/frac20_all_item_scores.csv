@@ -1,0 +1,607 @@
+item,section_prompt,item_text,combined_text,CGCoT_Breakdown_gemini-3-flash-preview,CGCoT_Breakdown_gemini-3.1-pro-preview,CGCoT_Breakdown_gpt-5.4-mini,CGCoT_Breakdown_gpt-5.4,Bradley_Terry_Score_gemini-3-flash-preview,Bradley_Terry_SE_gemini-3-flash-preview,Bradley_Terry_Score_gemini-3.1-pro-preview,Bradley_Terry_SE_gemini-3.1-pro-preview,Bradley_Terry_Score_gpt-5.4-mini,Bradley_Terry_SE_gpt-5.4-mini,Bradley_Terry_Score_gpt-5.4,Bradley_Terry_SE_gpt-5.4,a_2PL,b_2PL,b_1PL,BT_Item_Score_Bipartite,BT_Item_Strength_Bipartite,BT_Item_Total_Wins_Bipartite,table
+item_10,,4 4/12 - 2 7/12,4 4/12 - 2 7/12,"Original Text: 4 4/12 - 2 7/12
+The core task is to calculate the difference between two mixed numbers with like denominators, specifically requiring regrouping because the fractional part of the subtrahend is greater than that of the minuend.
+This item measures the **skill of subtracting mixed numbers with regrouping**. 
+
+**Justification:** The problem requires the respondent to perform arithmetic on mixed numbers with common denominators where the fractional part of the minuend (4/12) is smaller than the fractional part of the subtrahend (7/12), necessitating the conversion of a whole unit into fractional form to complete the calculation.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression $4 \frac{4}{12} - 2 \frac{7}{12}$.
+
+This item requires **multi-step reasoning**. The solver must identify that the fractional part of the subtrahend is larger than that of the minuend, necessitating a regrouping (borrowing) procedure before subtraction can occur.
+
+The primary structural element increasing cognitive load is the **regrouping requirement** ($4/12 < 7/12$), which prevents a direct subtraction of components and requires the transformation of the whole number into a fraction. Additionally, the item involves **mixed number manipulation** and the potential for a final step of **simplification** (reducing $9/12$ to $3/4$), both of which increase the procedural threshold for a correct response.
+The level of the underlying latent trait required to successfully solve the subtraction of mixed numbers involving regrouping is moderate mathematical proficiency. This task necessitates an understanding of fractional parts, common denominators, and the ability to borrow from a whole number to perform subtraction when the subtrahend's fraction exceeds the minuend's.","Original Text: 4 4/12 - 2 7/12
+The core task presented in this item is to calculate the mathematical difference between two mixed numbers with like denominators, specifically requiring regrouping to subtract 2 7/12 from 4 4/12.
+In determining the primary skill this item attempts to measure and providing a concise justification:
+
+**Skill:** Mathematics (Arithmetic / Subtraction of Mixed Fractions with Regrouping)
+
+**Justification:** The text is a mathematical expression that tests the procedural ability to subtract mixed numbers with like denominators, specifically requiring the solver to borrow from the whole number because the subtracted fractional part (7/12) is larger than the initial fractional part (4/12).
+In analyzing the cognitive demand and structural elements of the provided mathematical expression, this ability item requires multi-step reasoning. The primary structural element increasing cognitive load is the necessity for regrouping (borrowing); because the fractional subtrahend (7/12) is larger than the minuend's fraction (4/12), the solver must convert a whole number into a fraction (changing 4 4/12 to 3 16/12) before executing the subtraction and simplifying the final answer.
+To successfully solve the provided mixed-number subtraction problem, the required degree of the underlying latent trait of mathematical cognitive ability is moderate, specifically necessitating intermediate elementary arithmetic skills such as fraction regrouping.","Original Text: 4 4/12 - 2 7/12
+The task is to subtract the mixed numbers \(4 \tfrac{4}{12}\) and \(2 \tfrac{7}{12}\).
+Primary domain: **basic arithmetic / subtraction with mixed numbers**.  
+Justification: The item asks for the result of subtracting two mixed fractions, which measures numerical computation skill rather than a clinical or psychological construct.
+This item is a straightforward arithmetic subtraction problem, so it mainly requires recall of basic subtraction and simple multi-step computation. The demand is low to moderate, with no psychological severity or attitudinal threshold involved. The only load-increasing feature is the mixed-number format, which adds a small structural step in converting or borrowing before subtracting.
+This item appears to require a moderate level of the underlying trait to answer or strongly endorse successfully.","Original Text: 4 4/12 - 2 7/12
+The item asks you to subtract the mixed number 2 7/12 from 4 4/12.
+Primary construct: Fraction subtraction with mixed numbers.
+
+Justification: The item requires understanding mixed-number notation and applying arithmetic procedures to subtract one mixed fraction from another.
+This asks for the cognitive demand of the item. **“4 4/12 - 2 7/12”** requires **multi-step arithmetic reasoning**, not mere recall: recognizing mixed numbers, comparing fractional parts, likely borrowing/regrouping because \(4/12 < 7/12\), then subtracting. Cognitive load is increased by the **mixed-number format**, the **fraction subtraction with borrowing**, and the need to track **whole-number and fractional components** accurately.
+The item appears to require a moderately low-to-average level of the latent trait for successful answering or strong endorsement, centered around roughly 2.6 to 4.3 on the trait scale.",0.41504101120620973,0.734827930944828,1.2670167028522235,1.103232285533194,2.4594462023154913,2.7822124856454353,0.5569456525613861,0.8371067085254333,3.678465755235994,0.27773973011898523,0.6362302439964872,1.3474667708405315,3.8476661544494077,331.0,frac20
+item_15,,2 - 1/3,2 - 1/3,"Original Text: 2 - 1/3
+The core task is to calculate the difference between the integer two and the fraction one-third.
+This item measures the **mathematical skill of fraction subtraction** within the domain of arithmetic. The expression requires the respondent to perform a subtraction operation involving a whole number and a proper fraction, necessitating the ability to find a common denominator or convert between mixed numbers and improper fractions.
+To analyze the cognitive demand and structural complexity of the mathematical expression ""2 - 1/3"":
+
+**Demand:** This item requires **multi-step reasoning**. It necessitates the conversion of an integer into a fraction with a common denominator (e.g., 6/3) followed by the subtraction of the numerator.
+
+**Structural/Semantic Elements:** The primary factor increasing cognitive load is the **implicit conversion logic**. The absence of a visible denominator for the integer ""2"" requires the examinee to retrieve fractional rules and perform an intermediate mental calculation before arriving at the final result.
+The level of the underlying latent trait required for a respondent to successfully answer or strongly endorse this item is high. Based on the previous analysis value of 1.67, the item functions at a high threshold, requiring a manifestation of the trait significantly above the population average.","Original Text: 2 - 1/3
+The central task of this item is to solve a mathematical expression by subtracting the fraction one-third from the integer two.
+In identifying the primary construct measured by the item and justifying this classification:
+
+**Primary Skill:** Mathematical arithmetic (specifically, subtracting a fraction from a whole number). 
+
+**Justification:** The text ""2 - 1/3"" is a standard mathematical expression that requires the application of fractional computation rules to calculate the difference.
+Assessing the cognitive requirements and structural difficulty of the math problem ""2 - 1/3"":
+
+This cognitive ability item requires multi-step reasoning. The primary structural element increasing the cognitive load is the mixed numerical formatting (an integer paired with a fraction). This necessitates an implicit, intermediate mental transformation—converting the whole number into a fraction with a common denominator (2 into 6/3)—before the subtraction can be executed.
+The magnitude of the underlying latent trait necessary to successfully resolve or strongly affirm this item is high, based on the previous analysis value of 2 1/3.","Original Text: 2 - 1/3
+The item presents a simple arithmetic expression to evaluate: subtract one-third from two.
+Primary construct: basic numerical reasoning / arithmetic competence.  
+Justification: it tests simple subtraction involving a fraction, requiring understanding of mixed-number or fraction arithmetic.
+This item is a simple arithmetic expression, so the demand is low and it requires basic calculation rather than recall, multi-step reasoning, or synthesis. The wording is minimal and unambiguous, with no distractors, conditional logic, or emotionally loaded language; the only slight load comes from handling the fraction subtraction correctly.
+This item appears to require a low-to-moderate level of the underlying trait to endorse successfully.","Original Text: 2 - 1/3
+The item presents the arithmetic expression “2 − 1/3” and asks for evaluating that subtraction.
+This item most likely measures basic arithmetic/numeracy, specifically understanding subtraction with fractions, because “2 - 1/3” requires performing a simple quantitative operation rather than expressing a symptom, belief, or psychological trait.
+Core ask: assess how demanding/severe the item is and what in its structure raises cognitive load or endorsement threshold.
+
+“2 - 1/3” is a simple arithmetic item requiring basic recall of fraction subtraction, not multi-step reasoning or synthesis. Cognitive load is low: the phrasing is minimal, there is no conditional logic, no distractor structure, and no emotionally or semantically loaded wording. The only slight demand is recognizing common-denominator subtraction or converting to thirds.
+This asks for the latent trait level needed to endorse the item: it indicates a low-to-moderately low trait level, around 2 to 2⅓ standard units below the mean.",1.895375964835866,1.716444252308117,2.4754036056684354,2.4468478808050618,-1.8798759439395851,0.19651652159578706,-3.0,0.1385218339381731,3.40687214529006,0.09410359298759556,0.2621719054122999,0.7579885781041921,2.1339795675271795,294.0,frac20
+item_9,,3 7/8 - 2,3 7/8 - 2,"Original Text: 3 7/8 - 2
+The core task of this item is to subtract the whole number 2 from the mixed number 3 7/8.
+This analysis identifies the primary measurement target of the mathematical expression ""3 7/8 - 2"".
+
+**Primary Skill: Arithmetic Computation (Subtraction of Mixed Numbers)**
+
+**Justification:** The item requires the respondent to perform a basic numerical operation involving the subtraction of a whole number from a mixed fraction, testing fundamental mathematical literacy and fractional reasoning.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression ""3 7/8 - 2.""
+
+**Demand:** This item requires **multi-step reasoning**. The solver must decompose the mixed number into its integer and fractional components, subtract the whole number from the integer portion, and recombine the result with the remaining fraction.
+
+**Structural/Semantic Elements:** The use of **mixed number notation** increases cognitive load by requiring the simultaneous processing of two distinct numerical formats. The **positional logic** of the operation necessitates a conceptual understanding of decomposition to ensure the fractional part remains unaffected by the subtraction of the whole number.
+The level of the underlying latent trait, specifically basic mathematical proficiency, required to successfully answer the item ""3 7/8 - 2"" is low. A respondent needs only foundational arithmetic skills to subtract a whole number from a mixed number, as the operation requires simple subtraction of the integer components without the need for regrouping or finding common denominators.","Original Text: 3 7/8 - 2
+The central task presented in this item is to calculate the mathematical difference by subtracting a whole number from a mixed number.
+The underlying domain or skill evaluated by the provided text, along with a brief rationale, is:
+
+**Domain/Skill:** Mathematical arithmetic (fraction subtraction).
+**Justification:** The item presents a standard mathematical operation requiring the calculation of the difference between a mixed number and a whole number.
+Evaluating the cognitive demand and structural elements of the provided mathematical expression: 
+
+This cognitive ability item requires basic multi-step reasoning to subtract a whole number from a mixed number. The primary structural element increasing cognitive load is the mixed-fraction notation paired with a standalone integer, which requires the solver to correctly parse and separate the integer and fractional components before executing the operation.
+To successfully solve this item, the required degree of the underlying latent trait (mathematical cognitive ability) is low, as it only necessitates basic elementary-level arithmetic skills to subtract a whole number from a mixed fraction.","Original Text: 3 7/8 - 2
+The task is to evaluate the subtraction expression \(3 \tfrac{7}{8} - 2\).
+This item is measuring **basic arithmetic calculation skill**, specifically **fraction subtraction**. The expression requires understanding mixed-number/fraction notation and performing a simple subtraction operation correctly.
+This item is a simple arithmetic expression, so the demand is low and it requires basic calculation rather than recall, multi-step reasoning, or synthesis. The wording is straightforward with no conditional logic, distractors, or emotionally loaded language, so the endorsement threshold is minimal.
+This item appears to require a moderately high level of the underlying trait to answer or strongly endorse it successfully.","Original Text: 3 7/8 - 2
+The item asks for the result of subtracting 2 from 3 7/8.
+This item primarily measures **basic arithmetic skill**, specifically **subtraction with mixed numbers/fractions**. It asks the respondent to compute \(3\frac{7}{8} - 2\), which assesses numerical calculation ability rather than a symptom, belief, or psychological construct.
+Core ask: assess the cognitive demand and any load-raising features of the item.
+
+This is a simple arithmetic item requiring basic recall/procedure, not multi-step reasoning or synthesis. Cognitive load is low: the mixed number format (“3 7/8”) adds slight complexity because it must be interpreted correctly before subtracting 2. No distractors, conditional logic, or emotional/attitudinal threshold are present.
+The item appears to require a moderately high level of the underlying latent trait for successful response or strong endorsement.",-2.6473785730310704,0.12451203621955209,-3.0,0.08444023639943309,1.2730524987845655,1.1684188060031462,1.0219272957602357,1.0267326720750831,0.9920187750532905,-0.7655072616667249,-0.7962642567765476,-0.8786564575463658,0.4153405646638103,189.0,frac20
+item_4,,3 1/2 - 2 3/2,3 1/2 - 2 3/2,"Original Text: 3 1/2 - 2 3/2
+The core task of the item is to evaluate a subtraction expression involving mixed numbers.
+To identify the primary construct measured by the expression ""3 1/2 - 2 3/2"":
+
+**Primary Skill:** Arithmetic proficiency in fraction subtraction.
+
+**Justification:** This item requires the respondent to manipulate mixed numbers and improper fractions to perform a subtraction operation, testing foundational mathematical computation skills.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression ""3 1/2 - 2 3/2"".
+
+**Demand:** This cognitive item requires **multi-step reasoning**. The solver must interpret mixed numbers, normalize non-standard fractional notation, and execute subtraction.
+
+**Structural/Semantic Elements:**
+*   **Non-standard notation:** The term $2 \frac{3}{2}$ uses an improper fraction within a mixed number, increasing cognitive load by requiring an intermediate conversion step to recognize it as $3 \frac{1}{2}$.
+*   **Equivalence Distractor:** The expression subtracts two identical values presented in different formats, requiring the solver to look past the visual disparity to identify a result of zero.
+*   **Procedural Complexity:** The item necessitates multiple operations—converting fractions to a common form and performing arithmetic—rather than simple recall.
+The overall level of the underlying latent trait required for a respondent to successfully endorse this item is moderate, as the analysis indicates a difficulty level slightly above the population mean.","Original Text: 3 1/2 - 2 3/2
+The core task presented in this item is to calculate the mathematical difference between the fractional values three and one-half and two and three-halves.
+In determining the primary domain, skill, or construct assessed by the text and providing a brief rationale:
+
+**Primary Skill:** Mathematical arithmetic (fraction and mixed number subtraction). 
+
+**Justification:** The text ""3 1/2 - 2 3/2"" is a mathematical expression that requires the ability to process, convert, and subtract mixed numbers and improper fractions to calculate a numerical difference.
+In analyzing the cognitive demand and structural elements that increase the difficulty of the provided text, this cognitive/ability item requires multi-step reasoning and synthesis. The cognitive load is elevated by the structurally tricky, non-standard notation of the improper mixed number ""2 3/2"", which forces the solver to recognize the mathematical anomaly and convert it (to 3 1/2) before executing the subtraction.
+To successfully answer the provided arithmetic item, the required level of the underlying latent trait of mathematical cognitive ability is low, as it only necessitates basic proficiency with mixed numbers and subtraction to determine that the expression evaluates to zero.","Original Text: 3 1/2 - 2 3/2
+The task is to interpret and summarize a subtraction expression involving mixed numbers.
+Primary construct: basic arithmetic calculation skill, specifically subtraction with mixed numbers/fractions. The item appears to assess numerical computation accuracy rather than a clinical symptom or attitude.
+This item is a simple numeric expression, so the cognitive demand is low and it does not require recall, multi-step reasoning, or synthesis. Endorsement is not psychological in nature and does not imply severity or strong belief. The main load comes from the unusual formatting and ambiguous notation, which may create parsing difficulty, but there is no complex wording, conditional logic, or emotional language.
+This item appears to require a moderate-to-high level of the underlying trait to answer or endorse it strongly.","Original Text: 3 1/2 - 2 3/2
+The item asks you to compute the result of subtracting the mixed number 2 3/2 from the mixed number 3 1/2.
+This item appears to measure arithmetic computation with mixed numbers, specifically subtraction of mixed fractions, because it requires understanding fractional notation and performing a numerical operation.
+This asks for the item’s cognitive demand/severity and any wording features that raise load or endorsement threshold. Here, **“3 1/2 - 2 3/2”** is a **low-to-moderate cognitive-demand arithmetic item**: it requires **recall** of mixed-number notation and **multi-step reasoning** to interpret and subtract correctly, but not synthesis or deep inference. Load is increased by the **ambiguous spacing/formatting**, the use of **mixed numbers on both sides**, and the need to distinguish **whole-number-plus-fraction notation** from other possible readings. There are **no psychological or attitudinal endorsement demands**.
+The item appears to require a moderately elevated level of the latent trait—roughly above average but not extreme—for a respondent to answer correctly or strongly endorse it.",0.04855276350957949,0.5796400836857705,-1.6015162970466468,0.18684297114347417,2.31900572762057,2.379523273383393,2.3393368644033217,2.366498989420004,1.9557798096671541,-0.1370143943639171,-0.14445603346046557,0.11935904951298326,1.126774413471507,253.0,frac20
+item_5,,4 3/5 - 3 4/10,4 3/5 - 3 4/10,"Original Text: 4 3/5 - 3 4/10
+The core task is to calculate the difference between two mixed numbers with unlike denominators.
+This item measures the primary knowledge domain of **mathematics**, specifically the skill of **arithmetic operations with mixed numbers**.
+
+**Justification:** The problem requires the ability to subtract mixed numbers with unlike denominators, necessitating the identification of a common denominator and the execution of multi-step rational number subtraction.
+To analyze the cognitive demand and structural complexity of the mathematical expression **4 3/5 - 3 4/10**:
+
+**Cognitive Demand**
+This item requires **multi-step reasoning**. The solver must perform a sequence of operations: identifying a common denominator, converting a fraction to an equivalent form, subtracting whole numbers and fractions independently (or converting to improper fractions), and simplifying the resulting fraction.
+
+**Structural Elements**
+*   **Unlike Denominators:** The use of 5 and 10 increases cognitive load by requiring a conversion step before subtraction.
+*   **Mixed Number Notation:** The format necessitates tracking two distinct parts (integers and fractions) simultaneously.
+*   **Simplification Requirement:** The initial result ($1 \frac{2}{10}$) requires an additional step of reduction to its simplest form ($1 \frac{1}{5}$), serving as a potential point of error.
+The level of the underlying latent trait required to endorse this item is exceptionally high. Based on the parameters provided (3.4 to 4.6), the item targets the extreme upper tail of the distribution, necessitating a very high degree of the measured construct for a successful response or strong endorsement.","Original Text: 4 3/5 - 3 4/10
+The core task presented in this item is to calculate the mathematical difference between two mixed fractions with unequal denominators.
+In determining the primary skill this item attempts to measure and providing a brief justification:
+
+**Primary Skill:** Mathematical arithmetic (subtraction of mixed numbers with unlike denominators). 
+
+**Justification:** The expression requires the solver to find a common denominator, convert the fractions, and execute subtraction across both whole numbers and fractional components.
+In analyzing the cognitive demand and structural elements of the provided arithmetic problem, this ability item requires multi-step reasoning. The cognitive load is increased by the structural inclusion of mixed numbers and unlike denominators, which necessitates finding a common denominator, converting fractions, subtracting both whole numbers and fractions, and simplifying the final result.
+The degree of the underlying latent trait necessary for a respondent to successfully answer or strongly endorse this item is moderate to high, corresponding to the analyzed range of 3.4 to 4.6.","Original Text: 4 3/5 - 3 4/10
+The task is to compute the difference between two mixed numbers: \(4 \tfrac{3}{5}\) and \(3 \tfrac{4}{10}\).
+Primary domain: **Mathematical computation with mixed numbers and fractions**.
+
+Justification: The item requires subtracting mixed fractions, which assesses **fraction arithmetic skill** rather than a clinical symptom or psychological construct.
+This item has very low demand: it is a straightforward arithmetic comparison/subtraction problem. It requires basic calculation, not recall, multi-step reasoning, or synthesis. The wording is simple and neutral, with no emotional language, conditional logic, or distractors; the only load comes from handling mixed numbers and fractions correctly.
+This item appears to require a moderately high level of the underlying trait to endorse strongly or answer successfully.","Original Text: 4 3/5 - 3 4/10
+The item asks you to subtract the mixed number 3 4/10 from 4 3/5.
+This item appears to measure arithmetic skill, specifically subtraction of mixed numbers/fractions, because it presents a numerical expression requiring fractional computation: 4 3/5 − 3 4/10.
+This asks for the item’s demand/severity and any features that raise cognitive load or endorsement threshold.
+
+- Type: cognitive/ability item.
+- Demand: moderate multi-step reasoning.
+- Why: it requires interpreting mixed numbers, converting/comparing fractional parts with unlike denominators, and performing subtraction in sequence.
+- Load-increasing elements: compact numeric formatting, mixed-number notation, fractional arithmetic with denominator conversion, and potential ambiguity if spacing is read carelessly.
+- Severity/endorsement threshold: not applicable; no psychological or attitudinal endorsement is involved.
+This item appears to require a moderately high level of the underlying latent trait to be answered correctly or strongly endorsed.",3.0,3.7262273690801035,2.7251298106896646,2.8771043540750227,2.160632003856005,2.091033959947366,2.6504387241593106,2.809206888011061,1.5018243001993345,-0.3547871292297889,-0.44471597963079107,-0.345270963017945,0.7080284779402142,223.0,frac20
+item_2,,3/4 - 3/8,3/4 - 3/8,"Original Text: 3/4 - 3/8
+The core task of this item is to calculate the difference between two fractions with unlike denominators.
+To identify the primary construct measured by the item ""3/4 - 3/8"": This item measures the **mathematical skill of fraction subtraction**. The task requires the respondent to identify a common denominator and perform arithmetic operations on rational numbers to calculate a difference.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression **3/4 - 3/8**.
+
+**Cognitive Demand**
+This item requires **multi-step reasoning**. The respondent must first identify the necessity of a common denominator, convert the fraction 3/4 into its equivalent 6/8, and then perform the subtraction of the numerators while maintaining the denominator.
+
+**Structural and Semantic Elements**
+The cognitive load is increased by the **requirement for procedural transformation** (finding a least common multiple) rather than simple recall. The use of **non-equivalent denominators** acts as a structural barrier that prevents direct computation, necessitating an intermediate logical step before the final operation can be completed.
+Based on the analysis of 3.4 to 3.8, the level of the underlying latent trait required for a respondent to successfully answer or strongly endorse this item is exceptionally high. This range indicates that the item targets the extreme upper tail of the distribution, requiring a trait level significantly above the average—typically representing the 99.9th percentile or higher.","Original Text: 3/4 - 3/8
+The core task presented in this item is to subtract the fraction three-eighths from three-fourths.
+In determining the primary domain or skill evaluated by the item and providing a brief rationale:
+
+**Skill:** Mathematical arithmetic (fraction subtraction).
+**Justification:** The item is a direct calculation problem requiring the solver to find a common denominator to subtract one fraction from another.
+Evaluating the cognitive demand and structural complexity of this mathematical item reveals that it requires multi-step reasoning and procedural recall. The primary structural element increasing the cognitive load is the use of unlike denominators, which necessitates the intermediate step of identifying a common denominator and converting the fractions before subtraction can be performed.
+The required overall magnitude of the underlying latent trait necessary for a respondent to successfully answer or strongly endorse this item is moderate to moderately high, reflecting the 3/4 to 3/8 range.","Original Text: 3/4 - 3/8
+The item is asking for the date range from March 4 to March 8.
+Primary construct: numerical/date range comprehension, specifically interpreting a fraction-like notation as a span of dates or values.  
+Justification: The item presents a compact range format (“3/4 - 3/8”) that requires recognizing the notation and understanding it as an interval rather than isolated numbers.
+This item is a simple numeric range, so the endorsement threshold is low and the demand is minimal. It does not require recall, multi-step reasoning, or synthesis; it only requires recognizing the interval. The main structural element is the compact range notation, which is mildly ambiguous only if the reader must infer whether it is inclusive.
+This item appears to require a moderate level of the underlying trait to endorse successfully, with some tendency toward the higher end of the scale rather than an extreme level.","Original Text: 3/4 - 3/8
+The item asks you to compute the difference between the fractions 3/4 and 3/8.
+This item is measuring arithmetic subtraction skill, specifically fraction subtraction with unlike denominators, because it requires computing the difference between two fractional quantities.
+Core ask: assess how demanding/severe the item is and what in its wording raises cognitive load or endorsement threshold.
+
+This item is minimal and ambiguous rather than cognitively demanding. “3/4 - 3/8” most naturally cues a simple fraction subtraction task, which requires basic recall of fraction rules and a small amount of multi-step reasoning if solved mentally (finding a common denominator, then subtracting). It does not involve synthesis, introspection, belief endorsement, or symptom severity. The main load-increasing feature is semantic ambiguity: the dash could indicate subtraction, a range, or a date span, and there is no explicit instruction. Otherwise, there is no complex phrasing, conditional logic, distractor structure, or emotional wording.
+The item appears to require a moderately elevated level of the latent trait—above average, but not extreme—for a respondent to answer correctly or strongly endorse it.",2.3828351023052017,2.4225330204676983,1.1149932753605771,0.899350350711404,-0.996888989484213,0.30433615269623937,0.5864846614990213,0.7737014088713892,3.9620129297099136,-0.24009880057308533,-0.4043036075079971,-0.2831972566130532,0.7533711657573235,227.0,frac20
+item_17,,7 3/5 - 4/5,7 3/5 - 4/5,"Original Text: 7 3/5 - 4/5
+The core task is to calculate the difference between a mixed number and a proper fraction sharing a common denominator, which requires regrouping from the whole number.
+This item measures the **skill of subtracting mixed numbers with regrouping**. The problem requires the examinee to decompose one whole unit from the integer 7 into fifths to subtract a larger numerator from a smaller one while maintaining a common denominator.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression $7 \frac{3}{5} - \frac{4}{5}$.
+
+**Cognitive Demand:** This item requires **multi-step reasoning**. The solver must recognize that the fractional part of the minuend ($3/5$) is smaller than the subtrahend ($4/5$), necessitating a regrouping process rather than direct subtraction.
+
+**Structural Elements:** The cognitive load is increased by the **regrouping (borrowing) requirement**. The solver must decompose the whole number to convert the mixed number into an improper fraction or a different mixed-number form ($6 \frac{8}{5}$), adding procedural steps that prevent simple, single-operation recall.
+The level of the underlying latent trait required to successfully answer the item $7 \frac{3}{5} - \frac{4}{5}$ is a moderate level of mathematical proficiency. This task necessitates the specific ability to perform fraction subtraction involving regrouping, representing a higher cognitive demand than basic arithmetic or simple fraction operations.","Original Text: 7 3/5 - 4/5
+The core task presented in this item is to perform a mathematical subtraction of a proper fraction (4/5) from a mixed number (7 3/5).
+The primary skill this item attempts to measure is mathematical arithmetic, specifically fraction subtraction. This is justified because the text presents a calculation requiring the subtraction of a proper fraction from a mixed number, which necessitates regrouping.
+In evaluating the cognitive demand and structural elements of the item ""7 3/5 - 4/5"": 
+
+This cognitive ability item requires multi-step reasoning. The primary structural element increasing cognitive load is the mathematical necessity of regrouping (borrowing). Because the subtrahend's fraction (4/5) is larger than the minuend's fraction (3/5), the solver cannot perform simple direct subtraction; they must first convert the mixed number (e.g., changing 7 3/5 to 6 8/5 or 38/5) before subtracting, which elevates the difficulty threshold beyond basic arithmetic recall.
+To successfully answer or strongly endorse this item, the required overall level of the underlying latent trait is moderate to moderately high, reflecting the previous analysis range of 3/5 to 4/5.","Original Text: 7 3/5 - 4/5
+The task is to compute the subtraction of two fractions: \(7 \tfrac{3}{5} - \tfrac{4}{5}\).
+Primary domain: basic arithmetic skill, specifically fraction subtraction. The item measures numerical computation with like denominators, requiring subtraction of fractional parts from a mixed number.
+This is a simple arithmetic expression, so the demand is low and it requires basic calculation rather than recall, multi-step reasoning, or synthesis. The wording is minimal and neutral, with no tricky distractors, conditional logic, or emotionally loaded language; the only load comes from fraction subtraction.
+This item appears to require a moderately high level of the underlying trait to endorse strongly or answer successfully.","Original Text: 7 3/5 - 4/5
+The item asks you to subtract 4/5 from 7 3/5.
+This item appears to measure arithmetic/computation skill, specifically subtraction with fractions or mixed-number fractions, because it presents a numerical expression requiring calculation rather than assessing a symptom, belief, or psychological construct.
+This asks for the item’s demand/severity. **“7 3/5 - 4/5”** is a **low-demand cognitive item**: it mainly requires **basic arithmetic/number sense** with a **single-step comparison or subtraction involving mixed fractions**, not recall, multi-step reasoning, or synthesis. Cognitive load is raised slightly by the **mixed-number notation** and the **dash symbol being potentially ambiguous** (subtraction vs. range/separator), but there is **no complex phrasing, conditional logic, distractor structure, or emotional/attitudinal threshold**.
+The item appears to require a moderately high level of the underlying latent trait—above average, but not extreme—for a respondent to answer correctly or strongly endorse it.",-0.9987592711344822,0.28611124575589675,2.1003148585314344,1.7836319219291574,1.200701319014387,1.0737471034804882,0.4852243856214642,0.708417602878644,4.149214704128132,0.14409838906154404,0.36210476559266197,0.9156548473523782,2.498410794024848,304.0,frac20
+item_11,,4 1/3 - 2 4/3,4 1/3 - 2 4/3,"Original Text: 4 1/3 - 2 4/3
+The core task is to calculate the difference between the mixed numbers 4 1/3 and 2 4/3.
+This item measures the primary knowledge domain and skill required to solve the mathematical expression 4 1/3 - 2 4/3.
+
+**Knowledge Domain:** Mathematics (Arithmetic)
+**Skill:** Subtraction of mixed numbers and improper fractions.
+**Justification:** The item requires the respondent to perform subtraction on mixed numbers where the subtrahend contains an improper fraction, necessitating either conversion to improper fractions or regrouping to find the difference.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression 4 1/3 - 2 4/3.
+
+**Demand:** This item requires **multi-step reasoning**. The solver must identify the non-standard mixed number, convert it into a standard form or improper fraction, and then perform the subtraction.
+
+**Structural Elements:** The cognitive load is increased by **unconventional notation**, specifically the use of an improper fraction within a mixed number ($2 \ 4/3$). This creates a ""tricky"" structural element that requires an additional step of simplification ($2 \ 4/3 = 3 \ 1/3$) before the final operation can be easily completed, increasing the threshold for accuracy.
+To determine the level of the latent trait required for the item $4 \frac{1}{3} - 2 \frac{4}{3}$, the respondent must possess a moderate level of mathematical proficiency. This involves the specific ability to perform arithmetic operations on mixed numbers and recognize the equivalence of improper fractions to simplify expressions.","Original Text: 4 1/3 - 2 4/3
+The core task presented in this item is to calculate the mathematical difference between two mixed numbers by subtracting 2 4/3 from 4 1/3.
+In identifying the primary construct or domain targeted by the text and providing a brief rationale:
+
+**Skill/Domain:** Mathematical arithmetic (fraction subtraction). 
+**Justification:** The text is a mathematical expression requiring the calculation of the difference between two mixed numbers.
+In evaluating the cognitive demand and structural complexity of the provided arithmetic expression:
+
+This cognitive item requires multi-step reasoning and synthesis of mathematical rules. The primary structural element increasing cognitive load is the use of a non-standard, improper mixed number (""2 4/3""). This tricky formatting forces the solver to perform additional mental conversions—either regrouping the first term to borrow a whole number or converting both terms into standard improper fractions (13/3 and 10/3)—before the subtraction can be executed.
+To successfully answer the item requiring the subtraction of mixed fractions, the required level of the underlying latent trait of cognitive ability is low to moderate.","Original Text: 4 1/3 - 2 4/3
+The task is to evaluate the mixed-number subtraction expression \(4 \tfrac{1}{3} - 2 \tfrac{4}{3}\).
+Primary domain: arithmetic computation skill, specifically fraction subtraction with mixed numbers. The item measures the ability to subtract mixed fractions correctly, including handling improper fractions/carrying across whole-number and fractional parts.
+This is a simple arithmetic item with low demand: it requires basic calculation, not recall, multi-step reasoning, or synthesis. The wording is straightforward and contains no tricky distractors, conditional logic, or emotionally loaded language. The only cognitive load comes from interpreting mixed numbers/fractions correctly.
+Moderate latent trait level is required.","Original Text: 4 1/3 - 2 4/3
+The item asks you to subtract the mixed numbers \(4 \tfrac{1}{3}\) and \(2 \tfrac{4}{3}\).
+**Primary domain:** Arithmetic / mixed-number subtraction skill
+
+**Justification:** The item asks the respondent to subtract two mixed numbers (“4 1/3 - 2 4/3”), so it is measuring competence with fractions, mixed numbers, and basic subtraction procedures.
+This asks for the item’s cognitive demand and any features that raise difficulty.  
+**Demand:** **Multi-step reasoning**. The expression requires interpreting mixed numbers, converting or regrouping them, and then performing subtraction.  
+**Load-increasing elements:**  
+- **Mixed-number notation** (`4 1/3`, `2 4/3`) increases parsing demands.  
+- **Improper/mixed-form contrast** in the second term can require regrouping or recognizing equivalence.  
+- **Arithmetic operation sequencing** adds a small multi-step burden.  
+No emotional, attitudinal, or endorsement-threshold features are present.
+The item appears to require a moderately elevated level of the latent trait—above average, but not extreme—for a respondent to answer correctly or strongly endorse it.",0.010497403021360263,0.5473440394949146,-0.44979146512318957,0.35958485044664845,2.7895391192507226,3.3587860316498532,2.691544730034222,3.159884397084167,3.5930819848652353,0.03494216291157033,0.14290640019651812,0.5699916883118222,1.7682523542104678,282.0,frac20
+item_19,,4 - 1 4/3,4 - 1 4/3,"Original Text: 4 - 1 4/3
+The core task is to calculate the difference between the integer four and the mixed number one and four-thirds.
+This item measures **arithmetic proficiency**, specifically the skill of subtracting mixed numbers or improper fractions from integers. The task requires the respondent to perform numerical operations and demonstrate an understanding of fractional notation and regrouping.
+To analyze the cognitive demand and structural complexity of the mathematical expression ""4 - 1 4/3"":
+
+This item requires **multi-step reasoning**. It necessitates the normalization of an unconventional mixed number, the conversion of an integer to a fraction, and the execution of subtraction using a common denominator. The primary structural element increasing cognitive load is the **non-standard notation** of the mixed number ($1 \frac{4}{3}$), which features an improper fraction. This requires the respondent to synthesize the components into a standard form ($2 \frac{1}{3}$ or $\frac{7}{3}$) before completing the operation, increasing the likelihood of calculation errors.
+To describe the level of the latent trait required for this item, the analysis indicates an exceptionally high threshold. Based on the parameter value of 4, a respondent must possess a trait level significantly above the average—typically four standard deviations above the mean on a standard logit scale—to successfully endorse or answer the item.","Original Text: 4 - 1 4/3
+To summarize the primary objective of the provided text, the core task is to evaluate a mathematical expression by subtracting a mixed fraction from a whole number.
+Determining the primary domain or skill assessed by the text and providing a brief rationale:
+
+Primary Skill: Arithmetic (Fraction Subtraction)
+Justification: The item ""4 - 1 4/3"" is a mathematical expression requiring the calculation of a whole number minus a mixed number or fraction.
+In assessing the cognitive demand and structural elements of the text, this mathematical item requires multi-step reasoning and synthesis. The structural use of an unnormalized, improper mixed number (""1 4/3"") increases the cognitive load by requiring an additional mental step to convert or regroup the fraction before performing the subtraction.
+The overall magnitude of the underlying latent trait necessary for a respondent to successfully answer or strongly endorse this item is high.","Original Text: 4 - 1 4/3
+The task is to interpret the expression “4 - 1 4/3” and summarize it as a mathematical calculation or notation.
+Primary construct: numerical reasoning / basic arithmetic fluency. The item appears to assess the ability to interpret and compute a simple subtraction expression involving a fraction, indicating elementary math skill rather than a clinical or attitudinal measure.
+This item is essentially a numeric/formatting prompt, so the endorsement threshold is very low and it does not require recall, multi-step reasoning, or synthesis. The structure is minimal and the text is ambiguous/fragmentary, with no strong emotional wording, conditional logic, or distractors; the main load comes only from interpreting the unusual notation “4 - 1 4/3.”
+This item appears to require a moderately high level of the underlying trait to endorse successfully.","Original Text: 4 - 1 4/3
+The item presents a mixed-number subtraction problem: subtract 1 and 4/3 from 4.
+This item most likely measures arithmetic/numeracy skill, specifically order of operations with mixed fractions, because it requires interpreting and evaluating a mathematical expression rather than assessing a belief, symptom, or psychological trait.
+This asks for the item’s demand/severity. **“4 - 1 4/3”** is a **low-demand cognitive item**: it mainly requires **basic arithmetic recall/procedure** plus **simple order-of-operations reasoning** (division before subtraction), not synthesis or deep multi-step reasoning. Cognitive load is increased slightly by the **compact, ambiguous formatting** (“1 4/3” could be misread as a mixed number or as separate terms) and the need to parse **operator precedence**, but there are **no distractors, conditional logic, or emotional/attitudinal endorsement demands**.
+The item appears to require a moderately high level of the underlying latent trait for successful endorsement or correct response.",2.481586517653623,2.708113818959349,3.0,3.8021214437505986,0.4066735093987335,0.678946143896959,1.749308476287812,1.5935686070868702,4.177541998634653,0.4676578816685098,1.0521280743081438,1.9960809238175512,7.360154495946512,370.0,frac20
+item_12,,1 1/8 - 1/8,1 1/8 - 1/8,"Original Text: 1 1/8 - 1/8
+The core task is to calculate the difference between the mixed number one and one-eighth and the fraction one-eighth.
+To identify the primary construct measured by the expression ""1 1/8 - 1/8"":
+
+**Primary Skill:** Arithmetic computation (specifically fraction subtraction).
+
+**Justification:** The item requires the respondent to perform a basic mathematical operation involving mixed numbers and fractions with common denominators to arrive at a numerical solution.
+To analyze the cognitive demand and structural complexity of the expression ""1 1/8 - 1/8"":
+
+**Demand:** This item requires **recall** of basic arithmetic operations and **single-step reasoning**. It involves the subtraction of identical fractional parts from a mixed number.
+
+**Structural/Semantic Elements:** The item features **low cognitive load** due to the use of a **common denominator** and the absence of regrouping (borrowing). The structural simplicity allows for direct cancellation of the fractional components, requiring no complex logical transformations or multi-step synthesis.
+The overall level of the underlying latent trait—mathematical proficiency—required to successfully answer the item ""1 1/8 - 1/8"" is low. This item necessitates only a foundational understanding of arithmetic, specifically the ability to subtract identical fractional components from a mixed number, representing a basic level of cognitive ability in mathematics.","Original Text: 1 1/8 - 1/8
+The core task presented in this item is to calculate the mathematical difference between the mixed number 1 1/8 and the fraction 1/8.
+In determining the primary measurement target of the text and providing a brief rationale:
+
+**Skill:** Mathematical arithmetic (fraction subtraction). 
+**Justification:** The text presents a standard calculation problem requiring the subtraction of a proper fraction from a mixed number with a common denominator.
+In assessing the cognitive demand and structural elements of the provided mathematical expression, this item requires basic recall and single-step execution rather than multi-step reasoning or synthesis. Structurally, it lacks complex phrasing, conditional logic, or tricky distractors; the inclusion of a mixed number (1 1/8) introduces a minimal cognitive load, but the matching fractional subtrahend (1/8) eliminates the need for common denominators or borrowing, keeping the threshold for a correct response extremely low.
+To successfully answer or strongly endorse this item, the required overall level of the underlying latent trait is moderately high, specifically at a value of 1 (one standard deviation above the mean), based on the provided calculation.","Original Text: 1 1/8 - 1/8
+The item presents a simple numeric expression involving subtraction between two fractional values.
+Primary construct: basic numerical reasoning / arithmetic competence.
+
+Justification: The item presents a simple fraction subtraction problem, so it appears to measure the ability to perform elementary math calculations rather than a clinical symptom or attitude.
+This item is a simple numeric expression with no substantive demand, symptom severity, or attitudinal threshold. It requires only basic parsing of a subtraction-like format, with minimal cognitive load and no recall, multi-step reasoning, or deep introspection.
+This item appears to require a very low level of the underlying trait to endorse successfully, with minimal latent ability or symptom severity needed.","Original Text: 1 1/8 - 1/8
+The item asks for the result of subtracting 1/8 from 1 1/8.
+Primary construct: Basic arithmetic skill, specifically subtraction of fractions with like denominators.
+
+Justification: The item “1 1/8 - 1/8” assesses whether a person can subtract fractional quantities and simplify the result.
+This asks for the item’s cognitive demand/severity and any wording features that affect difficulty or endorsement threshold.
+
+Item: “1 1/8 - 1/8”
+
+Assessment: Low cognitive demand. It requires basic recall of fraction subtraction and a simple one-step computation, not multi-step reasoning or synthesis.
+
+Load-increasing elements: Mild structural complexity from the mixed number format (“1 1/8”), which requires recognizing it as a whole number plus a fraction rather than two separate numbers. No distractors, conditional logic, or emotional/attitudinal content.
+The item appears to require a moderately elevated level of the underlying latent trait—above average, but not extreme—for a respondent to answer correctly or strongly endorse it.",-3.0,0.1183634093365313,0.5832272258009583,0.6600173047159443,-3.0,0.12161344614561008,-1.4139445006991924,0.28996643247083864,2.5649447662172125,-0.7377940563443837,-1.28781344283811,-1.6058240457967736,0.20072408090533544,145.0,frac20
+item_7,,3 - 4/7,3 - 4/7,"Original Text: 3 - 4/7
+The core task is to calculate the difference between the whole number 3 and the fraction 4/7.
+To identify the primary construct and provide a justification for the item ""3 - 4/7"":
+
+**Primary Construct:** Clinical Symptom Frequency
+
+**Justification:** The notation ""3 - 4/7"" serves as a quantitative measure of temporal persistence, specifically indicating that a symptom occurs three to four days out of a seven-day week to determine diagnostic severity.
+To analyze the cognitive demand and structural complexity of the mathematical expression ""3 - 4/7"":
+
+**Cognitive Demand:** This item requires **multi-step reasoning**. The solver must first identify the need for a common denominator, convert the integer into a fraction (21/7), and then perform the subtraction to reach the result (17/7 or 2 3/7).
+
+**Structural/Semantic Elements:** The primary driver of cognitive load is the **implicit requirement for conversion**. The use of mixed notation (an integer and a fraction) necessitates a procedural transformation before the operation can be completed, increasing the risk of calculation errors compared to simple arithmetic.
+The level of the underlying latent trait required for a respondent to successfully answer or strongly endorse this item is moderate. A score of 3 to 4 on a 7-point scale indicates that the item targets an intermediate or average degree of the trait, requiring neither minimal nor exceptional levels of the characteristic for endorsement or success.","Original Text: 3 - 4/7
+The core task presented in this item is to solve a mathematical expression by subtracting a fraction from a whole number, specifically calculating three minus four-sevenths.
+In identifying the primary domain or construct targeted by the text and providing a brief rationale:
+
+**Primary Skill:** Mathematical arithmetic (fraction subtraction). 
+**Justification:** The text ""3 - 4/7"" is a standard numerical expression that requires calculating the difference between a whole number and a fraction.
+Assessing the cognitive demand, psychological severity, and structural elements that increase the threshold of the item:
+
+This is a cognitive/ability item requiring multi-step reasoning. Structurally, the mixed numerical format (an integer minus a fraction) increases cognitive load by necessitating procedural mathematical logic—specifically, converting the whole number to a common denominator or borrowing—rather than simple arithmetic recall.
+The magnitude of the underlying latent construct necessary for a participant to affirm or correctly resolve this prompt is moderate, reflecting the prior assessment of 3 to 4 out of 7.","Original Text: 3 - 4/7
+The item is asking for the meaning or evaluation of the expression \(3 - \frac{4}{7}\).
+Primary construct: **Numerical rating / symptom severity level**.
+
+Justification: The item is a **numeric score on a 0–7 style scale**, suggesting it measures the **intensity or frequency of a symptom or experience** rather than a specific diagnosis or belief.
+This item is low-demand and minimally severe: it is just a numeric range label, not a cognitive task or symptom statement. Endorsement requires no recall, reasoning, synthesis, or introspection. The only structural element is the compact range format “3 - 4/7,” which is slightly ambiguous but not cognitively taxing.
+A moderate level of the underlying trait is needed to answer this item successfully or strongly endorse it.","Original Text: 3 - 4/7
+The item presents only the expression “3 - 4/7,” so the core task is to evaluate or simplify that subtraction.
+This item most likely measures **numeracy / fraction subtraction skill**, specifically the ability to compute **mixed-number subtraction**. The expression “3 - 4/7” assesses whether a person can understand and manipulate basic fractional quantities in arithmetic.
+This asks for the demand/severity of “3 - 4/7.” It is a low-demand cognitive item: mainly simple arithmetic/recall of order of operations or fraction interpretation, not multi-step reasoning or synthesis. Cognitive load is slightly increased by the ambiguous compact notation and symbol use (“-” and “/”), which can invite multiple parses, but there is no emotional wording, introspection, conditional logic, or endorsement threshold.
+This item appears to require a moderately high level of the underlying latent trait—above average but not extreme—roughly around 3 to 4 on a 7-point continuum.",-1.1505166972191485,0.2952166354373531,0.605870527527288,0.7273312463956759,-0.6523870866432069,0.39726712500686495,-0.3221887302285946,0.5187861415364585,3.0665653685832392,0.23572660954800115,0.5439751931178967,1.202373755535473,3.328007430022922,322.0,frac20
+item_3,,5/6 - 1/9,5/6 - 1/9,"Original Text: 5/6 - 1/9
+The core task is to calculate the difference between the fractions 5/6 and 1/9.
+This item measures the mathematical skill of subtracting fractions with unlike denominators. The task requires the respondent to identify a common denominator and perform arithmetic operations to find the difference between two rational numbers.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression 5/6 - 1/9.
+
+**Demand:** This item requires **multi-step reasoning**. It necessitates the retrieval of procedural knowledge to identify a least common multiple, the conversion of both fractions into equivalent forms, and the final subtraction of numerators.
+
+**Structural Elements:** The presence of **unlike denominators** increases cognitive load by preventing direct operation. The specific denominators (6 and 9) require the calculation of a common denominator (18) rather than simple multiplication, adding a layer of procedural complexity to the conversion step.
+The magnitude of the internal characteristic needed to achieve a positive response on this item is **high**, reflecting a calculated threshold of 13/18 (approximately 0.72).","Original Text: 5/6 - 1/9
+The core task presented in the item is to calculate the mathematical difference by subtracting the fraction one-ninth from five-sixths.
+In identifying the target measurement domain and providing a brief rationale for the item:
+
+**Skill:** Mathematical arithmetic (fraction subtraction). 
+**Justification:** The text is a standard arithmetic problem requiring the solver to find a common denominator and calculate the difference between two fractions.
+Assessing the cognitive demand and structural elements that increase the difficulty of the provided text: 
+
+This cognitive ability item requires multi-step reasoning. The primary structural element increasing cognitive load is the use of unlike denominators (6 and 9), which prevents direct calculation and requires the solver to find a common denominator, convert both fractions, and hold intermediate values in working memory to execute the subtraction.
+The required magnitude of the underlying latent construct needed to correctly resolve or strongly affirm this item, based on the prior analysis of 5/6 - 1/9, indicates a variable level ranging from low to high.","Original Text: 5/6 - 1/9
+The task is to interpret and summarize the arithmetic expression involving subtraction of two fractions.
+Primary domain: basic arithmetic / numerical calculation skill.  
+Justification: It asks for subtraction of fractions, which measures competence in performing simple mathematical operations with rational numbers.
+This item is a simple numeric range expression, so the core task is low-demand interpretation rather than recall or reasoning. Endorsement threshold is minimal: it only requires recognizing the interval. Structural load is low, with no complex phrasing, distractors, conditional logic, or emotionally loaded wording.
+This item appears to require a moderately high level of the underlying trait to endorse or answer strongly.","Original Text: 5/6 - 1/9
+The item asks you to compute the result of the subtraction \(5/6 - 1/9\).
+This item is measuring **basic arithmetic skill**, specifically **fraction subtraction with unlike denominators**. It requires finding a common denominator and correctly subtracting the fractional values, so it assesses procedural numerical computation rather than a symptom, belief, or psychological construct.
+This asks for the item’s cognitive demand/severity and any features that raise load or endorsement threshold.
+
+**Item:** `5/6 - 1/9`
+
+- **Type:** Cognitive/ability item.
+- **Demand level:** **Multi-step reasoning**, not mere recall.
+- **Why:** It requires recognizing a fraction-subtraction operation, finding a common denominator, converting both fractions, and subtracting accurately.
+- **Load-increasing elements:**  
+  - Fraction arithmetic rather than whole numbers  
+  - Need for denominator alignment/common multiple  
+  - Symbolic notation with two fractions in one expression  
+- **Not present:** No tricky distractors, conditional logic, complex wording, or emotional/attitudinal threshold.
+This item appears to require a moderately high level of the underlying latent trait to be answered successfully or strongly endorsed.",1.5415193421022044,1.357695043715549,1.4350569237836357,1.1237364383568795,-0.4736435585568306,0.41579382850801433,2.0651697567969247,1.956154731883016,3.2962305362717195,-0.07779010234774221,-0.07502811851112043,0.2278058594162486,1.2558414919637748,260.0,frac20
+item_1,,5/3 - 3/4,5/3 - 3/4,"Original Text: 5/3 - 3/4
+The core task is to calculate the difference between the fractions five-thirds and three-fourths.
+This item measures the mathematical skill of **fraction subtraction with unlike denominators**. The problem requires the respondent to identify a common denominator, convert the fractions into equivalent forms, and perform arithmetic operations on rational numbers.
+To analyze the cognitive demand and structural complexity of the mathematical expression ""5/3 - 3/4"":
+
+**Demand:** This item requires **multi-step reasoning**. It necessitates a procedural sequence beyond simple recall, involving the identification of a common denominator, fraction conversion, and subtraction.
+
+**Structural Elements:**
+*   **Unlike Denominators:** The presence of different denominators (3 and 4) increases cognitive load by requiring the calculation of a Least Common Multiple (12).
+*   **Procedural Complexity:** The task involves multiple intermediate operations—multiplication to normalize the fractions ($20/12$ and $9/12$) followed by subtraction—which increases the risk of computational error.
+*   **Improper Fraction:** The use of $5/3$ adds a minor layer of complexity for those more accustomed to proper fractions or mixed numbers.
+To determine the level of the latent trait required for the fraction subtraction item, the respondent must possess a moderate level of mathematical proficiency. This involves the cognitive ability to execute multi-step procedural tasks, specifically identifying a common denominator and performing arithmetic operations on fractions with unlike denominators.","Original Text: 5/3 - 3/4
+The core task presented in this item is to calculate the mathematical difference between the fractions five-thirds and three-fourths.
+In determining the primary construct measured by the text and providing a brief rationale:
+
+**Skill:** Mathematical arithmetic (fraction subtraction).
+**Justification:** The text is a standard mathematical expression that requires finding a common denominator to calculate the difference between two fractions.
+Assessing the cognitive demand and structural elements of the given mathematical item:
+
+This cognitive ability item requires multi-step reasoning. The primary structural element increasing cognitive load is the use of unlike denominators, which prevents direct subtraction and requires the solver to mentally calculate a common denominator, convert both fractions, and hold intermediate values in working memory before executing the final operation.
+The magnitude of the underlying latent construct necessary to successfully resolve or strongly affirm this item is moderate to high, reflecting the previous analysis range of 3/4 to 5/3.","Original Text: 5/3 - 3/4
+The task is to interpret the arithmetic expression and determine its value.
+Primary domain: basic arithmetic calculation skill, specifically fraction subtraction. The item appears to measure numerical computation ability by requiring subtraction of two fractions with different denominators.
+This item is a simple arithmetic expression, so the core task is basic calculation rather than recall, multi-step reasoning, or synthesis. The wording is minimal and neutral, with no emotional language, distractors, or conditional logic; the only load comes from fraction subtraction and the need to compute accurately.
+This item appears to require a moderate-to-high level of the underlying trait to endorse strongly or answer successfully.","Original Text: 5/3 - 3/4
+The item asks you to compute the result of the subtraction expression 5/3 − 3/4.
+This item primarily measures arithmetic skill, specifically fraction subtraction, because it requires computing the difference between two mixed fractional values.
+This asks for the item’s demand/severity; here, **“5/3 - 3/4”** is a **low-demand cognitive item** requiring **basic recall of fraction subtraction procedure plus simple multi-step arithmetic** (finding a common denominator, converting, subtracting). It does **not** require synthesis or deep reasoning. Structural load comes from **fraction notation** and the need to **sequence steps correctly**; there is **no conditional logic, no distractor wording, and no emotional or endorsement threshold**.
+The item appears to require a moderately high level of the latent trait—above average, but not extreme—for a respondent to answer successfully or strongly endorse it.",-0.06410624676891219,0.5378813546983467,2.2512749487547667,2.0917408133910733,2.0362599596870483,2.105600697740792,1.5613363466826389,1.4966781865371759,2.9231938427263167,-0.1282385345748606,-0.1643189240757396,0.08839504626043539,1.0924195930721443,251.0,frac20
+item_13,,3 3/8 - 2 5/6,3 3/8 - 2 5/6,"Original Text: 3 3/8 - 2 5/6
+The core task of the provided item is to calculate the difference between two mixed numbers with unlike denominators.
+This item measures the mathematical skill of subtracting mixed numbers with unlike denominators. Solving the expression requires the ability to find a common denominator, perform regrouping or conversion to improper fractions, and execute basic arithmetic subtraction.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression 3 3/8 - 2 5/6.
+
+**Demand:** This item requires **multi-step reasoning**. It necessitates converting mixed numbers, identifying a least common denominator, and executing a regrouping (borrowing) procedure.
+
+**Structural Elements:**
+*   **Unlike Denominators:** Requires the intermediate step of finding a common multiple for 8 and 6.
+*   **Regrouping Requirement:** Because the fractional part of the subtrahend (5/6) is greater than that of the minuend (3/8), the solver must borrow from the whole number, increasing cognitive load and the potential for procedural error.
+To successfully solve the subtraction of mixed numbers with unlike denominators and regrouping, a respondent must possess a moderate to high level of mathematical proficiency. This task requires the ability to identify least common denominators, convert fractions, and execute borrowing across whole numbers and fractional parts.","Original Text: 3 3/8 - 2 5/6
+The objective of this prompt is to identify the primary task within the provided text, which is the mathematical operation of subtracting the mixed fraction 2 5/6 from 3 3/8.
+In identifying the primary knowledge domain, skill, symptom, belief, or construct this item attempts to measure, the text assesses the mathematical skill of subtracting mixed numbers. This is justified because the item presents a standard arithmetic problem requiring the solver to find a common denominator to calculate the difference between two fractions with whole numbers.
+In analyzing the cognitive demand and structural elements that increase the difficulty of this expression, this cognitive/ability item requires multi-step reasoning and procedural synthesis. The cognitive load is elevated by the structural inclusion of mixed numbers with unlike denominators and the mathematical necessity of regrouping/borrowing; because the fractional subtrahend (5/6) is larger than the minuend (3/8), it forces the solver to convert a whole number into a fraction before subtraction can be executed.
+To successfully solve the provided mixed-fraction subtraction problem, a respondent requires a moderate level of the underlying latent trait of mathematical and cognitive ability.","Original Text: 3 3/8 - 2 5/6
+The task is to evaluate the subtraction expression \(3 \tfrac{3}{8} - 2 \tfrac{5}{6}\).
+Primary domain: basic arithmetic computation, specifically fraction subtraction. The item measures numerical calculation skill by requiring conversion and subtraction of mixed fractions.
+This item is a straightforward arithmetic computation, requiring multi-step calculation and fraction manipulation rather than recall or synthesis. The endorsement threshold is low in content severity, but the cognitive demand is moderate because it uses mixed numbers and subtraction. Structural load comes from the mixed-fraction format and the need to convert or align denominators; there is no emotional wording, conditional logic, or distractor content.
+This item appears to require a moderately high level of the underlying trait to endorse strongly or answer successfully.","Original Text: 3 3/8 - 2 5/6
+The item asks you to subtract the mixed number 2 5/6 from 3 3/8.
+This item is measuring **arithmetic skill in subtracting mixed numbers with fractions**, specifically the ability to find common denominators, regroup if needed, and compute the difference of two mixed numbers.
+This asks for the cognitive demand of the item: **moderate multi-step reasoning**. It requires understanding mixed numbers, converting or borrowing across fractions, finding a common denominator, and performing subtraction accurately. Structural load comes from the **mixed-number format**, the need for **fraction equivalence/common denominators**, and the likely need to **regroup/borrow** because the fractional part being subtracted is larger than the fractional part available. There is **no psychological endorsement threshold** involved.
+The item appears to require a moderately high level of the underlying latent trait for successful answering or strong endorsement.",1.839592468873132,1.6704545624949834,2.837493715681182,3.304403788811939,3.0,3.896312386098666,3.0,3.7642133168325205,3.7609178856602323,0.5087907274050225,1.1419516938091925,2.1347964946076936,8.455325627404486,378.0,frac20
+item_16,,4 5/7 - 1 4/7,4 5/7 - 1 4/7,"Original Text: 4 5/7 - 1 4/7
+To summarize the provided item, the core task is to calculate the difference between two mixed numbers with like denominators.
+This item measures the mathematical skill of subtracting mixed numbers with common denominators. The justification is that the problem requires the respondent to perform arithmetic operations on both the whole number and fractional components of mixed numbers where the denominators are identical.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression 4 5/7 - 1 4/7.
+
+**Demand:** This item requires **multi-step reasoning**. The solver must execute a sequence of operations: isolating the whole numbers, subtracting the fractional components, and recombining the results into a single mixed number.
+
+**Structural/Semantic Elements:** The **mixed number notation** increases cognitive load by requiring the simultaneous management of integers and fractions. While the **common denominators** simplify the process, the primary complexity lies in the **sequential processing** required to maintain the relationship between the whole and fractional parts. The absence of **regrouping** (borrowing) keeps the threshold for success moderate.
+To successfully solve the subtraction of mixed numbers with common denominators ($4 \frac{5}{7} - 1 \frac{4}{7}$), a respondent requires a **moderate level of mathematical proficiency**. This task necessitates foundational knowledge of fraction subtraction and whole-number arithmetic, though it lacks the complexity of regrouping or finding a least common denominator.","Original Text: 4 5/7 - 1 4/7
+The core task presented in this item is to calculate the mathematical difference by subtracting the mixed number 1 4/7 from the mixed number 4 5/7.
+In determining the underlying domain, skill, symptom, belief, or construct being measured by the text and providing a brief rationale:
+
+**Primary Skill:** Mathematical arithmetic (subtraction of mixed numbers). 
+**Justification:** The text is a direct mathematical problem requiring the calculation of the difference between two mixed fractions with identical denominators.
+In evaluating the cognitive demand, reasoning requirements, and structural elements affecting the difficulty of this item, this cognitive/ability task requires multi-step reasoning to subtract both the whole numbers and the fractional parts. The structural format of mixed numbers increases the cognitive load, but the presence of like denominators keeps the threshold for success low by eliminating the need to synthesize a common denominator.
+To successfully answer the provided item, the required degree of the underlying latent trait (mathematical ability) is low to moderate, as calculating the difference between mixed numbers with like denominators is a basic elementary-level cognitive skill.","Original Text: 4 5/7 - 1 4/7
+The task is to compute the difference between the mixed numbers \(4 \tfrac{5}{7}\) and \(1 \tfrac{4}{7}\).
+Primary domain: **basic arithmetic / fraction subtraction**.  
+Justification: It asks the respondent to compute a mixed-number subtraction problem, measuring numerical calculation skill rather than a clinical or psychological construct.
+This is a simple arithmetic subtraction item, so the demand is low and it mainly requires straightforward calculation rather than recall, multi-step reasoning, or synthesis. The wording is minimal and unambiguous, with no distractors, conditional logic, or emotionally loaded language; the only slight load comes from handling mixed numbers and subtraction across whole and fractional parts.
+This item appears to require a moderately high level of the underlying trait to endorse strongly or answer successfully.","Original Text: 4 5/7 - 1 4/7
+The item asks you to subtract the mixed number 1 4/7 from 4 5/7.
+This item is measuring arithmetic skill, specifically subtraction of mixed numbers with like denominators, because it requires computing \(4 \tfrac{5}{7} - 1 \tfrac{4}{7}\).
+This asks for the cognitive demand of the item. **“4 5/7 - 1 4/7”** is a **low-to-moderate demand arithmetic item**: it primarily requires **recall of fraction/mixed-number subtraction procedures** plus **multi-step reasoning** (convert or borrow, subtract whole numbers and fractional parts, simplify if needed). Cognitive load is increased by the **mixed-number format**, the need to **manage sevenths consistently**, and the likely need for **borrowing/regrouping** because **5/7 − 4/7** is straightforward but the whole-number subtraction must still be coordinated correctly. There are **no distractors, emotional wording, or endorsement threshold issues**.
+The item requires a moderately high level of the underlying latent trait for successful answering or strong endorsement.",-1.2904522899692457,0.27802544891086867,-1.3720853110483588,0.2130619858096377,1.7518133737611628,1.6775937642459715,1.6297550147420203,1.5962816918523843,2.6220010402145193,-0.62368709637372,-1.0798683837897485,-1.3005917880668518,0.2723705596837492,163.0,frac20
+item_6,,6/7 - 4/7,6/7 - 4/7,"Original Text: 6/7 - 4/7
+The core task is to calculate the difference between two fractions that share a common denominator.
+This item measures the primary mathematical skill of **fraction subtraction with common denominators**. The item requires the respondent to perform a basic arithmetic operation on rational numbers by subtracting the numerators while keeping the denominator constant.
+To analyze the cognitive demand and structural complexity of the mathematical expression ""6/7 - 4/7"":
+
+**Demand:** This cognitive item requires **recall** of basic subtraction facts and the procedural rule for subtracting fractions with common denominators. It does not reach the level of multi-step reasoning or synthesis.
+
+**Structural/Semantic Elements:** The item utilizes standard mathematical notation with a **low cognitive load**. The presence of a **common denominator** eliminates the need for complex transformations or conditional logic, presenting a direct calculation with no semantic distractors.
+The level of the underlying latent trait required for a respondent to successfully answer or strongly endorse this item is **high**. Based on the 4/7 to 6/7 analysis, the item functions as a high-threshold indicator, necessitating a significant manifestation of the trait to achieve a positive response.","Original Text: 6/7 - 4/7
+The core task presented in this item is to calculate the mathematical difference between two fractions with like denominators.
+The primary attribute evaluated by this item, along with a brief rationale, is:
+
+**Skill:** Mathematical arithmetic (fraction subtraction).
+**Justification:** The text presents a standard mathematical equation requiring the calculation of the difference between two fractions with common denominators.
+In evaluating the cognitive demand, severity, and structural elements that affect the threshold for this item, this is a cognitive ability task requiring basic recall and single-step arithmetic. The cognitive load is minimal; the shared denominator eliminates the need for multi-step reasoning or synthesis, and the item lacks complex phrasing, conditional logic, or tricky distractors.
+The magnitude of the underlying attribute needed to correctly resolve or strongly affirm this prompt is moderate to moderately high.","Original Text: 6/7 - 4/7
+The task is to summarize the mathematical expression involving subtraction of two fractions with the same denominator.
+Primary construct: **basic arithmetic / numerical subtraction skill**.
+
+Justification: The item is a simple subtraction problem, so it primarily measures the ability to perform fraction subtraction rather than a clinical symptom or attitude.
+This item is a simple arithmetic comparison, so the core demand is low-to-moderate cognitive processing: basic fraction subtraction and comparison, not recall or deep synthesis. The threshold for endorsement is minimal because the expression is straightforward and objective. Structural load is low, with no tricky wording, conditional logic, or emotional content; the only potential difficulty is handling common-denominator calculation.
+This item appears to require a moderately high level of the underlying trait to endorse strongly or answer successfully.","Original Text: 6/7 - 4/7
+The item asks you to compute the result of the fraction subtraction \(6/7 - 4/7\).
+Primary construct: Basic fraction subtraction / arithmetic skill.
+
+Justification: The item requires subtracting two fractions with the same denominator, so it measures understanding of fraction magnitude and the procedure for subtracting numerators while keeping the denominator constant.
+The ask is to judge how demanding/severe the item is and what in its wording raises cognitive load or endorsement threshold.
+
+“6/7 - 4/7” is a simple arithmetic expression, so it mainly requires basic recall of fraction subtraction plus a small amount of multi-step reasoning: recognizing common denominators, subtracting numerators, and simplifying if needed. It does not require synthesis. Structural load is low: very short wording, no distractors, no conditional logic, no emotional or attitudinal content. The main semantic demand is understanding fraction notation and the subtraction operation.
+The item appears to target a slightly above-average level of the latent trait, requiring a moderate-to-moderately high underlying level for a respondent to answer correctly or endorse strongly.",0.9388917276933588,0.968563224359989,0.047217479179739286,0.47862996085384824,-1.1198446966291526,0.30030108269110783,-1.8920397959595352,0.23543628885383205,3.3916405503014935,-0.9059116565133214,-1.7349369395176917,-2.252927026979335,0.10509116925101207,110.0,frac20
+item_14,,3 4/5 - 3 2/5,3 4/5 - 3 2/5,"Original Text: 3 4/5 - 3 2/5
+The core task is to calculate the difference between two mixed numbers that share a common denominator.
+To identify the primary measurement target and justification for the item ""3 4/5 - 3 2/5"":
+
+**Primary Skill:** Subtraction of mixed numbers with common denominators.
+
+**Justification:** This item assesses procedural fluency in elementary arithmetic by requiring the respondent to subtract the fractional and whole-number components of mixed fractions that share a like denominator.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression ""3 4/5 - 3 2/5.""
+
+**Demand:** This cognitive item requires **multi-step reasoning**. The solver must perform sequential operations by decomposing the mixed numbers, subtracting the whole numbers, and then subtracting the fractions.
+
+**Structural Elements:** The **mixed number notation** increases cognitive load by requiring the simultaneous management of integers and rational numbers. However, the use of **common denominators** minimizes complexity, and the **zero-result whole number** ($3 - 3$) simplifies the final synthesis, lowering the overall threshold for a correct response.
+The overall level of the underlying latent trait required for a respondent to successfully answer or endorse this item is exceptionally high. Based on the provided range of 3.4 to 3.8, the item targets individuals at the extreme upper tail of the distribution, representing a trait level significantly more than three standard deviations above the population mean.","Original Text: 3 4/5 - 3 2/5
+The core task presented in this item is to calculate the mathematical difference between two mixed numbers with like denominators.
+The underlying skill evaluated by this item, along with a brief rationale, is:
+
+**Skill:** Mathematics (Arithmetic / Fraction Subtraction)
+**Justification:** The text is a mathematical expression requiring the calculation of the difference between two mixed numbers with like denominators.
+In analyzing the cognitive demand and structural elements of the provided arithmetic expression, this ability item requires basic multi-step reasoning to subtract mixed numbers. Structurally, the cognitive load is low because it features like denominators and does not require borrowing or regrouping, as the whole numbers cancel out entirely.
+The overall level of the underlying latent trait necessary to successfully answer or strongly endorse this item is moderately high, corresponding to the previous analysis range of 3.4 to 3.8.","Original Text: 3 4/5 - 3 2/5
+The task is to evaluate the subtraction of two mixed numbers: 3 4/5 minus 3 2/5.
+Primary construct: numerical estimation/number sense, specifically comparing mixed-number magnitudes.  
+Justification: it asks for the relative size of two mixed fractions, which measures understanding of fractional values rather than a clinical symptom or attitude.
+This item is a numeric range, so the core task is simply interpreting the values rather than recalling facts or doing multi-step reasoning. Endorsement demand is very low: it does not imply severity, symptom intensity, or strong belief. The main structural feature increasing load is the fractional notation and the reversed-looking range format, which may require careful parsing.
+A moderately high level of the underlying trait is required to endorse this item strongly or answer it successfully.","Original Text: 3 4/5 - 3 2/5
+The item asks for the result of subtracting the mixed number 3 2/5 from 3 4/5.
+This item appears to measure arithmetic skill, specifically subtraction of mixed numbers/fractions, because it presents a numerical expression requiring computation: 3 4/5 − 3 2/5.
+Core ask: assess the item’s cognitive demand/severity and note any wording features that raise load or endorsement threshold.
+
+This appears to be a simple arithmetic comparison/subtraction expression with mixed numbers. It requires basic recall of fraction/mixed-number operations and a small amount of multi-step reasoning (interpreting mixed numbers, then comparing or subtracting). Cognitive load is increased slightly by the fractional notation and spacing, which can make parsing less immediate. There is no psychological endorsement threshold, emotional wording, conditional logic, or distractor structure.
+The item appears to require a moderately high level of the underlying latent trait—above average, but not extreme—for a respondent to answer correctly or strongly endorse it.",2.0165772759906133,1.9669729728203016,0.9390489277203695,0.8593904763845602,0.5765295616768524,0.7788933429901338,1.0371309480257356,1.0780350895198356,3.0783057464213446,-0.6815738729705272,-1.2405880482178866,-1.5367800960215652,0.21507250051033738,149.0,frac20
+item_18,,4 1/10 - 2 8/10,4 1/10 - 2 8/10,"Original Text: 4 1/10 - 2 8/10
+The core task is to calculate the difference between two mixed numbers with common denominators, requiring regrouping or conversion to improper fractions.
+This item measures the mathematical skill of **subtraction of mixed numbers with regrouping**. The problem requires the respondent to subtract a larger fractional part (8/10) from a smaller fractional part (1/10), necessitating the conversion of one whole unit from the minuend into an equivalent fraction to complete the operation.
+This analysis evaluates the cognitive demand and structural complexity of the mathematical expression ""4 1/10 - 2 8/10.""
+
+**Demand:** This cognitive ability item requires **multi-step reasoning**. It necessitates a procedural sequence beyond simple recall, specifically the decomposition of a whole number to facilitate subtraction.
+
+**Structural Elements:**
+*   **Regrouping Requirement:** The primary driver of cognitive load is the necessity of regrouping (borrowing), as the fraction in the subtrahend (8/10) is larger than the fraction in the minuend (1/10).
+*   **Procedural Complexity:** The item increases cognitive load by requiring the solver to convert a whole number into a fraction (10/10), combine it with the existing fraction (11/10), and maintain these transformed values in working memory to complete the operation.
+The level of the underlying latent trait required for a respondent to successfully answer or strongly endorse this item is exceptionally high. With threshold parameters ranging from 2.8 to 4.1, the item targets individuals positioned significantly above the mean, representing an extreme manifestation of the trait found only in the uppermost tail of the distribution.","Original Text: 4 1/10 - 2 8/10
+The core task presented in this item is to calculate the difference between two mixed numbers with like denominators, specifically requiring regrouping to subtract two and eight-tenths from four and one-tenth.
+The underlying domain and skill measured by the item, along with a brief rationale, are:
+
+**Domain/Skill:** Mathematics (Arithmetic: Subtraction of mixed numbers).
+**Justification:** The text presents a mathematical expression requiring the calculation of the difference between two mixed fractions, specifically testing the ability to regroup or borrow from a whole number since the fractional minuend (1/10) is smaller than the subtrahend (8/10).
+Evaluating the cognitive demand and structural elements that increase the difficulty of the provided item:
+
+This cognitive/ability item requires multi-step reasoning. The primary structural element increasing the cognitive load is the mathematical necessity for regrouping (borrowing) across mixed numbers, as the fractional subtrahend (8/10) is larger than the fractional minuend (1/10), preventing direct, single-step subtraction.
+To successfully solve the provided mixed-fraction subtraction problem, the required level of the underlying latent trait of mathematical ability is low to moderate.","Original Text: 4 1/10 - 2 8/10
+The task is to subtract the mixed numbers \(4 \tfrac{1}{10}\) and \(2 \tfrac{8}{10}\).
+Primary domain: basic arithmetic/numerical computation, specifically subtraction with mixed numbers.  
+Justification: It asks for the result of subtracting two mixed fractions, which measures calculation skill rather than a clinical or psychological construct.
+This item is a very low-demand numeric rating prompt. It mainly requires simple magnitude comparison and selecting a value on a scale, with no recall, multi-step reasoning, or synthesis. The wording is minimal and neutral, with no conditional logic, emotional language, or semantic traps; the only slight load comes from interpreting the fractional/decimal scale format.
+This item appears to require a low-to-moderate level of the underlying trait to endorse successfully, with stronger endorsement reflecting a moderate level rather than an extreme one.","Original Text: 4 1/10 - 2 8/10
+The item asks for subtracting the mixed number 2 8/10 from 4 1/10.
+This item appears to measure **numeracy / arithmetic skill**, specifically understanding and comparing **mixed numbers and fractions**. The text presents two fractional quantities (“4 1/10” and “2 8/10”), suggesting the task is to interpret their values and likely compare or compute with them.
+This asks for the demand/severity of the item. **“4 1/10 - 2 8/10”** is a simple arithmetic expression requiring **basic recall and one-step computation**, not multi-step reasoning or synthesis. Cognitive load is **low**: the notation is somewhat **compact/awkward** because mixed numbers are written without separators, which can momentarily increase parsing difficulty, but there is **no conditional logic, no distractor structure, and no emotional or attitudinal content**, so endorsement/severity thresholds do not apply.
+This item appears to require a low-to-moderate level of the underlying latent trait for successful answering or strong endorsement.",2.8452131878758555,3.669556820533256,-0.7419354855031246,0.31178010880228774,0.23688740647664286,0.6456031070869626,-1.2940509847289152,0.318467330501483,2.920754127467247,0.04746018929400739,0.17267393557503435,0.6168825856512388,1.8531420163007513,285.0,frac20
+item_20,,4 1/3 - 1 5/3,4 1/3 - 1 5/3,"Original Text: 4 1/3 - 1 5/3
+The core task is to calculate the difference between two mixed numbers, specifically subtracting a value with an improper fraction from another mixed number.
+This item measures the mathematical skill of **subtraction of mixed numbers** within the domain of **arithmetic**. The justification is that solving the expression requires the ability to manipulate mixed numbers, handle improper fractions (as seen in ""1 5/3""), and perform basic subtraction operations.
+To analyze the cognitive demand and structural complexity of the mathematical expression $4 \frac{1}{3} - 1 \frac{5}{3}$:
+
+**Demand**
+This item requires **multi-step reasoning**. It necessitates a sequence of procedural operations beyond simple recall, including fraction conversion and regrouping.
+
+**Structural and Semantic Elements**
+*   **Non-standard Notation:** The use of an improper fraction within a mixed number ($1 \frac{5}{3}$) is unconventional, requiring an initial cognitive step to normalize the value to $2 \frac{2}{3}$ or an improper fraction.
+*   **Regrouping Requirement:** Because the fractional component of the subtrahend is larger than that of the minuend, the solver must ""borrow"" from the whole number, increasing the procedural complexity.
+*   **Multi-stage Processing:** The load is elevated by the need to perform three distinct transformations: resolving the non-standard mixed number, regrouping the minuend, and executing the final subtraction.
+To successfully solve the item ""4 1/3 - 1 5/3,"" a respondent requires a moderate level of mathematical proficiency. This latent trait involves the specific ability to manipulate mixed numbers, recognize and convert improper fractions, and perform subtraction requiring regrouping or fraction-to-integer conversion.","Original Text: 4 1/3 - 1 5/3
+The request asks to summarize the primary task presented in the text. The core task is to perform the mathematical subtraction of two mixed fractions, specifically subtracting one and five-thirds from four and one-third.
+In determining the primary construct measured by the text and providing a justification:
+
+**Skill:** Arithmetic (Fraction Subtraction)
+**Justification:** The text is a mathematical expression that requires the ability to calculate the difference between mixed numbers and handle improper fractions.
+In evaluating the cognitive demand and structural elements that increase the difficulty of the provided mathematical expression, this ability item requires multi-step reasoning. The cognitive load is elevated by a structural anomaly: the second term (""1 5/3"") embeds an improper fraction within a mixed number, requiring additional mental conversion or regrouping steps prior to executing the subtraction.
+To determine the magnitude of the underlying latent trait needed to correctly solve the provided item, a low to moderate level of cognitive ability—specifically basic mathematical proficiency in subtracting mixed numbers and improper fractions—is required.","Original Text: 4 1/3 - 1 5/3
+The task is to evaluate the mixed-number subtraction expression \(4 \tfrac{1}{3} - 1 \tfrac{5}{3}\).
+Primary domain: arithmetic computation skill, specifically fraction subtraction. The item appears to measure the ability to subtract mixed numbers/fractions, though the expression itself is malformed, which may also test attention to notation.
+This item has very low demand: it is a straightforward arithmetic expression requiring basic calculation, not recall or synthesis. The main load comes from mixed-number subtraction and the unusual formatting, which may briefly distract, but there is no strong wording, conditional logic, or endorsement threshold.
+A moderate level of the underlying trait is required, with the item appearing somewhat above average in difficulty or endorsement strength.","Original Text: 4 1/3 - 1 5/3
+The item asks you to subtract the mixed numbers 4 1/3 and 1 5/3.
+This item is measuring arithmetic skill, specifically subtraction with mixed numbers/improper fractions, because it requires interpreting fractional quantities and performing a subtraction operation correctly.
+This asks for the item’s cognitive demand and any features that raise difficulty. Here, **“4 1/3 - 1 5/3”** is a **cognitive/ability item** requiring **multi-step reasoning**, not mere recall: the solver must interpret mixed numbers, recognize that **1 5/3** is nonstandard/improper as a mixed-number-like form, convert or regroup values, and then perform subtraction. Cognitive load is increased by the **unusual notation/format**, potential **ambiguity in parsing**, and the need for **sequential arithmetic transformations** rather than direct fact retrieval.
+The item appears to require a moderately elevated level of the latent trait—above average, but not extreme—for a respondent to answer successfully or strongly endorse it.",1.153616563604336,1.1464642724004008,1.3159811861725181,1.167668673908265,1.7417176820010098,1.7073550153038675,2.8973674806212006,3.7501583308260225,4.053972960790394,0.25242326438263274,0.5848500148116191,1.2666987154323879,3.5491165573486976,326.0,frac20
+item_8,,2/3 - 2/3,2/3 - 2/3,"Original Text: 2/3 - 2/3
+The core task presented in this item is the subtraction of the fraction two-thirds from itself.
+This item measures the **primary knowledge domain of basic arithmetic**, specifically the **skill of fraction subtraction**. The item requires the respondent to demonstrate an understanding of how to subtract identical rational numbers with common denominators to reach a value of zero.
+To analyze the cognitive demand and structural elements of the expression ""2/3 - 2/3"":
+
+**Cognitive Demand**
+This item requires basic **recall** of the identity property of subtraction (subtracting a value from itself). It does not necessitate multi-step reasoning or synthesis, as the denominators are identical and the operation is direct.
+
+**Structural/Semantic Elements**
+The item possesses **minimal cognitive load**. It lacks complex phrasing, conditional logic, or distractors. The semantic structure is transparent, using standard mathematical notation with no linguistic ambiguity to increase the threshold for a correct response.
+The overall level of the underlying latent trait required for a respondent to successfully answer or strongly endorse this item is moderately high, corresponding to a value approximately two-thirds of a standard deviation above the population mean.","Original Text: 2/3 - 2/3
+The core task presented in the item is to solve a mathematical equation by subtracting the fraction two-thirds from two-thirds.
+In identifying the primary construct measured by the text and providing a concise justification:
+
+**Skill:** Mathematical arithmetic (fraction subtraction). 
+**Justification:** The text presents a direct mathematical equation requiring the calculation of the difference between two identical fractions.
+Assessing the cognitive demand, psychological severity, and structural complexity of the text: 
+
+This is a cognitive ability item requiring basic recall and single-step reasoning to subtract identical fractions. It contains no psychological or attitudinal components. Structurally, the cognitive load is extremely low, lacking complex phrasing, conditional logic, or tricky distractors, relying solely on the straightforward mathematical recognition of subtracting a value from itself.
+Evaluating the magnitude of the underlying latent construct necessary for a successful response or strong endorsement, the previous analysis of 2/3 indicates that a moderate to moderately high level of the trait is required.","Original Text: 2/3 - 2/3
+The task is to identify the core meaning of the item, which is simply the expression “2/3 - 2/3.”
+Primary construct: basic arithmetic/numeracy, specifically fraction subtraction. The item appears to assess the ability to compute a simple fraction operation rather than a clinical symptom or attitude.
+This item is essentially a numeric fraction comparison, so the cognitive demand is low. It requires simple recognition of equivalence rather than recall, multi-step reasoning, or synthesis. The wording is minimal and neutral, with no emotional language, conditional logic, or distractors; the only possible load comes from noticing that both sides are identical.
+This item appears to require a moderate level of the underlying trait to answer or endorse strongly.","Original Text: 2/3 - 2/3
+The item presents a subtraction expression asking for the result of two-thirds minus two-thirds.
+This item primarily measures arithmetic competence, specifically understanding of fraction subtraction and equivalence, because it requires recognizing that subtracting identical fractions yields zero.
+This asks for the item’s demand/severity and any features that raise cognitive load or endorsement threshold. Here, “2/3 - 2/3” is a simple arithmetic equality check requiring only basic recall of fraction equivalence, not multi-step reasoning or synthesis. It has minimal structural complexity, no distractors, no conditional logic, and no emotional or attitudinal content, so endorsement/severity threshold is not applicable and cognitive load is very low.
+The item appears to require a moderate-to-high level of the underlying latent trait for successful answering or strong endorsement.",-1.0432819789375882,0.29870326606322184,-0.5591566068826421,0.34472856541199376,-2.9057318538402397,0.13011247654467767,-1.3581535278888048,0.30289726068688316,1.5769559705960021,-0.9791134951922972,-1.4088464361058164,-1.7821011778643607,0.16828418053023436,135.0,frac20

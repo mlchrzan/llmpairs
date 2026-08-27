@@ -332,8 +332,8 @@ def fit_bipartite_bt(
     persons_df = pd.DataFrame(
         {
             id_col: person_labels.tolist(),
-            "BT_Score_Bipartite": scores[:n_person],
-            "BT_Strength_Bipartite": p[:n_person],
+            "BT_Score_Bipartite": scores[:n_person], # this is on the same scale as the item scores, so person scores can be directly compared to item scores to see how many "log-strengths" above or below the average person/item a given person is
+            "BT_Strength_Bipartite": p[:n_person], # this is the unnormalized strength, which is exp(score), so it is on a different scale than the scores but may be more interpretable for some purposes
             "BT_Total_Wins": w_sum[:n_person],
         }
     )
