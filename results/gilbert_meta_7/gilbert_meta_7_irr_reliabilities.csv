@@ -1,0 +1,3 @@
+group,method,score,n_annotators,n_items,interpretation,error
+llm,krippendorff,0.8638182482082711,7,600,Almost Perfect,
+all,krippendorff,0.8638182482082711,7,600,Almost Perfect,

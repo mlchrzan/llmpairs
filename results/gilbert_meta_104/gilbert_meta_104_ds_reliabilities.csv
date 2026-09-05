@@ -1,5 +1,8 @@
 annotator,reliability,type,rank
-decision_gpt-5.4,0.43765170432115436,LLM,1
-decision_gpt-5.4-mini,0.3673124673218128,LLM,2
-decision_gemini-3-flash-preview,0.13448261858837354,LLM,3
-decision_gemini-3.1-pro-preview,0.06974897664639694,LLM,4
+decision_gpt-5.6-sol,0.4396689616557994,LLM,1
+decision_gpt-5.4,0.4358805773391177,LLM,2
+decision_gpt-5.4-mini,0.3936752057170149,LLM,3
+decision_gpt-5.6-luna,0.2921990888166237,LLM,4
+decision_gemini-3.1-pro-preview,0.2364116750513085,LLM,5
+decision_gemini-3-flash-preview,0.09862077974592662,LLM,6
+decision_gemini-3.7-flash,0.02113441705133603,LLM,7

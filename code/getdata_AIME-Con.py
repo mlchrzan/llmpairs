@@ -1,4 +1,5 @@
 import dotenv
+import json
 import os
 import sys
 from datetime import datetime
@@ -11,6 +12,7 @@ import polars as pl
 import openai
 import pairadigm as pdm
 import mirt
+from bt_scaling import score_pairadigm_models
 dotenv.load_dotenv()
 
 CGCoT_PROMPTS = [
@@ -20,12 +22,33 @@ CGCoT_PROMPTS = [
     "Based on your analysis, describe the overall level of the underlying latent trait (e.g., high cognitive ability, severe psychological symptomology, strong attitude) required for a respondent to successfully answer or strongly endorse this item. Previous analysis: {text}"
 ]
 
-# MODEL_NAMES=["gemini-3-flash-preview", 'gpt-5.4-mini']
-MODEL_NAMES=["gemini-3-flash-preview", 'gemini-3.1-pro-preview', 
-             'gpt-5.4-mini','gpt-5.4']
-API_KEYS=[os.getenv("GEMINI_API_KEY"), os.getenv("GEMINI_API_KEY"), 
-          os.getenv("OPENAI_API_KEY"), os.getenv("OPENAI_API_KEY")]
-BASE_URLS=[None, None, "https://us.api.openai.com/v1", "https://us.api.openai.com/v1"]
+MODEL_NAMES = [
+    "gemini-3-flash-preview",
+    "gemini-3.1-pro-preview",
+    "gemini-3.7-flash",
+    "gpt-5.4-mini",
+    "gpt-5.4",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+]
+API_KEYS = [
+    os.getenv("GENAI_API_KEY"),
+    os.getenv("GENAI_API_KEY"),
+    os.getenv("GENAI_API_KEY"),
+    os.getenv("OPENAI_API_KEY"),
+    os.getenv("OPENAI_API_KEY"),
+    os.getenv("OPENAI_API_KEY"),
+    os.getenv("OPENAI_API_KEY"),
+]
+BASE_URLS = [
+    None,
+    None,
+    None,
+    "https://us.api.openai.com/v1",
+    "https://us.api.openai.com/v1",
+    "https://us.api.openai.com/v1",
+    "https://us.api.openai.com/v1",
+]
 
 np.random.seed(1234)  # For reproducibility of any random processes
 
@@ -35,6 +58,8 @@ irw_edtexts = irw.fetch([
     'gilbert_meta_103',
     'gilbert_meta_104',
     'gilbert_meta_2', 
+    'gilbert_meta_7',
+    'gilbert_meta_8',
     'frac20',
     # 'gilbert_meta_23', no item text available for this table
     # 'gilbert_meta_26', # Removed for being longitudinal
@@ -60,6 +85,80 @@ def get_log_path():
     logs_dir.mkdir(parents=True, exist_ok=True)
     log_timestamp = datetime.now().strftime("%Y:%m:%d_%H:%M:%S")
     return logs_dir / f"analysis_AIME-Con_{log_timestamp}.log"
+
+
+def balance_pair_orientations(pairwise_df, random_seed=1234):
+    """Duplicate every pair with item sides reversed."""
+    if not isinstance(pairwise_df, pd.DataFrame):
+        raise TypeError("pairwise_df must be a pandas DataFrame")
+
+    forbidden = [
+        column
+        for column in pairwise_df.columns
+        if column.startswith(("decision", "justification"))
+    ]
+    if forbidden:
+        raise ValueError(
+            "Pair orientations must be balanced before annotation. "
+            f"Found annotation columns: {forbidden}"
+        )
+
+    side_prefixes = (("item1", "item2"), ("breakdown1", "breakdown2"),
+                     ("text1", "text2"))
+    swap_pairs = []
+    for left_prefix, right_prefix in side_prefixes:
+        for left_column in pairwise_df.columns:
+            if not left_column.startswith(left_prefix):
+                continue
+            right_column = right_prefix + left_column[len(left_prefix):]
+            if right_column not in pairwise_df.columns:
+                raise ValueError(
+                    f"Cannot reverse '{left_column}' without '{right_column}'."
+                )
+            swap_pairs.append((left_column, right_column))
+
+    if ("item1", "item2") not in swap_pairs:
+        raise ValueError("pairwise_df must contain item1 and item2 columns")
+
+    original = pairwise_df.copy()
+    reversed_pairs = pairwise_df.copy()
+    for left_column, right_column in swap_pairs:
+        reversed_pairs[[left_column, right_column]] = pairwise_df[
+            [right_column, left_column]
+        ].to_numpy()
+
+    original["pair_id"] = np.arange(len(original))
+    reversed_pairs["pair_id"] = np.arange(len(reversed_pairs))
+    original["pair_orientation"] = "original"
+    reversed_pairs["pair_orientation"] = "reversed"
+
+    return (
+        pd.concat([original, reversed_pairs], ignore_index=True)
+        .sample(frac=1, random_state=random_seed)
+        .reset_index(drop=True)
+    )
+
+
+def test_client_connections(clients, max_tokens=500):
+    """Check model connectivity with enough tokens for reasoning models."""
+    test_prompt = "Reply with exactly OK."
+    print(f"Testing LLM client connections using: '{test_prompt}'")
+    results = {}
+    for client in clients:
+        try:
+            print(f"Testing client: {client.model_name}")
+            response = client.generate(
+                prompt=test_prompt,
+                max_tokens=max_tokens,
+                temperature=0.0,
+            )
+            results[client.model_name] = bool(response and response.strip())
+            status = "MODEL OK" if results[client.model_name] else "EMPTY RESPONSE"
+            print(f"  {client.model_name}: {status}")
+        except Exception as exc:
+            results[client.model_name] = False
+            print(f"  {client.model_name}: FAILED ({exc})")
+    return results
 
 def fit_2pl_mirt(
     df,
@@ -362,6 +461,7 @@ def fit_bipartite_bt(
 def main():
     all_results_metadata = []
     all_tables_item_scores = []
+    all_bt_scaling_parameters = []
 
     for table in irw_edtexts:
 
@@ -378,12 +478,24 @@ def main():
         bt_items = None
         bt_diagnostics = None
 
-        # Filter out any items with >95% correct responses or <5% correct responses to avoid issues with perfect separation in the BT model and to ensure meaningful variability in item responses for the pairwise comparisons and IRT analyses.
-        print(f"Filtering items in {table} based on response rates...")
-        if 'resp' in df.columns:
+        response_values = {
+            value
+            for value in df["resp"].drop_nulls().to_list()
+            if not (isinstance(value, float) and np.isnan(value))
+        }
+        if response_values == {0, 1}:
+            response_type = "binary"
+        elif len(response_values) > 2:
+            response_type = "likert/ordinal"
+        else:
+            response_type = "unknown"
+
+        # Extreme binary items can cause perfect separation and unstable item estimates.
+        if response_type == "binary":
+            print(f"Filtering binary items in {table} based on response rates...")
             item_response_rates = df.group_by("item").agg(
                 pl.col("resp").mean().alias("pct_correct"),
-                pl.count("resp").alias("n_responses")
+                pl.col("resp").count().alias("n_responses")
             )
             items_to_keep = item_response_rates.filter(
                 (pl.col("pct_correct") <= 0.95) & 
@@ -392,20 +504,19 @@ def main():
             )["item"].to_list()
             print(f"    Keeping {len(items_to_keep)} items out of {item_response_rates.shape[0]} based on response rates and minimum response count.")
             df = df.filter(pl.col("item").is_in(items_to_keep))
+        else:
+            print(
+                f"Skipping binary response-rate filtering for {table}: "
+                f"responses are {response_type}."
+            )
 
         # Get the number of unique values in df['item']
         unique_items = df['item'].n_unique()
+        if unique_items < 2:
+            print(f"    Warning: Fewer than two analyzable items remain for {table}; skipping.")
+            continue
 
-        # Identify if the responses are binary or likert/ordinal based on the number of unique values in df['resp']
-        unique_responses = df['resp'].n_unique()
-        if unique_responses == 2:
-            response_type = "binary"
-        elif unique_responses > 2:
-            response_type = "likert/ordinal"
-        else:            
-            response_type = "unknown"
-
-        print(f"Analyzing {table}; Shape: {df.shape[0]} respondents, {df.shape[1]} columns; Unique Items: {unique_items}; Response Type: {response_type}")
+        print(f"Analyzing {table}; Shape: {df.shape[0]} responses, {df.shape[1]} columns; Unique Items: {unique_items}; Response Type: {response_type}")
 
         if response_type == "binary":
             print(f"    Fitting bipartite BT model for {table}...")
@@ -475,6 +586,25 @@ def main():
                 ).alias("combined_text")
             )
 
+        response_items = set(df["item"].unique().to_list())
+        text_items = set(text_agg["item"].to_list())
+        missing_text_items = response_items - text_items
+        if missing_text_items:
+            raise ValueError(
+                f"Missing item text for {len(missing_text_items)} retained items in "
+                f"{table}: {sorted(missing_text_items, key=str)}"
+            )
+
+        text_agg = text_agg.filter(pl.col("item").is_in(list(response_items)))
+        unusable_text = text_agg.filter(
+            pl.col("combined_text").is_null()
+            | (pl.col("combined_text").str.strip_chars() == "")
+        )
+        if unusable_text.height:
+            raise ValueError(
+                f"Found {unusable_text.height} retained items with empty text in {table}."
+            )
+
         text_agg.write_csv(f"../results/{table_dir}/{table}_itemtext.csv")
         num_items_text = text_agg.shape[0]
         print(f"    Aggregated item text shape: {text_agg.shape[0]} rows, {text_agg.shape[1]} columns")
@@ -498,7 +628,7 @@ def main():
             save_dir=f"{table_dir}/pairadigm_results"
         )
 
-        client_test_results = p.test_clients_connection()
+        client_test_results = test_client_connections(p.clients, max_tokens=500)
         print(f"    Client test results: {client_test_results}")
         
         # If any values in the dict client_test_results are False, raise ValueError with a message indicating which clients failed the connection test
@@ -513,7 +643,15 @@ def main():
 
         print(f"    Generating pairings with num_pairs_per_item={num_pairs_per_item} for {table}")
         p.generate_pairings(num_pairs_per_item=num_pairs_per_item,
+                            random_seed=1234,
                             breakdowns=True)
+        n_unoriented_pairs = len(p.pairwise_df)
+        p.pairwise_df = balance_pair_orientations(p.pairwise_df, random_seed=1234)
+        n_balanced_pairs = len(p.pairwise_df)
+        print(
+            f"    Balanced pair orientations: {n_unoriented_pairs} unique pairs, "
+            f"{n_balanced_pairs} annotation rows."
+        )
         p.generate_pairwise_annotations(max_workers=32)
 
         # Print annotator quality and save the dataframes to the table directory
@@ -523,23 +661,10 @@ def main():
         irr_reliabilities.to_csv(f"../results/{table_dir}/{table}_irr_reliabilities.csv", index=False)
         ds_reliabilities.to_csv(f"../results/{table_dir}/{table}_ds_reliabilities.csv", index=False)
 
-        # Get and concatenate scored items for all models
-        all_scores = []
-        index = 0
-        for model in MODEL_NAMES:
-            print(f"    Scoring items using decisions from {model} for {table}...")            
-            scored_df = p.score_items(
-                normalization_scale=(-3, 3), 
-                decision_col=f"decision_{model}"
-            )  
-            if index == 0:
-                all_scores = scored_df.copy()
-            else:
-                scored_df = scored_df[[
-                    'item', 
-                    f'Bradley_Terry_Score_{model}', f'Bradley_Terry_SE_{model}']]
-                all_scores = all_scores.merge(scored_df, on='item', how='left')
-            index += 1
+        # Preserve native BT log scores and add comparable within-table z-scores.
+        all_scores, bt_scaling_parameters = score_pairadigm_models(p, MODEL_NAMES)
+        bt_scaling_parameters.insert(0, "table", table)
+        all_bt_scaling_parameters.extend(bt_scaling_parameters.to_dict("records"))
             
         print(f"    Completed scoring for {table}. Saving to pairadigm object...")
         p.scored_df = all_scores
@@ -660,29 +785,35 @@ def main():
         all_item_scores['table'] = table
         all_item_scores.to_csv(f"../results/{table_dir}/{table}_all_item_scores.csv", index=False)
         
-        try:
-            all_results_metadata.to_csv(f"../results/{table_dir}/{table}_results_metadata.csv", index=False)
-        except Exception as e:
-            print(f"Error saving metadata for {table}: {e}")
-            # Try saving metadata as a JSON file instead
-            try:
-                import json
-                with open(f"../results/{table_dir}/{table}_results_metadata.json", "w", encoding="utf-8") as f:
-                    json.dump(all_results_metadata, f, indent=4)
-            except Exception as e:
-                print(f"Error saving metadata as JSON for {table}: {e}")
-                print("Metadata will be included in the aggregated results across all tables instead.")
-
-        all_results_metadata.append({
+        table_metadata = {
             "table": table,
+            "models": MODEL_NAMES,
             "client_test_results": client_test_results,
-            "num_respondents": df.shape[0],
+            "response_type": response_type,
+            "response_values": sorted(response_values),
+            "num_respondents": df["id"].n_unique(),
+            "num_responses": df.shape[0],
             "num_items": unique_items,
             "num_pairs_per_item": num_pairs_per_item,
+            "num_unique_pairs": n_unoriented_pairs,
+            "num_annotation_rows": n_balanced_pairs,
+            "pair_orientations": ["original", "reversed"],
             "bipartite_bt": bt_diagnostics,
             "irt_item_params": irt_item_params_summary,
             "irt_person_scores": irt_person_scores_summary
-        })
+        }
+        all_results_metadata.append(table_metadata)
+
+        pd.DataFrame([table_metadata]).to_csv(
+            f"../results/{table_dir}/{table}_results_metadata.csv",
+            index=False,
+        )
+        with open(
+            f"../results/{table_dir}/{table}_results_metadata.json",
+            "w",
+            encoding="utf-8",
+        ) as metadata_file:
+            json.dump(table_metadata, metadata_file, indent=4)
 
         all_tables_item_scores.append(all_item_scores)
         print(f"    Saved results for {table}.")
@@ -704,6 +835,10 @@ def main():
     
     all_item_scores_df = pd.concat(all_tables_item_scores, ignore_index=True)
     all_item_scores_df.to_csv("../results/all_tables_item_scores.csv", index=False)
+    pd.DataFrame(all_bt_scaling_parameters).to_csv(
+        "../results/all_BT_scaling_parameters.csv",
+        index=False,
+    )
     print("Saved results across all tables.")
 
 if __name__ == "__main__":  
