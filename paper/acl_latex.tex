@@ -8,6 +8,7 @@
 \usepackage{times}
 \usepackage{latexsym}
 \usepackage{amsmath}
+\usepackage{booktabs}
 
 % For proper rendering and hyphenation of words containing Latin characters (including in bib files)
 \usepackage[T1]{fontenc}
@@ -91,7 +92,7 @@ However, when utilizing multiple different LLMs or deploying varying prompt arch
 \section{Data}
 \label{sec:data}
 
-The items we examine were drawn from seven datasets in the Item Response Warehouse (IRW) \citep{domingueIntroductionItemResponse2025}. Using their IRW tags, they are: (\textbf{1}) frac20 - a mathematics/fractions dataset \citep{tatsuokaDataAnalyticMethods2002} - and six literacy-focused datasets from three studies: (\textbf{2}) gilbert\_meta\_2 \citep{kimReplicationDataLongitudinal2023}, (\textbf{3}) gilbert\_meta\_7 and (\textbf{4}) gilbert\_meta\_8 \citep{kimTimeTransferLongterm2024}, as well as (\textbf{5}) gilbert\_meta\_102, (\textbf{6}) gilbert\_meta\_103, and (\textbf{7}) gilbert\_meta\_104 \citep{relyeaAssetBasedImplementationStructured2025}. These datasets include items with established 1PL IRT difficulty calibrations, providing a psychometric ground truth for validation. They were selected using the IRW's filtering capabilities to ensure that the datasets have item text available, the age range is <=18, the construct is cognitive/educational, the measurement tool is test, the item format is Likert/constructed response, and language is English. 
+The items we examine were drawn from seven datasets in the Item Response Warehouse (IRW) \citep{domingueIntroductionItemResponse2025}. Using their IRW tags, they are: (\textbf{1}) \texttt{frac20} - a mathematics/fractions dataset \citep{tatsuokaDataAnalyticMethods2002} - and six literacy-focused datasets from three studies: (\textbf{2}) \texttt{gilbert\_meta\_2} \citep{kimReplicationDataLongitudinal2023}, (\textbf{3}) \texttt{gilbert\_meta\_7} and (\textbf{4}) \texttt{gilbert\_meta\_8} \citep{kimTimeTransferLongterm2024}, as well as (\textbf{5}) \texttt{gilbert\_meta\_102}, (\textbf{6}) \texttt{gilbert\_meta\_103}, and (\textbf{7}) \texttt{gilbert\_meta\_104} \citep{relyeaAssetBasedImplementationStructured2025}. These datasets include items with established 1PL IRT difficulty calibrations, providing a psychometric ground truth for validation. They were selected using the IRW's filtering capabilities to ensure that the datasets have item text available, the age range is <=18, the construct is cognitive/educational, the measurement tool is test, the item format is Likert/constructed response, and language is English. 
 
 \begin{figure*}[t]
   \centering
@@ -133,12 +134,7 @@ where
   \item $\gamma_k$ is the position bias for participant $k$.
 \end{itemize}
 
-We enforce that (1) the sum of $\lambda_i$ across all items is zero, and (2) the geometric mean of $\alpha_k$ across all models is one, which identifies the global $\alpha-\lambda$ scale without choosing an arbitrary reference model. We discuss the full model details in Appendix \ref{app:bradley_terry}, including the hierarchical priors for $\lambda_i$, $\alpha_k$, and $\gamma_k$. We also structure the data such that every unordered pair is evaluated in both orientations, which balances item identity across first and second positions and makes $\gamma_k$ estimable from direct orientation reversals. 
-
-\subsubsection{Sensitivity Check}
-\label{subsubsec:sensitivity_check}
-
-The primary model gives every model judgment equal weight. A provider-balanced sensitivity model weights observations so Google and OpenAI contribute equal total likelihood mass. Additional leave-one-model-out fits test whether item rankings depend strongly on any single model. These are discussed in Appendix \ref{app:sensitivity}.
+We structure the data such that every unordered pair is evaluated in both orientations, which balances item identity across first and second positions and makes $\gamma_k$ estimable from direct orientation reversals. Further, we enforce that (1) the sum of $\lambda_i$ across all items is zero, and (2) the geometric mean of $\alpha_k$ across all models is one, which identifies the global $\alpha-\lambda$ scale without choosing an arbitrary reference model. We discuss the full model details in the Appendix, including the hierarchical priors for $\lambda_i$, $\alpha_k$, and $\gamma_k$ in Appendix \ref{app:bradley_terry} as well as model diagnostic checks in Appendix \ref{app:diagnostic} and sensitivity analysis in Appendix \ref{app:sensitivity}. 
 
 \section{Results}
 \label{sec:results}
@@ -146,10 +142,42 @@ The primary model gives every model judgment equal weight. A provider-balanced s
 \begin{figure*}[t]
   \centering
   \includegraphics[width=\textwidth]{tables_and_figures/standardized_bt_vs_1pl_by_table.png}
-  \caption{Standardized Hierarchical Bradley-Terry Strengths vs. 1PL IRT Difficulty Parameters. Each point represents an item, with the y-axis showing the standardized BT strength estimated from LLM pairwise comparisons and the x-axis showing the corresponding 1PL IRT difficulty parameter. The dashed lines indicates the correlational relationship between the two measures for a given model, illustrating varying degrees of alignment between LLM-derived BT scores and psychometrically validated IRT difficulties.}
+  \caption{Standardized Bradley--Terry scores versus 1PL IRT difficulty. Each panel represents one dataset; points and dashed linear trends distinguish the seven model-specific BT estimates and the pooled HBT estimate. The pooled HBT ranking is positively associated with respondent-calibrated difficulty overall, but the strength of association varies across datasets and models.}
   \label{fig:bt_v_1pl}
 \end{figure*}
 
+\begin{table*}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \begin{tabular}{lrrrrrrrr}
+    \toprule
+    Dataset & Items & Judgments & $\rho$ & $p$ & $\alpha$ & Rank agr. & Accuracy & Brier \\
+    \midrule
+    \texttt{frac20}             & 20 & 2,324 & .591 & .006 & .839 & .732 & .732 & .174 \\
+    \texttt{gilbert\_meta\_2}   & 20 & 2,310 & .337 & .146 & .899 & .834 & .853 & .097 \\
+    \texttt{gilbert\_meta\_7}   & 36 & 4,200 & .398 & .016 & .864 & .784 & .794 & .136 \\
+    \texttt{gilbert\_meta\_8}   & 29 & 3,430 & .423 & .022 & .902 & .848 & .854 & .101 \\
+    \texttt{gilbert\_meta\_102} & 36 & 4,340 & .449 & .006 & .850 & .760 & .778 & .148 \\
+    \texttt{gilbert\_meta\_103} & 29 & 3,430 & .414 & .025 & .917 & .871 & .874 & .087 \\
+    \texttt{gilbert\_meta\_104} &  9 &   546 & .250 & .516 & .834 & .716 & .787 & .136 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Dataset-level validity, agreement, and HBT fit. $\rho$ is the Spearman correlation between standardized HBT item strength and 1PL difficulty; $\alpha$ is Krippendorff's inter-model agreement coefficient. Rank agreement is the posterior mean agreement between the deterministic HBT item ordering and observed winners. Accuracy and Brier scores use the full HBT likelihood and are in-sample. Judgments count model-specific comparisons across both pair orientations.}
+  \label{tab:dataset_summary}
+\end{table*}
+
+\subsection{Recovery of Respondent-Calibrated Difficulty}
+
+Across the 179 items, standardized HBT item strengths were moderately associated with respondent-calibrated 1PL difficulty (Spearman's $\rho=0.400$, $p<.001$). As Figure~\ref{fig:bt_v_1pl} and Table~\ref{tab:dataset_summary} show, however, this relationship varied substantially by dataset. The strongest association occurred for \texttt{frac20} ($\rho=0.591$, $p=.006$). Positive associations were also observed for \texttt{gilbert\_meta\_102} ($\rho=0.449$, $p=.006$), \texttt{gilbert\_meta\_8} ($\rho=0.423$, $p=.022$), \texttt{gilbert\_meta\_103} ($\rho=0.414$, $p=.025$), and \texttt{gilbert\_meta\_7} ($\rho=0.398$, $p=.016$). Estimates were weaker and not statistically distinguishable from zero for \texttt{gilbert\_meta\_2} ($\rho=0.337$, $p=.146$) and the nine-item \texttt{gilbert\_meta\_104} dataset ($\rho=0.250$, $p=.516$). Thus, the pooled ranking recovered a meaningful difficulty signal, but not uniformly across item sets. In particular, the strongest result arose for the mathematics dataset, whereas results varied among the six literacy datasets; the observed heterogeneity therefore does not reduce to a simple mathematics-versus-literacy distinction.
+
+The HBT ranking also retained substantial information from the model-specific BT rankings. Across all items, Spearman correlations between each individual model's BT scores and HBT scores ranged from $0.545$ for GPT-5.4 Mini to $0.864$ for GPT-5.6 Sol. Hierarchical pooling therefore captured a broadly shared ordering without making any single LLM the reference rater.
+
+\subsection{Consistency and Inter-Model Agreement}
+
+Most model--dataset combinations exhibited high triplet transitivity, often exceeding 95\%. The principal exceptions involved GPT-5.4 Mini, whose transitivity was 76.2\% on \texttt{gilbert\_meta\_104}, 87.9\% on \texttt{gilbert\_meta\_2}, 91.4\% on \texttt{gilbert\_meta\_7}, and 91.9\% on \texttt{gilbert\_meta\_102}; GPT-5.4 also reached only 85.7\% on \texttt{gilbert\_meta\_104}. Agreement across the seven LLMs was uniformly high by conventional standards, with dataset-level Krippendorff's $\alpha$ ranging from $0.834$ to $0.917$. These strong internal-consistency and inter-model-agreement results contrast with the moderate and heterogeneous correlations with 1PL difficulty. Transitivity, agreement among LLMs, and alignment with respondent-calibrated difficulty consequently capture distinct properties of the judgments.
+
+\subsection{Rater Effects and Model Fit}
 
 \begin{figure*}[t]
   \centering
@@ -158,41 +186,39 @@ The primary model gives every model judgment equal weight. A provider-balanced s
   \label{fig:discrim_and_position}
 \end{figure*}
 
+Figure~\ref{fig:discrim_and_position} shows pronounced variation in both rater discrimination and presentation-order bias. Posterior median discrimination estimates ranged from $0.210$ for GPT-5.4 Mini on \texttt{gilbert\_meta\_7} (94\% HDI $[0.137, 0.285]$) to $6.013$ for Gemini 3.7 Flash on \texttt{gilbert\_meta\_104} (94\% HDI $[2.399, 20.124]$); the wide interval for the latter estimate reflects the small number of items. GPT-5.4 Mini generally had low discrimination on the Gilbert datasets. Position effects were likewise consequential. The most negative estimate was for GPT-5.4 Mini on \texttt{gilbert\_meta\_104} ($\gamma=-1.927$, 94\% HDI $[-2.678,-1.254]$), indicating a preference for the second-presented item. The largest positive estimate occurred for Gemini 3 Flash Preview on \texttt{gilbert\_meta\_8} ($\gamma=0.858$, 94\% HDI $[0.599,1.126]$), indicating a preference for the first-presented item. Because each unordered pair appeared in both orientations, these tendencies could be separated from item identity and shared item strength.
+
+The HBT item ordering agreed with observed pairwise winners in 71.6\% to 87.1\% of judgments across datasets. When rater-specific discrimination and position bias were included through the full likelihood, in-sample predictive accuracy ranged from 73.2\% on \texttt{frac20} to 87.4\% on \texttt{gilbert\_meta\_103}. The clearest gain from incorporating rater effects occurred for \texttt{gilbert\_meta\_104}, where agreement based on item ordering alone was 71.6\%, compared with 78.7\% full-likelihood predictive accuracy. These values describe fit to the judgments used for estimation and are not measures of performance on unseen comparisons. Full sampling and predictive diagnostics are reported in Appendix~\ref{app:hbt_diagnostics}.
+
 \section{Discussion}
 \label{sec:discussion}
+
+The central result is qualified but substantively useful: LLM pairwise comparisons contain recoverable information about psychometric item difficulty, yet that information is incomplete. Pooling seven LLMs in the HBT model produced an overall correlation of $0.400$ with 1PL difficulty, demonstrating that judgments based on item text alone capture more than arbitrary preference. At the same time, the dataset-level range from $0.250$ to $0.591$ is too broad, and the weaker results too consequential, to treat LLM-derived rankings as interchangeable with respondent-based calibration.
+
+The contrast between consensus and validity is particularly important. The LLMs usually produced transitive judgments and agreed strongly with one another, but their shared ranking aligned only moderately with IRT difficulty. Agreement among artificial raters can therefore indicate a stable model-derived construct without establishing that this construct is the one measured in human response data. Models may converge on salient textual cues, curricular content, or solution complexity while missing factors that shape empirical difficulty, such as examinee familiarity, distractor functioning, instructional exposure, or population-specific misconceptions. Increasing the number of similar raters may sharpen such a shared ordering without correcting a common construct mismatch.
+
+The rater parameters help explain why hierarchical aggregation is preferable to selecting one model or averaging rankings without adjustment. LLMs differed markedly in how sharply they responded to latent item-strength differences, and several showed presentation-order effects large enough for their 94\% intervals to exclude zero. Balanced pair orientation made these biases identifiable; without reversal, position preference could be absorbed into item strength and distort the consensus ranking. More generally, the results argue for treating LLMs as heterogeneous judges whose decisions require measurement, rather than as exchangeable replications of a single evaluator.
+
+Performance differences across datasets also caution against broad domain-level claims. The mathematics set showed the strongest external alignment, but the literacy datasets ranged from weak to moderate despite their related content. Item count contributes to uncertainty, especially for \texttt{gilbert\_meta\_104}, but sample size alone cannot explain all heterogeneity. Differences in item format, construct representation, response processes, and the correspondence between textual demand and empirical difficulty are plausible sources that should be tested directly as access to item text grows.
+
+For assessment development, these findings support a limited but practical role for LLM-derived rankings. They can provide immediate provisional ordering for item review, rough form assembly, or prioritization before respondent data are available. They should not be used as final calibration parameters or as a substitute for field testing. Stronger applications would combine balanced presentation, multiple model families, inspection of rater-specific $\alpha_k$ and $\gamma_k$, and anchor items with known IRT parameters. Validation should ultimately be conducted on held-out comparisons and new item sets, with respondent calibration retained as the criterion.
 
 \section{Conclusion}
 \label{sec:Conclusion}
 
-encoders are better, The performance notably fell short of simpler, encoder-only models like ConvBERT utilized with a linear scheduler, which achieved a superior QWK of 0.62510 \citep{wangCanLLMsReally2026}.
+Paired comparisons elicited from LLMs provide a scalable, nontrivial signal about item difficulty, and hierarchical Bradley--Terry modeling offers a principled way to pool that signal while accounting for differences in rater discrimination and position bias. Nevertheless, high transitivity and strong inter-model agreement did not ensure close correspondence with respondent-calibrated difficulty. LLM consensus is therefore best viewed as evidence for a provisional item ordering, not as psychometric calibration. Respondent data remain necessary when item parameters will support score interpretation or operational assessment decisions.
 
 \section*{Limitations}
 \label{sec:limits}
 
-\begin{itemize}
-  \item datasets were restricted to those with available item text in the IRW, which is growing but still limited. Future work should expand to additional datasets and domains to assess generalizability.
-  \item The LLMs evaluated are proprietary and subject to change, which may limit reproducibility. Future work should include open-source models and document model versions and configurations. As the number of both models and datasets grows, future work could also explore relationships between model characteristics and performance.
-  \item The hierarchical Bradley-Terry model assumes a specific parametric form for discrimination and position bias. Alternative modeling approaches could be explored to assess robustness of the findings.
-  \item The study does not examine the impact of prompt design on LLM judgments. Future work could systematically vary prompts to assess sensitivity to prompt wording and structure.
-\end{itemize}
+This study has several limitations. We restricted the analysis to IRW datasets with available item text; although the warehouse's available item text data is growing, the resulting set remains limited. Additional datasets and domains are needed to assess the generalizability of the findings. The evaluated LLMs are also proprietary and subject to change, which may limit reproducibility. Future studies should include open-source models, document model versions and configurations, and, as the number of models and datasets grows, examine relationships between model characteristics and performance.
+
+The hierarchical Bradley--Terry model further assumes a particular parametric form for rater discrimination and position bias. Comparing this specification with alternative aggregation models would clarify the robustness of the findings. Finally, we held the prompt design fixed and therefore cannot determine how sensitive LLM judgments are to prompt wording or structure; systematically varying the prompts is an important direction for future work.
 
 \section*{Acknowledgments}
 \label{sec:acknowledgments}
 
 \textbf{ASK BEN!}
-
-%Please see Section~\ref{sec:bibtex} for information on preparing Bib\TeX{} files.
-%
-%\section{Bib\TeX{} Files}
-%\label{sec:bibtex}
-%
-%Unicode cannot be used in Bib\TeX{} entries, and some ways of typing special characters can disrupt Bib\TeX's alphabetization. The recommended way of typing special characters is shown in Table~\ref{tab:accents}.
-%
-%Please ensure that Bib\TeX{} records contain DOIs or URLs when possible, and for all the ACL materials that you reference.
-%Use the \verb|doi| field for DOIs and the \verb|url| field for URLs.
-%If a Bib\TeX{} entry has a URL or DOI field, the paper title in the references section will appear as a hyperlink to the paper, using the hyperref \LaTeX{} package.
-%
-% ---------------------------------------------
 
 % Custom bibliography entries only
 \bibliography{custom}
@@ -265,9 +291,22 @@ Centering log discrimination enforces
 
 so the geometric mean rater discrimination is one. This identifies the global $\alpha-\lambda$ scale without choosing an arbitrary reference model.
 
+\section{HBT Model Diagnostics}
+\label{app:hbt_diagnostics}
+
+Each dataset-specific HBT model was estimated with four chains, 500 tuning iterations, 1,000 retained draws per chain, and a target acceptance probability of $0.95$. Across item strengths, rater effects, and their scale parameters, the largest $\hat{R}$ was $1.01$. The minimum bulk and tail effective sample sizes were 594 and 953, respectively. No divergent transitions were observed, and the minimum chain-level Bayesian fraction of missing information was $0.657$. Visual inspection of the trace plots for $\sigma_{\lambda}$ and $\sigma_{\log\alpha}$ showed stable mixing with no evident chain separation. Together, these checks provided no indication that the substantive findings were driven by failed convergence.
+
+We evaluated fitted behavior in two complementary ways. First, for every posterior draw we compared the deterministic ordering of $\lambda_i$ and $\lambda_j$ with the observed winner, deliberately excluding $\alpha_k$ and $\gamma_k$. Mean agreement ranged from $0.716$ for \texttt{gilbert\_meta\_104} to $0.871$ for \texttt{gilbert\_meta\_103}. Second, we scored each judgment under the complete likelihood. Mean observed-outcome probabilities ranged from $0.653$ to $0.828$, mean log scores from $-0.516$ to $-0.272$, Brier scores from $0.087$ to $0.174$, and classification accuracy from $0.732$ to $0.874$. \texttt{gilbert\_meta\_103} had the strongest full-likelihood fit, whereas \texttt{frac20} had the lowest predictive accuracy and largest Brier score. For \texttt{gilbert\_meta\_104}, full-likelihood accuracy exceeded deterministic ranking agreement by approximately seven percentage points, indicating that rater discrimination and position bias explained a meaningful portion of its observed choices.
+
+These posterior predictive quantities are in-sample diagnostics: the pairwise judgments being scored are the same judgments used to estimate the model. They measure how well the fitted HBT model represents the observed comparison data, not generalization to unobserved pairs, new items, or new LLM raters.
+
 \section{Sensitivity Analyses}
 \label{app:sensitivity}
 
-put description of sensitivity analyses here
+We examined whether the pooled item ranking depended on the unequal number of models from each provider or on any single LLM. The provider-balanced model assigned weights so that the three Google models and four OpenAI models contributed equal total likelihood mass. Within each dataset, we compared its posterior-mean item ranks with those from the primary equal-judgment model using Spearman correlation. Correlations ranged from $0.956$ for \texttt{frac20} to $0.997$ for \texttt{gilbert\_meta\_103}; mean absolute rank changes were at most 1.20 positions, and no item moved more than four positions. The main ranking was therefore insensitive to provider composition.
+
+We next refit the model seven times per dataset, excluding one LLM at a time. Of the 56 leave-one-model-out fits, 53 correlated at least $0.944$ with the primary ranking, and correlations reached $1.000$ in one fit. Across all fits, mean absolute rank changes did not exceed 1.56 positions and the largest change for any item was six positions. The three lower correlations all occurred in the nine-item \texttt{gilbert\_meta\_104} dataset: $0.717$ after excluding Gemini 3.7 Flash, $0.767$ after excluding Gemini 3 Flash Preview, and $0.917$ after excluding Gemini 3.1 Pro Preview. By contrast, the provider-balanced ranking for this dataset remained close to the primary ranking ($\rho=0.983$). This localized sensitivity is consistent with the greater rank volatility expected in a small item set and indicates that the \texttt{gilbert\_meta\_104} ordering depends more heavily on the Gemini raters. It does not alter the broader finding that no single model determined the pooled rankings in the larger datasets.
+
+All sensitivity fits showed satisfactory convergence for the item-strength parameters: the maximum $\hat{R}$ was $1.01$ and the minimum bulk effective sample size was 2,277. Taken together, the provider-balanced and leave-one-model-out analyses support the robustness of the primary ranking, with the explicit exception of model-removal sensitivity in the smallest dataset.
 
 \end{document}
