@@ -2,11 +2,12 @@
 
 % Change "review" to "final" to generate the final (sometimes called camera-ready) version.
 % Change to "preprint" to generate a non-anonymous version with page numbers.
-\usepackage[review]{acl}
+\usepackage[final]{acl}
 
 % Standard package includes
 \usepackage{times}
 \usepackage{latexsym}
+\usepackage{amsmath}
 
 % For proper rendering and hyphenation of words containing Latin characters (including in bib files)
 \usepackage[T1]{fontenc}
@@ -37,341 +38,236 @@
 %
 % and set <dim> to something 5cm or larger.
 
-\title{Instructions for *ACL Proceedings}
+\title{Consensus without Accuracy: Investigating LLMs Ability to Recover Item Difficulty Using Paired Comparisons}
 
-% Author information can be set in various styles:
-% For several authors from the same institution:
-% \author{Author 1 \and ... \and Author n \\
-%         Address line \\ ... \\ Address line}
-% if the names do not fit well on one line use
-%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
-% For authors from different institutions:
-% \author{Author 1 \\ Address line \\  ... \\ Address line
-%         \And  ... \And
-%         Author n \\ Address line \\ ... \\ Address line}
-% To start a separate ``row'' of authors use \AND, as in
-% \author{Author 1 \\ Address line \\  ... \\ Address line
-%         \AND
-%         Author 2 \\ Address line \\ ... \\ Address line \And
-%         Author 3 \\ Address line \\ ... \\ Address line}
-
-\author{First Author \\
-  Affiliation / Address line 1 \\
-  Affiliation / Address line 2 \\
-  Affiliation / Address line 3 \\
-  \texttt{email@domain} \\\And
-  Second Author \\
-  Affiliation / Address line 1 \\
-  Affiliation / Address line 2 \\
-  Affiliation / Address line 3 \\
-  \texttt{email@domain} \\}
-
-%\author{
-%  \textbf{First Author\textsuperscript{1}},
-%  \textbf{Second Author\textsuperscript{1,2}},
-%  \textbf{Third T. Author\textsuperscript{1}},
-%  \textbf{Fourth Author\textsuperscript{1}},
-%\\
-%  \textbf{Fifth Author\textsuperscript{1,2}},
-%  \textbf{Sixth Author\textsuperscript{1}},
-%  \textbf{Seventh Author\textsuperscript{1}},
-%  \textbf{Eighth Author \textsuperscript{1,2,3,4}},
-%\\
-%  \textbf{Ninth Author\textsuperscript{1}},
-%  \textbf{Tenth Author\textsuperscript{1}},
-%  \textbf{Eleventh E. Author\textsuperscript{1,2,3,4,5}},
-%  \textbf{Twelfth Author\textsuperscript{1}},
-%\\
-%  \textbf{Thirteenth Author\textsuperscript{3}},
-%  \textbf{Fourteenth F. Author\textsuperscript{2,4}},
-%  \textbf{Fifteenth Author\textsuperscript{1}},
-%  \textbf{Sixteenth Author\textsuperscript{1}},
-%\\
-%  \textbf{Seventeenth S. Author\textsuperscript{4,5}},
-%  \textbf{Eighteenth Author\textsuperscript{3,4}},
-%  \textbf{Nineteenth N. Author\textsuperscript{2,5}},
-%  \textbf{Twentieth Author\textsuperscript{1}}
-%\\
-%\\
-%  \textsuperscript{1}Affiliation 1,
-%  \textsuperscript{2}Affiliation 2,
-%  \textsuperscript{3}Affiliation 3,
-%  \textsuperscript{4}Affiliation 4,
-%  \textsuperscript{5}Affiliation 5
-%\\
-%  \small{
-%    \textbf{Correspondence:} \href{mailto:email@domain}{email@domain}
-%  }
-%}
+\author{Michael L. Chrzan \\
+  Center for Educational Data Science \\
+  and Innovation, \\
+  University of Maryland \\\And
+  Benjamin W. Domingue \\
+  Stanford University
+  \thanks{\textbf{Correspondence:} \href{mailto:mlchrzan@umd.edu}{\texttt{mlchrzan@umd.edu}}}
+}
 
 \begin{document}
 \maketitle
+
 \begin{abstract}
-This document is a supplement to the general instructions for *ACL authors. It contains instructions for using the \LaTeX{} style files for ACL conferences.
-The document itself conforms to its own specifications, and is therefore an example of what your manuscript should look like.
-These instructions should be used both for papers submitted for review and for final versions of accepted papers.
+Large language models (LLMs) offer a scalable way to estimate item difficulty before respondent data are available, but it is unclear whether they can provide reliable estimates, either alone or in aggregate. We evaluate seven frontier LLMs on pairwise comparisons of items from seven datasets with respondent-calibrated one-parameter item response theory (1PL IRT) difficulty estimates. We aggregate their judgments using a hierarchical Bayesian Bradley--Terry model that estimates shared item strengths while accounting for model-specific discrimination and presentation-order bias. The pooled rankings recover a meaningful but incomplete difficulty signal: standardized hierarchical Bradley--Terry strengths correlate moderately with IRT difficulty overall (Spearman's $\rho=0.400$, $p<.001$), with dataset-level correlations ranging from $0.250$ to $0.591$. This heterogeneity persists despite high inter-model agreement (Krippendorff's $\alpha=0.834$--$0.917$) and generally high within-model triplet transitivity, demonstrating that consensus and internal consistency do not guarantee external psychometric validity. The hierarchical model also reveals substantial variation in rater discrimination and position bias, while in-sample predictive accuracy ranges from $0.732$ to $0.874$ across datasets. These findings support LLM pairwise comparisons as a scalable source of provisional item ordering, but not as a replacement for respondent-based calibration.
 \end{abstract}
 
 \section{Introduction}
+\label{sec:intro}
 
-These instructions are for authors submitting papers to *ACL conferences using \LaTeX. They are not self-contained. All authors must follow the general instructions for *ACL proceedings,\footnote{\url{http://acl-org.github.io/ACLPUB/formatting.html}} and this document contains additional instructions for the \LaTeX{} style files.
+Item calibration - the process of estimating psychometric properties such as item difficulty - is central to educational assessment but resource-intensive, typically requiring large samples of student response data and extended field-testing periods creating barriers for low-resource testing programs, early-stage item development, and rapid test assembly contexts \citep{jiangSampleSizeRequirements2016}. Recent advances in large language model (LLM) capabilities raise an intriguing question: can item difficulty be meaningfully estimated directly from item text, without recourse to any response data? Such an approach would offer immediate practical utility for item writers and test developers seeking a scalable first-pass difficulty signal for item screening, ordering, or rough-cut form assembly before formal calibration. Prior work has explored LLMs for automated item generation and scoring \citep{vondavierComputationalPsychometricsNew2022}, but their deployment as a calibration proxy for estimating the psychometric difficulty of items never yet administered remains less examined as does the extent to which paired comparisons aid in that effort.
+ 
+Recent work by \citet{wuConceptGuidedChainofThoughtPrompting2024} introduced concept-guided chain-of-thought (CGCoT) prompting as a generalizable framework for scoring texts on latent constructs. CGCoT pairs a sequence of researcher-crafted prompts, each probing a different facet of the latent construct of interest, with LLM-based pairwise comparisons aggregated into a continuous score via the Bradley-Terry (BT) model \citep{bradleyRankAnalysisIncomplete1952}. Originally validated for scaling political affect in social media, CGCoT's structure maps naturally onto item difficulty estimation: an item's text can be characterized through prompts targeting cognitive demand and required ability level, with pairs of items compared by an LLM to establish an ordinal difficulty ranking without any examinee data.
 
-The templates include the \LaTeX{} source of this document (\texttt{acl\_latex.tex}),
-the \LaTeX{} style file used to format it (\texttt{acl.sty}),
-an ACL bibliography style (\texttt{acl\_natbib.bst}),
-an example bibliography (\texttt{custom.bib}),
-and the bibliography for the ACL Anthology (\texttt{anthology.bib}).
+Further, pairwise comparison methods offer a natural interface for eliciting difficulty judgments from LLMs. Rather than requiring absolute estimates - which are psychometrically undefined without a response scale and shown to be unreliable for LLMs \citep{lichtMeasuringScalarConstructs2025} - pairwise comparisons ask a model to make relative judgments, which can then be aggregated into difficulty rankings using models such as the Bradley-Terry model. This approach also allows reliability to be assessed via extensions of Bradley-Terry methods, such as a Hierarchical Bradley-Terry Model \citep{bockenholtHierarchicalModelingPaired2001}, and internal consistency metrics such as triplet transitivity. However, whether LLM-derived BT scores actually align with psychometrically validated difficulty estimates from Item Response Theory (IRT) remains an open empirical question.
 
-\section{Engines}
+\subsection{Contributions}
+\label{subsec:contributions}
 
-To produce a PDF file, pdf\LaTeX{} is strongly recommended (over original \LaTeX{} plus dvips+ps2pdf or dvipdf).
-The style file \texttt{acl.sty} can also be used with
-lua\LaTeX{} and
-Xe\LaTeX{}, which are especially suitable for text in non-Latin scripts.
-The file \texttt{acl\_lualatex.tex} in this repository provides
-an example of how to use \texttt{acl.sty} with either
-lua\LaTeX{} or
-Xe\LaTeX{}.
+This study makes three contributions. First, we provide a multi-model, multi-dataset evaluation of whether LLM pairwise judgments recover respondent-calibrated item difficulty. Across seven LLMs and seven educational item sets, the pooled ranking captures a meaningful but incomplete difficulty signal (overall Spearman's $\rho=0.400$), with substantial variation across datasets ($\rho=0.250$--$0.591$).
 
-\section{Preamble}
+Next, we aggregate judgments with a hierarchical Bayesian Bradley--Terry model that estimates a shared item-difficulty ranking while separating model-specific discrimination from presentation-order bias. This formulation quantifies uncertainty in the pooled ranking and reveals consequential differences among LLM raters that a simple consensus score would obscure.
 
-The first line of the file must be
-\begin{quote}
-\begin{verbatim}
-\documentclass[11pt]{article}
-\end{verbatim}
-\end{quote}
+Lastly, we distinguish three often-conflated properties of LLM judgments: within-model transitivity, inter-model agreement, and external psychometric validity. Despite generally high transitivity and uniformly high inter-model agreement, alignment with 1PL difficulty remains moderate and heterogeneous, showing that consistent LLM consensus is useful for provisional item ordering but cannot substitute for respondent-based calibration.
 
-To load the style file in the review version:
-\begin{quote}
-\begin{verbatim}
-\usepackage[review]{acl}
-\end{verbatim}
-\end{quote}
-For the final version, omit the \verb|review| option:
-\begin{quote}
-\begin{verbatim}
-\usepackage{acl}
-\end{verbatim}
-\end{quote}
+\section{Related Work}
+\label{sec:related}
 
-To use Times Roman, put the following in the preamble:
-\begin{quote}
-\begin{verbatim}
-\usepackage{times}
-\end{verbatim}
-\end{quote}
-(Alternatives like txfonts or newtx are also acceptable.)
+The foundational IRT model utilized in large-scale calibration is the 1-Parameter Logistic (1PL) model, commonly known as the Rasch model, introduced by Georg Rasch in 1960 \citep{zotero-item-1169, kolesnikovaEstimatingItemDifficulty2026}. The Rasch model conceptualizes the probability that a specific student correctly answers a specific item as a logistic function of the difference between the student's latent ability and the item's latent difficulty. In generalized terms, if a student's ability exactly matches the item's difficulty, the theoretical probability of a correct response is precisely fifty percent. In traditional workflows, estimating this difficulty parameter requires administering the item to highly calibrated populations whose abilities form a known distribution \citep{feliceBritishCouncilSubmission}. However, when new assessment items are generated, their parameters are entirely unknown, creating what is known as the cold-start problem \citep{wainerComputerizedAdaptiveTesting2000}. If LLMs or machine learning ensembles can accurately predict the difficulty parameter based solely on item content, these synthetic estimates can be used to jump-start the IRT calibration process. This permits the immediate deployment of new items in live environments and vastly reduces the volume of human response data required to achieve statistical stability.
 
-Please see the \LaTeX{} source of this document for comments on other packages that may be useful.
+An intuitive methodology for applying LLMs to predict item difficulty is direct absolute estimation. In this paradigm, a language model is provided with the text of an item—including the question stem, correct answer, and distractors—and is instructed via a zero-shot prompt to output a numeric difficulty score or a categorical difficulty level \citep{kolesnikovaEstimatingItemDifficulty2026}. This approach relies on the implicit assumption that the LLM contains a holistic, internally calibrated representation of cognitive complexity that perfectly mirrors human populations. Recent literature indicates that this assumption is fundamentally flawed and suggests that direct absolute judgment by LLMs is fraught with inconsistencies and severe predictive limitations \citep{lichtMeasuringScalarConstructs2025, wangCanLLMsReally2026}. 
 
-Set the title and author using \verb|\title| and \verb|\author|. Within the author list, format multiple authors using \verb|\and| and \verb|\And| and \verb|\AND|; please see the \LaTeX{} source for examples.
+To overcome the inherent limitations of direct absolute prediction, researchers have achieved state-of-the-art results by fundamentally altering the LLM's role within the predictive architecture. Rather than acting as a final psychometric judge, the LLM is repositioned as a highly advanced feature extractor \citep{kolesnikovaEstimatingItemDifficulty2026}. In this paradigm, the model is prompted to evaluate specific linguistic, structural, and pedagogical characteristics of the item text. These extracted qualitative features are then fed into traditional supervised machine learning algorithms to predict the final difficulty parameter. By decoupling the semantic extraction (handled by the LLM) from the regression task (handled by ensemble trees like Random Forests and Gradient Boosting algorithms), the predictive system successfully sidesteps the LLM's inability to globally scale difficulty \citep{feliceBritishCouncilSubmission}.
 
-By default, the box containing the title and author names is set to the minimum of 5 cm. If you need more space, include the following in the preamble:
-\begin{quote}
-\begin{verbatim}
-\setlength\titlebox{<dim>}
-\end{verbatim}
-\end{quote}
-where \verb|<dim>| is replaced with a length. Do not set this length smaller than 5 cm.
+While feature-based ensembles and synthetic simulations provide robust solutions, extracting dozens of qualitative features per item can be computationally expensive, highly prompt-intensive, and strictly domain-dependent. An alternative, highly effective psychometric strategy leverages the language model's fundamental capacity for relative reasoning: pairwise (paired) comparisons. While assigning an isolated assessment item a difficulty score of 7.8 out of 10 requires a stable internal standard, precise calibration against prior examples, and a consistent, unshifting interpretation of what the numerical scale is meant to represent \citep{digiuseppeScalingOpenEndedSurvey2026}, pairwise comparisons ask a significantly simpler question: Which of these two items is more difficult? \citep{kolesnikovaEstimatingItemDifficulty2026}. This localized, relative judgment completely removes the need for a global numerical frame. It severely mitigates anchoring bias, allows for high-resolution discrimination between items of similar complexity, and demonstrates remarkable stability across various LLM architectures and model sizes \citep{digiuseppeScalingOpenEndedSurvey2026}. By transforming the task from an absolute regression to a binary relative choice, the system extracts the model's highest-confidence judgments and has been shown to be highly effective in recent work examining mathematics tasks \citep{kolesnikovaEstimatingItemDifficulty2026}.
 
-\section{Document Body}
+However, when utilizing multiple different LLMs or deploying varying prompt architectures to generate large-scale pairwise comparisons the reliability of the artificial "judges" inherently fluctuates. Inspired by the established Crowd-BT algorithm \citep{chenPairwiseRankingAggregation2013}—which automatically estimates the underlying reliability of human crowdsource workers and flags annotators with low quality for removal—researchers have introduced the BT-$\sigma$ model, which extends the traditional Bradley-Terry framework specifically for the "LLM-as-a-jury" setting \citep{qianWhoCanWe2026}. The BT-$\sigma$ Bayesian model introduces a specific discrimination parameter ($\sigma_k$) for each individual LLM judge. This architectural enhancement allows the model to jointly infer the global item difficulty rankings while simultaneously weighting the statistical reliability of each judge using pairwise comparisons alone. If a specific language model frequently outputs comparisons that contradict the consensus of the optimized matrix, its  parameter is mathematically penalized, permanently down-weighting its future influence on the latent difficulty scores. This creates a highly resilient, noise-resistant ecosystem capable of safely fusing predictions from advanced, proprietary models with smaller, open-weight models, resulting in a single, cohesive, and highly accurate difficulty continuum. Building on this work, we apply rater-aware Bayesian pairwise aggregation to educational item calibration, jointly modeling LLM-specific discrimination and presentation-order/position bias and validating the resulting pooled rankings against respondent-calibrated 1PL IRT difficulty across seven datasets.
 
-\subsection{Footnotes}
 
-Footnotes are inserted with the \verb|\footnote| command.\footnote{This is a footnote.}
+\section{Data}
+\label{sec:data}
 
-\subsection{Tables and figures}
-
-See Table~\ref{tab:accents} for an example of a table and its caption.
-\textbf{Do not override the default caption sizes.}
-
-\begin{table}
-  \centering
-  \begin{tabular}{lc}
-    \hline
-    \textbf{Command} & \textbf{Output} \\
-    \hline
-    \verb|{\"a}|     & {\"a}           \\
-    \verb|{\^e}|     & {\^e}           \\
-    \verb|{\`i}|     & {\`i}           \\
-    \verb|{\.I}|     & {\.I}           \\
-    \verb|{\o}|      & {\o}            \\
-    \verb|{\'u}|     & {\'u}           \\
-    \verb|{\aa}|     & {\aa}           \\\hline
-  \end{tabular}
-  \begin{tabular}{lc}
-    \hline
-    \textbf{Command} & \textbf{Output} \\
-    \hline
-    \verb|{\c c}|    & {\c c}          \\
-    \verb|{\u g}|    & {\u g}          \\
-    \verb|{\l}|      & {\l}            \\
-    \verb|{\~n}|     & {\~n}           \\
-    \verb|{\H o}|    & {\H o}          \\
-    \verb|{\v r}|    & {\v r}          \\
-    \verb|{\ss}|     & {\ss}           \\
-    \hline
-  \end{tabular}
-  \caption{Example commands for accented characters, to be used in, \emph{e.g.}, Bib\TeX{} entries.}
-  \label{tab:accents}
-\end{table}
-
-As much as possible, fonts in figures should conform
-to the document fonts. See Figure~\ref{fig:experiments} for an example of a figure and its caption.
-
-Using the \verb|graphicx| package graphics files can be included within figure
-environment at an appropriate point within the text.
-The \verb|graphicx| package supports various optional arguments to control the
-appearance of the figure.
-You must include it explicitly in the \LaTeX{} preamble (after the
-\verb|\documentclass| declaration and before \verb|\begin{document}|) using
-\verb|\usepackage{graphicx}|.
-
-\begin{figure}[t]
-  \includegraphics[width=\columnwidth]{example-image-golden}
-  \caption{A figure with a caption that runs for more than one line.
-    Example image is usually available through the \texttt{mwe} package
-    without even mentioning it in the preamble.}
-  \label{fig:experiments}
-\end{figure}
+The items we examine were drawn from seven datasets in the Item Response Warehouse (IRW) \citep{domingueIntroductionItemResponse2025}. Using their IRW tags, they are: (\textbf{1}) frac20 - a mathematics/fractions dataset \citep{tatsuokaDataAnalyticMethods2002} - and six literacy-focused datasets from three studies: (\textbf{2}) gilbert\_meta\_2 \citep{kimReplicationDataLongitudinal2023}, (\textbf{3}) gilbert\_meta\_7 and (\textbf{4}) gilbert\_meta\_8 \citep{kimTimeTransferLongterm2024}, as well as (\textbf{5}) gilbert\_meta\_102, (\textbf{6}) gilbert\_meta\_103, and (\textbf{7}) gilbert\_meta\_104 \citep{relyeaAssetBasedImplementationStructured2025}. These datasets include items with established 1PL IRT difficulty calibrations, providing a psychometric ground truth for validation. They were selected using the IRW's filtering capabilities to ensure that the datasets have item text available, the age range is <=18, the construct is cognitive/educational, the measurement tool is test, the item format is Likert/constructed response, and language is English. 
 
 \begin{figure*}[t]
-  \includegraphics[width=0.48\linewidth]{example-image-a} \hfill
-  \includegraphics[width=0.48\linewidth]{example-image-b}
-  \caption {A minimal working example to demonstrate how to place
-    two images side-by-side.}
+  \centering
+  \includegraphics[width=\textwidth]{tables_and_figures/CGCoT_method_figure.png}
+  \caption{Concept-Guided Chain-of-Thought (CGCoT) Prompting for Item Difficulty Assessment. Each item is processed through a sequence of four prompts, each targeting a different facet of the latent construct of interest, here item difficulty. The LLM's responses are concatenated and fed into the next prompt, culminating in a comprehensive analysis of the item's difficulty before pairwise comparisons are made.}
+  \label{fig:cgcot_method}
 \end{figure*}
 
-\subsection{Hyperlinks}
+Seven proprietary LLM configurations served as raters: (\textbf{1}) GPT-5.4 Mini, (\textbf{2}) GPT-5.4, (\textbf{3}) GPT-5.6-Luna, (\textbf{4}) GPT-5.6-Sol, (\textbf{5}) Gemini 3 Flash Preview, (\textbf{6}) Gemini 3.7 Flash, and (\textbf{7})Gemini 3.1 Pro Preview. The panel was selected to vary along three dimensions relevant to the robustness of LLM-based measurement. First, it includes two independently developed model families, OpenAI's GPT and Google's Gemini, reducing the extent to which the findings depend on the idiosyncrasies of a single provider. Second, it includes differently positioned product tiers and variants within each family---Mini and standard GPT-5.4, Luna and Sol variants of GPT-5.6, and Flash and Pro Gemini models---allowing us to examine whether pairwise judgments remain consistent across models marketed for different capability, latency, and cost tradeoffs. Third, the numbered releases within both families broaden the evaluation beyond a single model generation or temporal snapshot. Because the providers do not disclose directly comparable parameter counts, training corpora, or complete architectural details for these proprietary systems, we treat each configuration as a distinct rater rather than interpreting nominal tier or version differences as quantitative measures of model size or capability.
 
-Users of older versions of \LaTeX{} may encounter the following error during compilation:
-\begin{quote}
-\verb|\pdfendlink| ended up in different nesting level than \verb|\pdfstartlink|.
-\end{quote}
-This happens when pdf\LaTeX{} is used and a citation splits across a page boundary. The best way to fix this is to upgrade \LaTeX{} to 2018-12-01 or later.
+\section{Methods}
+\label{sec:methods}
 
-\subsection{Citations}
+\subsection{\texttt{pairadigm} and Paired Comparisons}
+\label{subsec:pairadigm}
 
-\begin{table*}
+All pairwise comparison workflows---CGCoT prompt chaining, comparison management, and BT model estimation---were implemented using \texttt{pairadigm} \citep{chrzanPairadigm}, an open-source Python package for using LLMs to measure scalar constructs. The package includes code for generating pairs from the set of items and applying CGCoT prompts to construct item breakdowns. Using evidence from \citet{wuConceptGuidedChainofThoughtPrompting2024} that beyond 10 pairs per item yielded minimal improvement, where possible we limit the number of possible pairs to 10 per item for compute and cost considerations. The seven configurations listed previously were evaluated as separate comparison judges, enabling rater-specific estimates of consistency, discrimination, and position bias.
+
+For each item, a four-prompt CGCoT chain was administered sequentially to the LLM to target cognitive item difficulty. After the LLM answers each prompt, its response is concatenated to all its previous responses and fed into the next prompt until at the end an entire breakdown of the item is created, as displayed in Figure \ref{fig:cgcot_method}. Prompts are also listed out in Appendix \ref{app:prompts}. 
+
+The resulting concept-specific breakdown for each item was used to generate pairwise comparisons across all item pairs within each dataset. Based on the cumulative output from these four steps applied to an item, the LLM judged which item in a pair required greater latent cognitive ability for correct response. 
+
+\subsection{(Hierarchical) Bradley-Terry Models}
+\label{subsec:bradley-terry}
+
+Individual BT models were fit to each LLM`s pairwise preference data for each dataset to produce a continuous BT difficulty score for each item. Triplet transitivity, or the proportion of triplets (A, B, C) in which the model's pairwise judgments were logically consistent, was computed as an additional consistency check. Inter-rater agreement across LLMs was estimated using Krippendorff's Alpha \citep{hayesAnsweringCallStandard2007} to assess the consistency across models for a given IRW dataset. Finally, convergent validity was assessed via Spearman rank correlations computed between each model's BT scores and the corresponding 1PL difficulty parameters, stratified by model and dataset \citep{spearmanProofMeasurementAssociation1904}. Relationships among reliability, inter-rater agreement, and Spearman correlations were examined to assess the relationships between internal consistency and external validity.
+
+A Hierarchical Bradley-Terry model was also fit to assess each LLM`s discrimination and position bias. We formulate the model as follows:
+
+\[
+\text{logit}P(y_{ijk} = 1) = \alpha_k(\lambda_i - \lambda_j) + \gamma_k
+\]
+
+where 
+\begin{itemize}
+  \item $y_{ijk} = 1$ indicates that model $k$ selects the first presented item, $i$, over the second-presented item, $j$,
+  \item $\lambda_i$ and $\lambda_j$ are the difficulty parameters for items $i$ and $j$,
+  \item $\alpha_k$ is the discrimination parameter for participant $k$,
+  \item $\gamma_k$ is the position bias for participant $k$.
+\end{itemize}
+
+We enforce that (1) the sum of $\lambda_i$ across all items is zero, and (2) the geometric mean of $\alpha_k$ across all models is one, which identifies the global $\alpha-\lambda$ scale without choosing an arbitrary reference model. We discuss the full model details in Appendix \ref{app:bradley_terry}, including the hierarchical priors for $\lambda_i$, $\alpha_k$, and $\gamma_k$. We also structure the data such that every unordered pair is evaluated in both orientations, which balances item identity across first and second positions and makes $\gamma_k$ estimable from direct orientation reversals. 
+
+\subsubsection{Sensitivity Check}
+\label{subsubsec:sensitivity_check}
+
+The primary model gives every model judgment equal weight. A provider-balanced sensitivity model weights observations so Google and OpenAI contribute equal total likelihood mass. Additional leave-one-model-out fits test whether item rankings depend strongly on any single model. These are discussed in Appendix \ref{app:sensitivity}.
+
+\section{Results}
+\label{sec:results}
+
+\begin{figure*}[t]
   \centering
-  \begin{tabular}{lll}
-    \hline
-    \textbf{Output}           & \textbf{natbib command} & \textbf{ACL only command} \\
-    \hline
-    \citep{Gusfield:97}       & \verb|\citep|           &                           \\
-    \citealp{Gusfield:97}     & \verb|\citealp|         &                           \\
-    \citet{Gusfield:97}       & \verb|\citet|           &                           \\
-    \citeyearpar{Gusfield:97} & \verb|\citeyearpar|     &                           \\
-    \citeposs{Gusfield:97}    &                         & \verb|\citeposs|          \\
-    \hline
-  \end{tabular}
-  \caption{\label{citation-guide}
-    Citation commands supported by the style file.
-    The style is based on the natbib package and supports all natbib citation commands.
-    It also supports commands defined in previous ACL style files for compatibility.
-  }
-\end{table*}
+  \includegraphics[width=\textwidth]{tables_and_figures/standardized_bt_vs_1pl_by_table.png}
+  \caption{Standardized Hierarchical Bradley-Terry Strengths vs. 1PL IRT Difficulty Parameters. Each point represents an item, with the y-axis showing the standardized BT strength estimated from LLM pairwise comparisons and the x-axis showing the corresponding 1PL IRT difficulty parameter. The dashed lines indicates the correlational relationship between the two measures for a given model, illustrating varying degrees of alignment between LLM-derived BT scores and psychometrically validated IRT difficulties.}
+  \label{fig:bt_v_1pl}
+\end{figure*}
 
-Table~\ref{citation-guide} shows the syntax supported by the style files.
-We encourage you to use the natbib styles.
-You can use the command \verb|\citet| (cite in text) to get ``author (year)'' citations, like this citation to a paper by \citet{Gusfield:97}.
-You can use the command \verb|\citep| (cite in parentheses) to get ``(author, year)'' citations \citep{Gusfield:97}.
-You can use the command \verb|\citealp| (alternative cite without parentheses) to get ``author, year'' citations, which is useful for using citations within parentheses (e.g. \citealp{Gusfield:97}).
 
-A possessive citation can be made with the command \verb|\citeposs|.
-This is not a standard natbib command, so it is generally not compatible
-with other style files.
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{tables_and_figures/discrim_and_position.png}
+  \caption{Discrimination and Position Bias of LLMs. The figure shows the discrimination (Alpha) and position bias (Gamma) of different LLM raters across various datasets. Higher alpha values indicate stronger rater ability to distinguish strength between items, while positive gamma values suggest a bias toward the first item shown. Error bars represent 94\% highest density intervals (HDI) for each estimate. The results highlight the variability in LLM performance across datasets, with some models exhibiting higher discrimination and lower position bias, suggesting better reliability and less susceptibility to order effects in pairwise comparisons.}
+  \label{fig:discrim_and_position}
+\end{figure*}
 
-\subsection{References}
+\section{Discussion}
+\label{sec:discussion}
 
-\nocite{Ando2005,andrew2007scalable,rasooli-tetrault-2015}
+\section{Conclusion}
+\label{sec:Conclusion}
 
-The \LaTeX{} and Bib\TeX{} style files provided roughly follow the American Psychological Association format.
-If your own bib file is named \texttt{custom.bib}, then placing the following before any appendices in your \LaTeX{} file will generate the references section for you:
-\begin{quote}
-\begin{verbatim}
-\bibliography{custom}
-\end{verbatim}
-\end{quote}
-
-You can obtain the complete ACL Anthology as a Bib\TeX{} file from \url{https://aclweb.org/anthology/anthology.bib.gz}.
-To include both the Anthology and your own .bib file, use the following instead of the above.
-\begin{quote}
-\begin{verbatim}
-\bibliography{anthology,custom}
-\end{verbatim}
-\end{quote}
-
-Please see Section~\ref{sec:bibtex} for information on preparing Bib\TeX{} files.
-
-\subsection{Equations}
-
-An example equation is shown below:
-\begin{equation}
-  \label{eq:example}
-  A = \pi r^2
-\end{equation}
-
-Labels for equation numbers, sections, subsections, figures and tables
-are all defined with the \verb|\label{label}| command and cross references
-to them are made with the \verb|\ref{label}| command.
-
-This an example cross-reference to Equation~\ref{eq:example}.
-
-\subsection{Appendices}
-
-Use \verb|\appendix| before any appendix section to switch the section numbering over to letters. See Appendix~\ref{sec:appendix} for an example.
-
-\section{Bib\TeX{} Files}
-\label{sec:bibtex}
-
-Unicode cannot be used in Bib\TeX{} entries, and some ways of typing special characters can disrupt Bib\TeX's alphabetization. The recommended way of typing special characters is shown in Table~\ref{tab:accents}.
-
-Please ensure that Bib\TeX{} records contain DOIs or URLs when possible, and for all the ACL materials that you reference.
-Use the \verb|doi| field for DOIs and the \verb|url| field for URLs.
-If a Bib\TeX{} entry has a URL or DOI field, the paper title in the references section will appear as a hyperlink to the paper, using the hyperref \LaTeX{} package.
+encoders are better, The performance notably fell short of simpler, encoder-only models like ConvBERT utilized with a linear scheduler, which achieved a superior QWK of 0.62510 \citep{wangCanLLMsReally2026}.
 
 \section*{Limitations}
+\label{sec:limits}
 
-This document does not cover the content requirements for ACL or any
-other specific venue.  Check the author instructions for
-information on
-maximum page lengths, the required ``Limitations'' section,
-and so on.
+\begin{itemize}
+  \item datasets were restricted to those with available item text in the IRW, which is growing but still limited. Future work should expand to additional datasets and domains to assess generalizability.
+  \item The LLMs evaluated are proprietary and subject to change, which may limit reproducibility. Future work should include open-source models and document model versions and configurations. As the number of both models and datasets grows, future work could also explore relationships between model characteristics and performance.
+  \item The hierarchical Bradley-Terry model assumes a specific parametric form for discrimination and position bias. Alternative modeling approaches could be explored to assess robustness of the findings.
+  \item The study does not examine the impact of prompt design on LLM judgments. Future work could systematically vary prompts to assess sensitivity to prompt wording and structure.
+\end{itemize}
 
 \section*{Acknowledgments}
+\label{sec:acknowledgments}
 
-This document has been adapted
-by Steven Bethard, Ryan Cotterell and Rui Yan
-from the instructions for earlier ACL and NAACL proceedings, including those for
-ACL 2019 by Douwe Kiela and Ivan Vuli\'{c},
-NAACL 2019 by Stephanie Lukin and Alla Roskovskaya,
-ACL 2018 by Shay Cohen, Kevin Gimpel, and Wei Lu,
-NAACL 2018 by Margaret Mitchell and Stephanie Lukin,
-Bib\TeX{} suggestions for (NA)ACL 2017/2018 from Jason Eisner,
-ACL 2017 by Dan Gildea and Min-Yen Kan,
-NAACL 2017 by Margaret Mitchell,
-ACL 2012 by Maggie Li and Michael White,
-ACL 2010 by Jing-Shin Chang and Philipp Koehn,
-ACL 2008 by Johanna D. Moore, Simone Teufel, James Allan, and Sadaoki Furui,
-ACL 2005 by Hwee Tou Ng and Kemal Oflazer,
-ACL 2002 by Eugene Charniak and Dekang Lin,
-and earlier ACL and EACL formats written by several people, including
-John Chen, Henry S. Thompson and Donald Walker.
-Additional elements were taken from the formatting instructions of the \emph{International Joint Conference on Artificial Intelligence} and the \emph{Conference on Computer Vision and Pattern Recognition}.
+\textbf{ASK BEN!}
 
-% Bibliography entries for the entire Anthology, followed by custom entries
-%\bibliography{custom,anthology-overleaf-1,anthology-overleaf-2}
+%Please see Section~\ref{sec:bibtex} for information on preparing Bib\TeX{} files.
+%
+%\section{Bib\TeX{} Files}
+%\label{sec:bibtex}
+%
+%Unicode cannot be used in Bib\TeX{} entries, and some ways of typing special characters can disrupt Bib\TeX's alphabetization. The recommended way of typing special characters is shown in Table~\ref{tab:accents}.
+%
+%Please ensure that Bib\TeX{} records contain DOIs or URLs when possible, and for all the ACL materials that you reference.
+%Use the \verb|doi| field for DOIs and the \verb|url| field for URLs.
+%If a Bib\TeX{} entry has a URL or DOI field, the paper title in the references section will appear as a hyperlink to the paper, using the hyperref \LaTeX{} package.
+%
+% ---------------------------------------------
 
 % Custom bibliography entries only
 \bibliography{custom}
 
 \appendix
 
-\section{Example Appendix}
-\label{sec:appendix}
+\section{CGCoT Prompts}
+\label{app:prompts}
+The prompts used were:  
 
-This is an appendix.
+\begin{itemize}
+  \item "Summarize the core task, question, behavioral statement, or scenario presented in this item. Item text: \{text\}".
+  \item "Identify the primary knowledge domain, skill, clinical symptom, attitudinal belief, or psychological construct this item is attempting to measure and give a concise justification. Text: \{text\}"
+  \item "Analyze the demand or severity of this item. For cognitive/ability items, does it require recall, multi-step reasoning, or synthesis? For psychological/attitudinal items, does endorsing it require a severe level of a symptom, a strongly held belief, or deep introspection? CONCISELY identify any structural or semantic elements—such as complex phrasing, tricky distractors, conditional logic, or strong emotional wording—that increase the cognitive load or the threshold for endorsement. Text: \{text\}"
+  \item "Based on your analysis, describe the overall level of the underlying latent trait (e.g., high cognitive ability, severe psychological symptomology, strong attitude) required for a respondent to successfully answer or strongly endorse this item. Previous analysis: \{text\}"
+\end{itemize}
+
+\section{Hierarchical Bradley-Terry Model Details}
+\label{app:bradley_terry}
+
+\subsection{Item Difficulty}
+\label{appsubsec:item_parameters}
+The model estimates a single $\lambda_i$ for each item across all LLMs, allowing us to pool information across models while accounting for model-specific discrimination and position bias. These item strengths are centered to remove translation invariance: 
+
+\[
+\begin{aligned}
+\lambda_i &= \sigma_{\lambda}(z_i - \bar{z}) \\
+u_k &\sim \text{N}(0, 1) \\
+\sigma_{\lambda} &\sim \text{HalfNormal}(1)
+\end{aligned}
+\]
+
+Thus $\sum_i{\lambda_i} = 0$. $\sigma_{\lambda}$ is the standard deviation of the item strengths, $z_i$ is a latent standard-normal random effect, and $\bar{z}$ is the mean of the $z_i$ across all items,
+
+\subsection{Rater Position Bias}
+\label{appsubsec:rater_position_bias}
+
+Another way to conceptualize $\gamma_k$ is a measure of model $k$'s tendency to prefer the first item \textit{regardless} of item strength. We model $\gamma_k$ hierarchically, allowing for partial pooling across models and estimating the overall distribution of position bias:
+
+\[
+\begin{aligned}
+\gamma_k &= \sigma_{\gamma}v_k \\
+v_k &\sim \text{N}(0, 1) \\
+\sigma_{\gamma} &\sim \text{HalfNormal}(0.5)
+\end{aligned}
+\]
+
+where $\sigma_{\gamma}$ is the standard deviation of the position bias across models and $v_k$ is a latent standard-normal random effect.
+
+\subsection{Rater Discrimination}
+\label{appsubsec:rater_discrimination}
+
+The discrimination parameter $\alpha_k$ captures the ability of model $k$ to distinguish between items of different strengths. We model $\alpha_k$ hierarchically, allowing for partial pooling across models and estimating the overall distribution of discrimination:
+
+\[
+\begin{aligned}
+\text{log}(\alpha_k) &= \sigma_{\text{log}{\alpha}}(u_k - \bar{u}) \\
+u_k &\sim \text{N}(0, 1) \\
+\sigma_{\text{log}(\alpha)} &\sim \text{HalfNormal}(0.5)
+\end{aligned}
+\]
+
+where $\sigma_{\text{log}(\alpha)}$ is the standard deviation of the discrimination across models and $u_k$ is a latent standard-normal random effect.
+
+Centering log discrimination enforces
+
+\[
+\text{exp}(\frac{1}{K} \sum_{k} \text{log}(\alpha_k)) = 1
+\]
+
+so the geometric mean rater discrimination is one. This identifies the global $\alpha-\lambda$ scale without choosing an arbitrary reference model.
+
+\section{Sensitivity Analyses}
+\label{app:sensitivity}
+
+put description of sensitivity analyses here
 
 \end{document}

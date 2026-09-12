@@ -1,0 +1,109 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bradley and Terry(1952)}]{bradleyRankAnalysisIncomplete1952}
+Ralph~Allan Bradley and Milton~E. Terry. 1952.
+\newblock \href {https://doi.org/10.2307/2334029} {Rank {{Analysis}} of {{Incomplete Block Designs}}: {{I}}. {{The Method}} of {{Paired Comparisons}}}.
+\newblock \emph{Biometrika}, 39(3/4):324--345.
+
+\bibitem[{Böckenholt(2001)}]{bockenholtHierarchicalModelingPaired2001}
+Ulf Böckenholt. 2001.
+\newblock \href {https://doi.org/10.1037/1082-989X.6.1.49} {Hierarchical modeling of paired comparison data}.
+\newblock \emph{Psychological Methods}, 6(1):49--66.
+
+\bibitem[{Chen et~al.(2013)Chen, Bennett, Collins-Thompson, and Horvitz}]{chenPairwiseRankingAggregation2013}
+Xi~Chen, Paul~N. Bennett, Kevyn Collins-Thompson, and Eric Horvitz. 2013.
+\newblock \href {https://doi.org/10.1145/2433396.2433420} {Pairwise ranking aggregation in a crowdsourced setting}.
+\newblock In \emph{Proceedings of the Sixth {{ACM}} International Conference on {{Web}} Search and Data Mining}, {{WSDM}} '13, pages 193--202. Association for Computing Machinery.
+
+\bibitem[{{Chrzan, Michael L.}()}]{chrzanPairadigm}
+{Chrzan, Michael L.}
+\newblock \href {https://doi.org/10.5281/zenodo.17981011} {Pairadigm: {{A Python Library}} for {{Concept-Guided Chain-of-Thought Pairwise Measurement}} of {{Scalar Constructs Using Large Language Models}}}.
+
+\bibitem[{DiGiuseppe and Flynn(2026)}]{digiuseppeScalingOpenEndedSurvey2026}
+Matthew~R DiGiuseppe and Michael~E Flynn. 2026.
+\newblock \href {https://doi.org/10.1093/poq/nfag013} {Scaling {{Open-Ended Survey Responses Using LLM-Paired Comparisons}}}.
+\newblock \emph{Public Opinion Quarterly}, 90(3):630--656.
+
+\bibitem[{Domingue et~al.(2025)Domingue, Braginsky, Caffrey-Maffei, Gilbert, Kanopka, Kapoor, Lee, Liu, Nadela, Pan, Zhang, Zhang, and Frank}]{domingueIntroductionItemResponse2025}
+Benjamin~W. Domingue, Mika Braginsky, Lucy Caffrey-Maffei, Joshua~B. Gilbert, Klint Kanopka, Radhika Kapoor, Hansol Lee, Yiqing Liu, Savira Nadela, Guanzhong Pan, Lijin Zhang, Susu Zhang, and Michael~C. Frank. 2025.
+\newblock \href {https://doi.org/10.3758/s13428-025-02796-y} {An introduction to the {{Item Response Warehouse}} ({{IRW}}): {{A}} resource for enhancing data usage in psychometrics}.
+\newblock \emph{Behavior Research Methods}, 57(10):276.
+
+\bibitem[{Felice and Karaoz(2024)}]{feliceBritishCouncilSubmission}
+Mariano Felice and Zeynep~Duran Karaoz. 2024.
+\newblock The {{British Council}} submission to the {{BEA}} 2024 shared task.
+
+\bibitem[{Hayes and Krippendorff()}]{hayesAnsweringCallStandard2007}
+Andrew~F. Hayes and Klaus Krippendorff.
+\newblock \href {https://doi.org/10.1080/19312450709336664} {Answering the {{Call}} for a {{Standard Reliability Measure}} for {{Coding Data}}}.
+\newblock 1(1):77--89.
+
+\bibitem[{Jiang et~al.(2016)Jiang, Wang, and Weiss}]{jiangSampleSizeRequirements2016}
+Shengyu Jiang, Chun Wang, and David~J. Weiss. 2016.
+\newblock \href {https://doi.org/10.3389/fpsyg.2016.00109} {Sample {{Size Requirements}} for {{Estimation}} of {{Item Parameters}} in the {{Multidimensional Graded Response Model}}}.
+\newblock \emph{Frontiers in Psychology}, 7.
+
+\bibitem[{Kim et~al.(2023)Kim, Burkhauser, Relyea, Gilbert, Scherer, Fitzgerald, Mosher, and McIntyre}]{kimReplicationDataLongitudinal2023}
+James~S. Kim, Mary~A. Burkhauser, Jackie~E. Relyea, Joshua~B. Gilbert, Ethan Scherer, Jill Fitzgerald, Douglas Mosher, and Joseph McIntyre. 2023.
+\newblock \href {https://doi.org/10.7910/DVN/LAWFFU} {Replication {{Data}} for: {{A Longitudinal Randomized Trial}} of a {{Sustained Content Literacy Intervention}} from {{First}} to {{Second Grade}}: {{Transfer Effects}} on {{Students}}’ {{Reading Comprehension Outcomes}}}.
+
+\bibitem[{Kim et~al.(2024)Kim, Gilbert, Relyea, Rich, Scherer, Burkhauser, and Tvedt}]{kimTimeTransferLongterm2024}
+James~S. Kim, Joshua~B. Gilbert, Jackie~Eunjung Relyea, Patrick Rich, Ethan Scherer, Mary~A. Burkhauser, and Johanna~N. Tvedt. 2024.
+\newblock \href {https://doi.org/10.1037/dev0001710} {Time to transfer: {{Long-term}} effects of a sustained and spiraled content literacy intervention in the elementary grades}.
+\newblock \emph{Developmental Psychology}, 60(7):1279--1297.
+
+\bibitem[{Kolesnikova et~al.(2026)Kolesnikova, Fedyanin, Hofman, Brinkhuis, and Bolsinova}]{kolesnikovaEstimatingItemDifficulty2026}
+Diana Kolesnikova, Kirill Fedyanin, Abe~D. Hofman, Matthieu J.~S. Brinkhuis, and Maria Bolsinova. 2026.
+\newblock \href {https://doi.org/10.48550/ARXIV.2605.18562} {Estimating {{Item Difficulty}} with {{Large Language Models}} as {{Experts}}}.
+
+\bibitem[{Licht et~al.(2025)Licht, Sarkar, Wu, Goel, Stoehr, Ash, and Hoyle}]{lichtMeasuringScalarConstructs2025}
+Hauke Licht, Rupak Sarkar, Patrick~Y. Wu, Pranav Goel, Niklas Stoehr, Elliott Ash, and Alexander~Miserlis Hoyle. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2509.03116} {Measuring {{Scalar Constructs}} in {{Social Science}} with {{LLMs}}}.
+\newblock \emph{Preprint}, arXiv:2509.03116.
+
+\bibitem[{Qian et~al.(2026)Qian, Sun, Gales, and Knill}]{qianWhoCanWe2026}
+Mengjie Qian, Guangzhi Sun, Mark Gales, and Kate Knill. 2026.
+\newblock \href {https://openreview.net/forum?id=PmAKKeZj7O&referrer=%5Bthe%20profile%20of%20Kate%20Knill%5D%28%2Fprofile%3Fid%3D~Kate_Knill1%29} {Who can we trust? {{LLM-as-a-jury}} for {{Comparative Assessment}}}.
+
+\bibitem[{{Rasch, Georg}(1960)}]{zotero-item-1169}
+{Rasch, Georg}. 1960.
+\newblock \emph{Probabilistic {{Models}} for {{Some Intelligence}} and {{Attainment Tests}}}, volume~1 of \emph{Studies in {{Mathematical Psychology}}}.
+\newblock Danmarks Paedagogiske Institut.
+
+\bibitem[{Relyea et~al.(2025)Relyea, Gilbert, Burkhauser, Scherer, Mosher, Wei, Tvedt, and Kim}]{relyeaAssetBasedImplementationStructured2025}
+Jackie~E. Relyea, Joshua~B. Gilbert, Mary Burkhauser, Ethan Scherer, Douglas~M. Mosher, Zhongyu Wei, Johanna Tvedt, and James~S. Kim. 2025.
+\newblock \href {https://doi.org/10.1002/rrq.70048} {Asset-{{Based Implementation}} of {{Structured Adaptations}} in an {{Online Third-Grade Content Literacy Intervention}}}.
+\newblock \emph{Reading Research Quarterly}, 60(4):e70048.
+
+\bibitem[{Spearman()}]{spearmanProofMeasurementAssociation1904}
+C.~Spearman.
+\newblock \href {https://doi.org/10.2307/1412159} {The proof and measurement of association between two things}.
+\newblock 15(1):72--101.
+
+\bibitem[{Tatsuoka(2002)}]{tatsuokaDataAnalyticMethods2002}
+Curtis Tatsuoka. 2002.
+\newblock \href {https://doi.org/10.1111/1467-9876.00272} {Data {{Analytic Methods}} for {{Latent Partially Ordered Classification Models}}}.
+\newblock \emph{Journal of the Royal Statistical Society Series C: Applied Statistics}, 51(3):337--350.
+
+\bibitem[{von Davier et~al.(2022)von Davier, Mislevy, and Hao}]{vondavierComputationalPsychometricsNew2022}
+Alina~A. von Davier, Robert~J. Mislevy, and Jiangang Hao. 2022.
+\newblock \href {https://books.google.com/books?id=Q2dXEAAAQBAJ} {\emph{Computational {{Psychometrics}}: {{New Methodologies}} for a {{New Generation}} of {{Digital Learning}} and {{Assessment}}: {{With Examples}} in {{R}} and {{Python}}}}.
+\newblock Methodology of {{Educational Measurement}} and {{Assessment}}. Springer International Publishing.
+
+\bibitem[{Wainer et~al.(2000)Wainer, Dorans, Flaugher, Green, and Mislevy}]{wainerComputerizedAdaptiveTesting2000}
+Howard Wainer, Neil~J. Dorans, Ronald Flaugher, Bert~F. Green, and Robert~J. Mislevy. 2000.
+\newblock \href {https://doi.org/10.4324/9781410605931} {\emph{Computerized {{Adaptive Testing}}: {{A Primer}}}}, 2 edition.
+\newblock Routledge.
+
+\bibitem[{Wang et~al.(2026)Wang, Jiao, Li, Peters, Choi, Zhou, and Xu}]{wangCanLLMsReally2026}
+Xinyi Wang, Hong Jiao, Ming Li, Sydney Peters, Hanna Choi, Tianyi Zhou, and Qingshu Xu. 2026.
+\newblock \href {https://doi.org/10.48550/arXiv.2607.28634} {Can {{LLMs Really Understand Item Difficulty Levels}}? {{Implications}} for {{Automated Item Generation Using LLMs}}}.
+\newblock \emph{Preprint}, arXiv:2607.28634.
+
+\bibitem[{Wu et~al.(2024)Wu, Nagler, Tucker, and Messing}]{wuConceptGuidedChainofThoughtPrompting2024}
+Patrick~Y. Wu, Jonathan Nagler, Joshua~A. Tucker, and Solomon Messing. 2024.
+\newblock \href {https://doi.org/10.1109/BigData62323.2024.10825235} {Concept-{{Guided Chain-of-Thought Prompting}} for {{Pairwise Comparison Scoring}} of {{Texts}} with {{Large Language Models}}}.
+\newblock In \emph{2024 {{IEEE International Conference}} on {{Big Data}} ({{BigData}})}, pages 7232--7241.
+
+\end{thebibliography}

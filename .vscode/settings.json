@@ -1,4 +1,39 @@
 {
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "/Library/TeX/texbin/latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {
+        "PATH": "/Library/TeX/texbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (pdfLaTeX)",
+      "tools": [
+        "latexmk"
+      ]
+    }
+  ],
     "python-envs.defaultEnvManager": "ms-python.python:venv",
-    "python-envs.defaultPackageManager": "ms-python.python:pip"
+    "python-envs.defaultPackageManager": "ms-python.python:pip",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "file:/**/*.csv": "jupyter-data-wrangler",
+        "file:/**/*.xlsx": "jupyter-data-wrangler",
+        "*.md": "default",
+        "*.parquet": "parquet-visualizer.parquetVisualizer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    }
 }
