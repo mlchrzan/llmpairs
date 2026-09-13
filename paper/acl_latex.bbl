@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Bradley and Terry(1952)}]{bradleyRankAnalysisIncomplete1952}
@@ -39,10 +39,18 @@ Andrew~F. Hayes and Klaus Krippendorff.
 \newblock \href {https://doi.org/10.1080/19312450709336664} {Answering the {{Call}} for a {{Standard Reliability Measure}} for {{Coding Data}}}.
 \newblock 1(1):77--89.
 
+\bibitem[{Hoyl()}]{hoylSyntheticStudentResponses2026}
+Matias Hoyl.
+\newblock \href {https://doi.org/10.48550/ARXIV.2602.00034} {Synthetic {{Student Responses}}: {{LLM-Extracted Features}} for {{IRT Difficulty Parameter Estimation}}}.
+
 \bibitem[{Jiang et~al.(2016)Jiang, Wang, and Weiss}]{jiangSampleSizeRequirements2016}
 Shengyu Jiang, Chun Wang, and David~J. Weiss. 2016.
 \newblock \href {https://doi.org/10.3389/fpsyg.2016.00109} {Sample {{Size Requirements}} for {{Estimation}} of {{Item Parameters}} in the {{Multidimensional Graded Response Model}}}.
 \newblock \emph{Frontiers in Psychology}, 7.
+
+\bibitem[{Kapoor et~al.()Kapoor, Truong, Haber, Ruiz-Primo, and Domingue}]{kapoorPredictionItemDifficulty2025}
+Radhika Kapoor, Sang~T. Truong, Nick Haber, Maria~Araceli Ruiz-Primo, and Benjamin~W. Domingue.
+\newblock \href {https://doi.org/10.48550/ARXIV.2502.20663} {Prediction of {{Item Difficulty}} for {{Reading Comprehension Items}} by {{Creation}} of {{Annotated Item Repository}}}.
 
 \bibitem[{Kim et~al.(2023)Kim, Burkhauser, Relyea, Gilbert, Scherer, Fitzgerald, Mosher, and McIntyre}]{kimReplicationDataLongitudinal2023}
 James~S. Kim, Mary~A. Burkhauser, Jackie~E. Relyea, Joshua~B. Gilbert, Ethan Scherer, Jill Fitzgerald, Douglas Mosher, and Joseph McIntyre. 2023.
@@ -56,6 +64,11 @@ James~S. Kim, Joshua~B. Gilbert, Jackie~Eunjung Relyea, Patrick Rich, Ethan Sche
 \bibitem[{Kolesnikova et~al.(2026)Kolesnikova, Fedyanin, Hofman, Brinkhuis, and Bolsinova}]{kolesnikovaEstimatingItemDifficulty2026}
 Diana Kolesnikova, Kirill Fedyanin, Abe~D. Hofman, Matthieu J.~S. Brinkhuis, and Maria Bolsinova. 2026.
 \newblock \href {https://doi.org/10.48550/ARXIV.2605.18562} {Estimating {{Item Difficulty}} with {{Large Language Models}} as {{Experts}}}.
+
+\bibitem[{Li et~al.()Li, Chen, Xiao, Chen, Jiao, and Zhou}]{liCanLLMsEstimate2026}
+Ming Li, Han Chen, Yunze Xiao, Jian Chen, Hong Jiao, and Tianyi Zhou.
+\newblock \href {https://doi.org/10.18653/v1/2026.findings-acl.1270} {Can {{LLMs Estimate Student Struggles}}? {{Human-AI Difficulty Alignment}} with {{Proficiency Simulation}} for {{Item Difficulty Prediction}}}.
+\newblock In \emph{Findings of the {{Association}} for {{Computational Linguistics}}: {{ACL}} 2026}, pages 25414--25441. Association for Computational Linguistics.
 
 \bibitem[{Licht et~al.(2025)Licht, Sarkar, Wu, Goel, Stoehr, Ash, and Hoyle}]{lichtMeasuringScalarConstructs2025}
 Hauke Licht, Rupak Sarkar, Patrick~Y. Wu, Pranav Goel, Niklas Stoehr, Elliott Ash, and Alexander~Miserlis Hoyle. 2025.
@@ -75,6 +88,16 @@ Mengjie Qian, Guangzhi Sun, Mark Gales, and Kate Knill. 2026.
 Jackie~E. Relyea, Joshua~B. Gilbert, Mary Burkhauser, Ethan Scherer, Douglas~M. Mosher, Zhongyu Wei, Johanna Tvedt, and James~S. Kim. 2025.
 \newblock \href {https://doi.org/10.1002/rrq.70048} {Asset-{{Based Implementation}} of {{Structured Adaptations}} in an {{Online Third-Grade Content Literacy Intervention}}}.
 \newblock \emph{Reading Research Quarterly}, 60(4):e70048.
+
+\bibitem[{Scarlatos et~al.()Scarlatos, Fernandez, Ormerod, Lottridge, and Lan}]{scarlatosSMARTSimulatedStudents2025}
+Alexander Scarlatos, Nigel Fernandez, Christopher Ormerod, Susan Lottridge, and Andrew Lan.
+\newblock \href {https://doi.org/10.18653/v1/2025.emnlp-main.1274} {{{SMART}}: {{Simulated Students Aligned}} with {{Item Response Theory}} for {{Question Difficulty Prediction}}}.
+\newblock In \emph{Proceedings of the 2025 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}}, pages 25071--25094. Association for Computational Linguistics.
+
+\bibitem[{Sleboda and Sokolowska()}]{slebodaMeasurementsRationalityIndividual2017}
+Patrycja Sleboda and Joanna Sokolowska.
+\newblock \href {https://doi.org/10.3389/fpsyg.2017.01844} {Measurements of {{Rationality}}: {{Individual Differences}} in {{Information Processing}}, the {{Transitivity}} of {{Preferences}} and {{Decision Strategies}}}.
+\newblock 8:1844.
 
 \bibitem[{Spearman()}]{spearmanProofMeasurementAssociation1904}
 C.~Spearman.

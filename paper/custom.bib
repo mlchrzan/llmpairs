@@ -338,3 +338,90 @@
   organization = {Zenodo},
   version = {1.0.1}
 }
+
+@online{kapoorPredictionItemDifficulty2025,
+  title = {Prediction of {{Item Difficulty}} for {{Reading Comprehension Items}} by {{Creation}} of {{Annotated Item Repository}}},
+  author = {Kapoor, Radhika and Truong, Sang T. and Haber, Nick and Ruiz-Primo, Maria Araceli and Domingue, Benjamin W.},
+  date = {2025},
+  doi = {10.48550/ARXIV.2502.20663},
+  url = {https://arxiv.org/abs/2502.20663},
+  urldate = {2026-06-01},
+  abstract = {Prediction of item difficulty based on its text content is of substantial interest. In this paper, we focus on the related problem of recovering IRT-based difficulty when the data originally reported item p-value (percent correct responses). We model this item difficulty using a repository of reading passages and student data from US standardized tests from New York and Texas for grades 3-8 spanning the years 2018-23. This repository is annotated with meta-data on (1) linguistic features of the reading items, (2) test features of the passage, and (3) context features. A penalized regression prediction model with all these features can predict item difficulty with RMSE 0.59 compared to baseline RMSE of 0.92, and with a correlation of 0.77 between true and predicted difficulty. We supplement these features with embeddings from LLMs (ModernBERT, BERT, and LlAMA), which marginally improve item difficulty prediction. When models use only item linguistic features or LLM embeddings, prediction performance is similar, which suggests that only one of these feature categories may be required. This item difficulty prediction model can be used to filter and categorize reading items and will be made publicly available for use by other stakeholders.},
+  langid = {english},
+  pubstate = {prepublished},
+  version = {2},
+  keywords = {Computation and Language (cs.CL),FOS: Computer and information sciences}
+}
+
+@inproceedings{liCanLLMsEstimate2026,
+  title = {Can {{LLMs Estimate Student Struggles}}? {{Human-AI Difficulty Alignment}} with {{Proficiency Simulation}} for {{Item Difficulty Prediction}}},
+  shorttitle = {Can {{LLMs Estimate Student Struggles}}?},
+  booktitle = {Findings of the {{Association}} for {{Computational Linguistics}}: {{ACL}} 2026},
+  author = {Li, Ming and Chen, Han and Xiao, Yunze and Chen, Jian and Jiao, Hong and Zhou, Tianyi},
+  editor = {Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David},
+  date = {2026-07},
+  pages = {25414--25441},
+  publisher = {Association for Computational Linguistics},
+  location = {San Diego, California, United States},
+  doi = {10.18653/v1/2026.findings-acl.1270},
+  url = {https://aclanthology.org/2026.findings-acl.1270/},
+  urldate = {2026-09-13},
+  abstract = {Accurate estimation of item (question or task) difficulty is critical for educational assessment but suffers from the cold start problem. While Large Language Models demonstrate superhuman problem-solving capabilities, it remains an open question whether they can perceive the cognitive struggles of human learners. In this work, we present a large-scale empirical analysis of Human-AI Difficulty Alignment for over 20 models across diverse domains such as medical knowledge and mathematical reasoning. Our findings reveal a systematic misalignment where scaling up model size is not reliably helpful; instead of aligning with humans, models converge toward a shared machine consensus. We observe that high performance often impedes accurate difficulty estimation, as models struggle to simulate the capability limitations of students even when being explicitly prompted to adopt specific proficiency levels. Furthermore, we identify a critical lack of introspection, as models fail to predict their own limitations. These results suggest that general problem-solving capability does not imply an understanding of human cognitive struggles, highlighting the challenge of using current models for automated difficulty prediction.},
+  eventtitle = {Findings 2026},
+  isbn = {979-8-89176-395-1},
+  file = {/Users/mlchrzan/Zotero/storage/Q6UW3HWW/Li et al. - 2026 - Can LLMs Estimate Student Struggles Human-AI Difficulty Alignment with Proficiency Simulation for I.pdf}
+}
+
+@online{hoylSyntheticStudentResponses2026,
+  title = {Synthetic {{Student Responses}}: {{LLM-Extracted Features}} for {{IRT Difficulty Parameter Estimation}}},
+  shorttitle = {Synthetic {{Student Responses}}},
+  author = {Hoyl, Matias},
+  date = {2026},
+  doi = {10.48550/ARXIV.2602.00034},
+  url = {https://arxiv.org/abs/2602.00034},
+  urldate = {2026-09-13},
+  abstract = {Educational assessment relies heavily on knowing question difficulty, traditionally determined through resource-intensive pre-testing with students. This creates significant barriers for both classroom teachers and assessment developers. We investigate whether Item Response Theory (IRT) difficulty parameters can be accurately estimated without student testing by modeling the response process and explore the relative contribution of different feature types to prediction accuracy. Our approach combines traditional linguistic features with pedagogical insights extracted using Large Language Models (LLMs), including solution step count, cognitive complexity, and potential misconceptions. We implement a two-stage process: first training a neural network to predict how students would respond to questions, then deriving difficulty parameters from these simulated response patterns. Using a dataset of over 250,000 student responses to mathematics questions, our model achieves a Pearson correlation of approximately 0.78 between predicted and actual difficulty parameters on completely unseen questions.},
+  langid = {english},
+  pubstate = {prepublished},
+  version = {1},
+  keywords = {Artificial Intelligence (cs.AI),Computers and Society (cs.CY),FOS: Computer and information sciences,I.2.7; K.3.1}
+}
+
+@inproceedings{scarlatosSMARTSimulatedStudents2025,
+  title = {{{SMART}}: {{Simulated Students Aligned}} with {{Item Response Theory}} for {{Question Difficulty Prediction}}},
+  shorttitle = {{{SMART}}},
+  booktitle = {Proceedings of the 2025 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}},
+  author = {Scarlatos, Alexander and Fernandez, Nigel and Ormerod, Christopher and Lottridge, Susan and Lan, Andrew},
+  editor = {Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet},
+  date = {2025-11},
+  pages = {25071--25094},
+  publisher = {Association for Computational Linguistics},
+  location = {Suzhou, China},
+  doi = {10.18653/v1/2025.emnlp-main.1274},
+  url = {https://aclanthology.org/2025.emnlp-main.1274/},
+  urldate = {2026-09-13},
+  abstract = {Item (question) difficulties play a crucial role in educational assessments, enabling accurate and efficient assessment of student abilities and personalization to maximize learning outcomes. Traditionally, estimating item difficulties can be costly, requiring real students to respond to items, followed by fitting an item response theory (IRT) model to get difficulty estimates. This approach cannot be applied to the cold-start setting for previously unseen items either. In this work, we present SMART (Simulated Students Aligned with IRT), a novel method for aligning simulated students with instructed ability, which can then be used in simulations to predict the difficulty of open-ended items. We achieve this alignment using direct preference optimization (DPO), where we form preference pairs based on how likely responses are under a ground-truth IRT model. We perform a simulation by generating thousands of responses, evaluating them with a large language model (LLM)-based scoring model, and fit the resulting data to an IRT model to obtain item difficulty estimates. Through extensive experiments on two real-world student response datasets, we show that SMART outperforms other item difficulty prediction methods by leveraging its improved ability alignment.},
+  eventtitle = {{{EMNLP}} 2025},
+  isbn = {979-8-89176-332-6},
+  file = {/Users/mlchrzan/Zotero/storage/I9RYEW2L/Scarlatos et al. - 2025 - SMART Simulated Students Aligned with Item Response Theory for Question Difficulty Prediction.pdf}
+}
+
+@article{slebodaMeasurementsRationalityIndividual2017,
+  title = {Measurements of {{Rationality}}: {{Individual Differences}} in {{Information Processing}}, the {{Transitivity}} of {{Preferences}} and {{Decision Strategies}}},
+  shorttitle = {Measurements of {{Rationality}}},
+  author = {Sleboda, Patrycja and Sokolowska, Joanna},
+  date = {2017-10-18},
+  journaltitle = {Frontiers in Psychology},
+  shortjournal = {Front Psychol},
+  volume = {8},
+  eprint = {29093695},
+  eprinttype = {pubmed},
+  pages = {1844},
+  issn = {1664-1078},
+  doi = {10.3389/fpsyg.2017.01844},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC5651814/},
+  urldate = {2026-06-01},
+  abstract = {The first goal of this study was to validate the Rational-Experiential Inventory (REI) and the Cognitive Reflection Test (CRT) through checking their relation to the transitivity axiom. The second goal was to test the relation between decision strategies and cognitive style as well as the relation between decision strategies and the transitivity of preferences. The following characteristics of strategies were investigated: requirements for trade-offs, maximization vs. satisficing and option-wise vs. attribute-wise information processing. Respondents were given choices between two multi-attribute options. The options were designed so that the choice indicated which strategy was applied. Both the REI-R and the CRT were found to be good predictors of the transitivity of preferences. Respondents who applied compensatory strategies and the maximization criterion scored highly on the REI-R and in the CRT, whereas those who applied the satisficing rule scored highly on the REI-R but not in the CRT. Attribute-wise information processing was related to low scores in both measurements. Option-wise information processing led to a high transitivity of preferences.},
+  pmcid = {PMC5651814},
+  file = {/Users/mlchrzan/Zotero/storage/6WPU4XED/Sleboda and Sokolowska - 2017 - Measurements of Rationality Individual Differences in Information Processing, the Transitivity of P.pdf}
+}
