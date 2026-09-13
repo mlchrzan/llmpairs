@@ -145,7 +145,7 @@ We structure the data such that every unordered pair is evaluated in both orient
   \setlength{\tabcolsep}{4.5pt}
   \begin{tabular}{lrrrrrrrr}
     \toprule
-    Dataset & Items & Judgments & $\rho$ & $p$ & $\alpha$ & Rank agr. & Accuracy & Brier \\
+    Dataset & Items & Judgments & $\rho$ & $p$ & Krip. $\alpha$ & Rank agr. & Accuracy & Brier \\
     \midrule
     \texttt{frac20}             & 20 & 2,324 & .591 & .006 & .839 & .732 & .732 & .174 \\
     \texttt{gilbert\_meta\_2}   & 20 & 2,310 & .337 & .146 & .899 & .834 & .853 & .097 \\
@@ -162,13 +162,13 @@ We structure the data such that every unordered pair is evaluated in both orient
 
 \subsection{Recovery of Respondent-Calibrated Difficulty}
 
-Across the 179 items, standardized HBT item strengths were moderately associated with respondent-calibrated 1PL difficulty (Spearman's $\rho=0.400$, $p<.001$). As Figure~\ref{fig:bt_v_1pl} and Table~\ref{tab:dataset_summary} show, however, this relationship varied substantially by dataset. The strongest association occurred for \texttt{frac20} ($\rho=0.591$, $p=.006$). Positive associations were also observed for \texttt{gilbert\_meta\_102} ($\rho=0.449$, $p=.006$), \texttt{gilbert\_meta\_8} ($\rho=0.423$, $p=.022$), \texttt{gilbert\_meta\_103} ($\rho=0.414$, $p=.025$), and \texttt{gilbert\_meta\_7} ($\rho=0.398$, $p=.016$). Estimates were weaker and not statistically distinguishable from zero for \texttt{gilbert\_meta\_2} ($\rho=0.337$, $p=.146$) and the nine-item \texttt{gilbert\_meta\_104} dataset ($\rho=0.250$, $p=.516$). Thus, the pooled ranking recovered a meaningful difficulty signal, but not uniformly across item sets. In particular, the strongest result arose for the mathematics dataset, whereas results varied among the six literacy datasets; the observed heterogeneity therefore does not reduce to a simple mathematics-versus-literacy distinction.
+Across the 179 items, standardized HBT item strengths were moderately associated with respondent-calibrated 1PL difficulty (Spearman's $\rho=0.400$, $p<.001$). As Figure~\ref{fig:bt_v_1pl} and Table~\ref{tab:dataset_summary} show, however, this relationship varied substantially by dataset. The strongest association occurred for \texttt{frac20} ($\rho=0.591$, $p=.006$). Positive associations were also observed for \texttt{gilbert\_meta\_102} ($\rho=0.449$, $p=.006$), \texttt{gilbert\_meta\_8} ($\rho=0.423$, $p=.022$), \texttt{gilbert\_meta\_103} ($\rho=0.414$, $p=.025$), and \texttt{gilbert\_meta\_7} ($\rho=0.398$, $p=.016$). Estimates were weaker and not statistically distinguishable from zero for \texttt{gilbert\_meta\_2} ($\rho=0.337$, $p=.146$) and the nine-item \texttt{gilbert\_meta\_104} dataset ($\rho=0.250$, $p=.516$). Thus, the pooled ranking recovered a meaningful difficulty signal, but not uniformly across item sets. In particular, the strongest result arose for the mathematics dataset, whereas results varied among the six literacy datasets; the observed heterogeneity therefore does not reduce to a simple mathematics-versus-literacy distinction. The corresponding model-specific correlations, pooled across all items and disaggregated by dataset, are reported in Appendix Tables~\ref{tab:model_spearman_overall} and~\ref{tab:model_spearman_dataset}, respectively.
 
 The HBT ranking also retained substantial information from the model-specific BT rankings. Across all items, Spearman correlations between each individual model's BT scores and HBT scores ranged from $0.545$ for GPT-5.4 Mini to $0.864$ for GPT-5.6 Sol. Hierarchical pooling therefore captured a broadly shared ordering without making any single LLM the reference rater.
 
 \subsection{Consistency and Inter-Model Agreement}
 
-Most model--dataset combinations exhibited high triplet transitivity, often exceeding 95\% and matching transitivity observed in human judgments \citep{slebodaMeasurementsRationalityIndividual2017}. The principal exceptions involved GPT-5.4 Mini, whose transitivity was 76.2\% on \texttt{gilbert\_meta\_104}, 87.9\% on \texttt{gilbert\_meta\_2}, 91.4\% on \texttt{gilbert\_meta\_7}, and 91.9\% on \texttt{gilbert\_meta\_102}; GPT-5.4 also reached only 85.7\% on \texttt{gilbert\_meta\_104}. Agreement across the seven LLMs was uniformly high by conventional standards, with dataset-level Krippendorff's $\alpha$ ranging from $0.834$ to $0.917$. These strong internal-consistency and inter-model-agreement results contrast with the moderate and heterogeneous correlations with 1PL difficulty. Transitivity, agreement among LLMs, and alignment with respondent-calibrated difficulty consequently capture distinct properties of the judgments.
+Most model--dataset combinations exhibited high triplet transitivity, often exceeding 95\% and matching transitivity observed in human judgments \citep{slebodaMeasurementsRationalityIndividual2017}. The principal exceptions involved GPT-5.4 Mini, whose transitivity was 76.2\% on \texttt{gilbert\_meta\_104}, 87.9\% on \texttt{gilbert\_meta\_2}, 91.4\% on \texttt{gilbert\_meta\_7}, and 91.9\% on \texttt{gilbert\_meta\_102}; GPT-5.4 also reached only 85.7\% on \texttt{gilbert\_meta\_104}. Complete model-by-dataset estimates and triplet counts appear in Appendix Table~\ref{tab:triplet_transitivity}. Agreement across the seven LLMs was uniformly high by conventional standards, with dataset-level Krippendorff's $\alpha$ ranging from $0.834$ to $0.917$. These strong internal-consistency and inter-model-agreement results contrast with the moderate and heterogeneous correlations with 1PL difficulty. Transitivity, agreement among LLMs, and alignment with respondent-calibrated difficulty consequently capture distinct properties of the judgments.
 
 \subsection{Rater Effects and Model Fit}
 
@@ -304,7 +304,179 @@ All sensitivity fits showed satisfactory convergence for the item-strength param
 
 \section{Additional Tables}
 \label{app:tables}
+The following tables report the complete model-specific validity and transitivity results summarized in the main text.
 
+\begin{table}[h!]
+  \centering
+  \small
+  \begin{tabular}{lrrr}
+    \toprule
+    Model & $\rho$ & $p$ & $N$ \\
+    \midrule
+    GPT-5.4 Mini       & .146 & .051   & 179 \\
+    GPT-5.4            & .195 & .009   & 179 \\
+    GPT-5.6 Luna       & .276 & $<.001$ & 179 \\
+    GPT-5.6 Sol        & .321 & $<.001$ & 179 \\
+    Gemini 3 Flash     & .377 & $<.001$ & 179 \\
+    Gemini 3.1 Pro     & .383 & $<.001$ & 179 \\
+    \textbf{Gemini 3.7 Flash} & \textbf{.402} & \textbf{$<.001$} & \textbf{179} \\
+    \bottomrule
+  \end{tabular}
+  \caption{Overall model-specific convergent validity across all seven datasets. $\rho$ is the Spearman correlation between each model's standardized Bradley--Terry score and 1PL IRT difficulty; $N$ is the total number of unique items. The strongest correlation is bolded.}
+  \label{tab:model_spearman_overall}
+\end{table}
+
+\begin{table*}[p]
+  \centering
+  \small
+  \setlength{\tabcolsep}{8pt}
+  \begin{tabular}{llrrr}
+    \toprule
+    Dataset & Model & $\rho$ & $p$ & $N$ \\
+    \midrule
+    \texttt{frac20}
+      & GPT-5.4 Mini       & .448  & .048 & 20 \\
+      & GPT-5.4            & .325  & .162 & 20 \\
+      & GPT-5.6 Luna       & .292  & .212 & 20 \\
+      & \textbf{GPT-5.6 Sol} & \textbf{.644} & \textbf{.002} & \textbf{20} \\
+      & Gemini 3 Flash     & .314  & .177 & 20 \\
+      & Gemini 3.1 Pro     & .594  & .006 & 20 \\
+      & Gemini 3.7 Flash   & .350  & .130 & 20 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_2}
+      & GPT-5.4 Mini       & .365  & .113 & 20 \\
+      & \textbf{GPT-5.4}  & \textbf{.435} & \textbf{.056} & \textbf{20} \\
+      & GPT-5.6 Luna       & .287  & .220 & 20 \\
+      & GPT-5.6 Sol        & .352  & .128 & 20 \\
+      & Gemini 3 Flash     & .400  & .081 & 20 \\
+      & Gemini 3.1 Pro     & .358  & .121 & 20 \\
+      & Gemini 3.7 Flash   & .388  & .091 & 20 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_7}
+      & GPT-5.4 Mini       & .012  & .945 & 36 \\
+      & GPT-5.4            & .163  & .342 & 36 \\
+      & GPT-5.6 Luna       & .191  & .264 & 36 \\
+      & GPT-5.6 Sol        & .214  & .209 & 36 \\
+      & \textbf{Gemini 3 Flash} & \textbf{.455} & \textbf{.005} & \textbf{36} \\
+      & Gemini 3.1 Pro     & .262  & .123 & 36 \\
+      & \textbf{Gemini 3.7 Flash} & \textbf{.455} & \textbf{.005} & \textbf{36} \\
+    \addlinespace
+    \texttt{gilbert\_meta\_8}
+      & GPT-5.4 Mini       & .254  & .183 & 29 \\
+      & GPT-5.4            & .227  & .237 & 29 \\
+      & GPT-5.6 Luna       & .303  & .110 & 29 \\
+      & GPT-5.6 Sol        & .400  & .032 & 29 \\
+      & \textbf{Gemini 3 Flash} & \textbf{.467} & \textbf{.011} & \textbf{29} \\
+      & Gemini 3.1 Pro     & .452  & .014 & 29 \\
+      & Gemini 3.7 Flash   & .465  & .011 & 29 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_102}
+      & GPT-5.4 Mini       & .127  & .461 & 36 \\
+      & GPT-5.4            & .019  & .911 & 36 \\
+      & GPT-5.6 Luna       & .324  & .054 & 36 \\
+      & GPT-5.6 Sol        & .289  & .087 & 36 \\
+      & Gemini 3 Flash     & .503  & .002 & 36 \\
+      & Gemini 3.1 Pro     & .419  & .011 & 36 \\
+      & \textbf{Gemini 3.7 Flash} & \textbf{.505} & \textbf{.002} & \textbf{36} \\
+    \addlinespace
+    \texttt{gilbert\_meta\_103}
+      & GPT-5.4 Mini       & .243  & .203 & 29 \\
+      & GPT-5.4            & .259  & .175 & 29 \\
+      & GPT-5.6 Luna       & .284  & .136 & 29 \\
+      & \textbf{GPT-5.6 Sol} & \textbf{.464} & \textbf{.011} & \textbf{29} \\
+      & Gemini 3 Flash     & .295  & .120 & 29 \\
+      & Gemini 3.1 Pro     & .431  & .020 & 29 \\
+      & Gemini 3.7 Flash   & .367  & .050 & 29 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_104}
+      & GPT-5.4 Mini       & -.233 & .546 & 9 \\
+      & GPT-5.4            & .600  & .088 & 9 \\
+      & GPT-5.6 Luna       & .083  & .831 & 9 \\
+      & \textbf{GPT-5.6 Sol} & \textbf{.617} & \textbf{.077} & \textbf{9} \\
+      & Gemini 3 Flash     & .067  & .865 & 9 \\
+      & Gemini 3.1 Pro     & .567  & .112 & 9 \\
+      & Gemini 3.7 Flash   & .133  & .732 & 9 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Model-specific convergent validity by dataset. $\rho$ is the Spearman correlation between each model's standardized Bradley--Terry score and 1PL IRT difficulty; $N$ is the number of unique items. The strongest correlation within each dataset is bolded; the two Gemini Flash models tie on \texttt{gilbert\_meta\_7}.}
+  \label{tab:model_spearman_dataset}
+\end{table*}
+
+\begin{table*}[p]
+  \centering
+  \small
+  \setlength{\tabcolsep}{10pt}
+  \begin{tabular}{llrr}
+    \toprule
+    Dataset & Model & Transitivity (\%) & Triplets \\
+    \midrule
+    \texttt{frac20}
+      & GPT-5.4 Mini       & 99.4 & 641 \\
+      & GPT-5.4            & 98.9 & 641 \\
+      & GPT-5.6 Luna       & 95.9 & 641 \\
+      & GPT-5.6 Sol        & 98.3 & 641 \\
+      & Gemini 3 Flash     & 99.4 & 641 \\
+      & Gemini 3.1 Pro     & 98.4 & 641 \\
+      & Gemini 3.7 Flash   & 99.5 & 641 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_2}
+      & GPT-5.4 Mini       & 87.9 & 686 \\
+      & GPT-5.4            & 98.3 & 686 \\
+      & GPT-5.6 Luna       & 99.0 & 686 \\
+      & GPT-5.6 Sol        & 99.7 & 686 \\
+      & Gemini 3 Flash     & 99.1 & 686 \\
+      & Gemini 3.1 Pro     & 100.0 & 686 \\
+      & Gemini 3.7 Flash   & 99.6 & 686 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_7}
+      & GPT-5.4 Mini       & 91.4 & 706 \\
+      & GPT-5.4            & 98.2 & 706 \\
+      & GPT-5.6 Luna       & 97.7 & 706 \\
+      & GPT-5.6 Sol        & 99.6 & 706 \\
+      & Gemini 3 Flash     & 98.4 & 706 \\
+      & Gemini 3.1 Pro     & 99.7 & 706 \\
+      & Gemini 3.7 Flash   & 99.7 & 706 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_8}
+      & GPT-5.4 Mini       & 96.8 & 686 \\
+      & GPT-5.4            & 99.3 & 686 \\
+      & GPT-5.6 Luna       & 99.4 & 686 \\
+      & GPT-5.6 Sol        & 99.4 & 686 \\
+      & Gemini 3 Flash     & 95.2 & 686 \\
+      & Gemini 3.1 Pro     & 99.9 & 686 \\
+      & Gemini 3.7 Flash   & 99.6 & 686 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_102}
+      & GPT-5.4 Mini       & 91.9 & 755 \\
+      & GPT-5.4            & 96.3 & 755 \\
+      & GPT-5.6 Luna       & 99.6 & 755 \\
+      & GPT-5.6 Sol        & 99.7 & 755 \\
+      & Gemini 3 Flash     & 98.8 & 755 \\
+      & Gemini 3.1 Pro     & 100.0 & 755 \\
+      & Gemini 3.7 Flash   & 99.5 & 755 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_103}
+      & GPT-5.4 Mini       & 95.5 & 719 \\
+      & GPT-5.4            & 99.7 & 719 \\
+      & GPT-5.6 Luna       & 99.7 & 719 \\
+      & GPT-5.6 Sol        & 99.7 & 719 \\
+      & Gemini 3 Flash     & 98.1 & 719 \\
+      & Gemini 3.1 Pro     & 99.3 & 719 \\
+      & Gemini 3.7 Flash   & 99.4 & 719 \\
+    \addlinespace
+    \texttt{gilbert\_meta\_104}
+      & GPT-5.4 Mini       & 76.2 & 84 \\
+      & GPT-5.4            & 85.7 & 84 \\
+      & GPT-5.6 Luna       & 96.4 & 84 \\
+      & GPT-5.6 Sol        & 98.8 & 84 \\
+      & Gemini 3 Flash     & 100.0 & 84 \\
+      & Gemini 3.1 Pro     & 100.0 & 84 \\
+      & Gemini 3.7 Flash   & 100.0 & 84 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Observed triplet transitivity by model and dataset. Transitivity is the percentage of evaluated item triplets whose pairwise judgments formed a consistent ordering. Triplets gives the number evaluated for each model.}
+  \label{tab:triplet_transitivity}
+\end{table*}
 
 
 \end{document}
